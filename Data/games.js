@@ -5452,6 +5452,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2003-09-02",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -5834,7 +5837,22 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueGold"
     },     
-    
+    {
+        season: 2005,
+        opponent: "Maryland",
+        date: "2005-09-17",
+        location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 20,
+        opponentScore: 15,
+
+        combination: "BlueWhiteBlue"
+    }, 
     {
         season: 2005,
         opponent: "East Carolina",
@@ -5954,6 +5972,9 @@ combination: "BlueWhiteGold"
         opponent: "USF",
         date: "2005-12-3",
         location: "away",
+        stadium: "Raymond James Stadium",
+    city: "Tampa",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "w",
@@ -6093,6 +6114,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "2006-11-2",
         location: "away",
+        stadium: "Papa John's Cardinal Stadium",
+    city: "Louisville",
+    state: "Kentucky",
         gameType: "Regular Season",
 
         result: "l",
@@ -6206,6 +6230,9 @@ combination: "BlueWhiteGold"
         opponent: "Marshall",
         date: "2007-9-8",
         location: "away",
+        stadium: "Joan C Edwards Stadium",
+    city: "Huntington",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6220,6 +6247,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2007-9-13",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -6251,6 +6281,9 @@ combination: "BlueWhiteGold"
         opponent: "USF",
         date: "2007-9-28",
         location: "away",
+        stadium: "Raymond James Stadium",
+    city: "Tampa",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -6540,6 +6573,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "2008-11-22",
         location: "away",
+        stadium: "Papa John's Cardinal Stadium",
+    city: "Louisville",
+    state: "Kentucky",
         gameType: "Regular Season",
 
         result: "w",
@@ -6588,6 +6624,9 @@ combination: "BlueWhiteGold"
         opponent: "North Carolina",
         date: "2008-12-27",
         location: "neutral",
+        stadium: "Bank of America Stadium",
+    city: "Charlotte",
+    state: "North Carolina",
         gameType: "Bowl",
 
         result: "w",
@@ -6718,6 +6757,9 @@ combination: "BlueWhiteGold"
         opponent: "USF",
         date: "2009-10-30",
         location: "away",
+        stadium: "Raymond James Stadium",
+    city: "Tampa",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -6797,6 +6839,9 @@ combination: "BlueWhiteGold"
         opponent: "Florida State",
         date: "2010-1-1",
         location: "neutral",
+        stadium: "Jacksonville Municipal Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -6805,8 +6850,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueGoldWhite"
     },
-
-
        {
         season: 2010,
         opponent: "Coastal Carolina",
@@ -6823,12 +6866,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueGold"
     },
-
    {
         season: 2010,
         opponent: "Marshall",
         date: "2010-9-10",
         location: "away",
+        stadium: "Joan C Edwards Stadium",
+    city: "Huntington",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6956,6 +7001,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "2010-11-20",
         location: "away",
+        stadium: "Papa John's Cardinal Stadium",
+    city: "Louisville",
+    state: "Kentucky",
         gameType: "Regular Season",
 
         result: "w",
@@ -7052,6 +7100,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2011-9-17",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -7199,6 +7250,9 @@ combination: "BlueWhiteGold"
         opponent: "USF",
         date: "2011-12-1",
         location: "away",
+        stadium: "Raymond James Stadium",
+    city: "Tampa",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "w",
