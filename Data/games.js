@@ -22,6 +22,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1968-9-28",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -347,6 +350,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1970-10-17",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -672,6 +678,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1972-11-4",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -907,6 +916,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1974-10-12",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1271,6 +1283,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1976-11-13",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1558,6 +1573,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1978-11-11",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1805,6 +1823,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1980-10-18",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2014,6 +2035,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1981-11-21",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -2079,6 +2103,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1982-10-2",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2326,6 +2353,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1983-11-19",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -2404,6 +2434,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1984-9-28",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -2639,6 +2672,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1985-11-30",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -2690,8 +2726,10 @@ const GAMES = [
         season: 1986,
         opponent: "Pittsburgh",
         date: "1986-9-27",
-
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2926,6 +2964,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1987-11-23",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -2991,6 +3032,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1988-9-24",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -3248,6 +3292,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1989-11-24",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -3319,6 +3366,9 @@ season: 1990,
 opponent: "Pittsburgh",
 date: "1990-9-29",
 location: "away",
+stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
 gameType: "Regular Season",
 
 result: "w",
@@ -3558,6 +3608,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1991-11-23",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -3584,6 +3637,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1992-9-12",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -3794,6 +3850,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1993-10-30",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -3950,6 +4009,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1994-10-15",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -4122,6 +4184,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1995-10-21",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -4187,6 +4252,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1996-8-31",
         location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -4435,6 +4503,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1997-11-1",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -4630,6 +4701,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1998-11-27",
         location: "away",
+        stadium: "Three Rivers Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -4695,6 +4769,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1999-9-25",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -4931,6 +5008,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2000-11-24",
         location: "away",
+        stadium: "Three Rivers Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -4972,6 +5052,9 @@ combination: "BlueWhiteGold"
         opponent: "Ohio",
         date: "2001-9-8",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4985,6 +5068,9 @@ combination: "BlueWhiteGold"
         opponent: "Kent State",
         date: "2001-9-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5011,6 +5097,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2001-10-6",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5050,6 +5139,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2001-11-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5063,6 +5155,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2001-11-10",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -5090,6 +5185,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2001-11-24",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5104,6 +5202,9 @@ combination: "BlueWhiteGold"
         opponent: "UT Chattanooga",
         date: "2002-8-31",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5128,9 +5229,12 @@ combination: "BlueWhiteGold"
     }, 
           {
         season: 2002,
-        opponent: "Cincinatti",
+        opponent: "Cincinnati",
         date: "2002-9-14",
         location: "away",
+        stadium: "Nippert Stadium",
+    city: "Cincinnati",
+    state: "Ohio",
         gameType: "Regular Season",
 
         result: "w",
@@ -5144,6 +5248,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2002-9-28",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5158,6 +5265,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2002-10-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5186,6 +5296,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2002-10-19",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5199,6 +5312,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "2002-10-26",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5227,6 +5343,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "2002-11-09",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5255,6 +5374,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2002-11-30",
         location: "away",
+        stadium: "Heniz Field",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -5283,6 +5405,9 @@ combination: "BlueWhiteGold"
         opponent: "Wisconsin",
         date: "2003-08-30",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5310,6 +5435,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2003-09-13",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5352,6 +5480,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2003-10-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5366,6 +5497,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2003-10-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5381,6 +5515,9 @@ combination: "BlueWhiteGold"
         opponent: "UCF",
         date: "2003-11-1",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5409,6 +5546,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2003-11-15",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5423,6 +5563,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2003-11-22",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -5437,6 +5580,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "2003-11-29",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5450,6 +5596,9 @@ combination: "BlueWhiteGold"
         season: 2003,
         opponent: "Maryland",
         date: "2004-1-1",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         location: "neutral",
         gameType: "Bowl",
 
@@ -5465,6 +5614,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2004-9-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5493,6 +5645,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2004-9-18",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5508,6 +5663,9 @@ combination: "BlueWhiteGold"
         opponent: "James Madison",
         date: "2004-9-25",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5551,6 +5709,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2004-10-21",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5580,6 +5741,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "2004-11-6",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5594,6 +5758,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "2004-11-13",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5608,6 +5775,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2004-11-25",
         location: "away",
+        stadium: "Heniz Field",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -5636,6 +5806,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2005-9-4",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -5650,6 +5823,9 @@ combination: "BlueWhiteGold"
         opponent: "Wofford",
         date: "2005-9-10",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5664,6 +5840,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2005-9-24",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5678,6 +5857,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2005-10-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5704,6 +5886,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "2005-10-15",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5718,6 +5903,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2005-11-2",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5732,6 +5920,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2005-11-9",
         location: "away",
+        stadium: "Nippert Stadium",
+    city: "Cincinnati",
+    state: "Ohio",
         gameType: "Regular Season",
 
         result: "w",
@@ -5746,6 +5937,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2005-11-24",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5789,6 +5983,9 @@ combination: "BlueWhiteGold"
         opponent: "Marshall",
         date: "2006-9-2",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5803,6 +6000,9 @@ combination: "BlueWhiteGold"
         opponent: "Eastern Washington",
         date: "2006-9-9",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5817,6 +6017,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2006-9-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5859,6 +6062,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2006-10-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5901,6 +6107,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2006-11-11",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5915,6 +6124,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2006-11-16",
         location: "away",
+        stadium: "Heniz Field",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -5929,6 +6141,9 @@ combination: "BlueWhiteGold"
         opponent: "USF",
         date: "2006-11-25",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5943,6 +6158,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2006-12-2",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5971,6 +6189,9 @@ combination: "BlueWhiteGold"
         opponent: "Western Michigan",
         date: "2007-9-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6013,6 +6234,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2007-9-22",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6041,6 +6265,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2007-10-6",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -6055,6 +6282,9 @@ combination: "BlueWhiteGold"
         opponent: "Mississippi State",
         date: "2007-10-20",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6083,6 +6313,9 @@ combination: "BlueWhiteGold"
         opponent: "Lousiville",
         date: "2007-10-27",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6097,6 +6330,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2007-11-17",
         location: "away",
+        stadium: "Nippert Stadium",
+    city: "Cincinnati",
+    state: "Ohio",
         gameType: "Regular Season",
 
         result: "w",
@@ -6111,6 +6347,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2007-11-24",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6125,6 +6364,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2007-12-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -6153,6 +6395,9 @@ combination: "BlueWhiteGold"
         opponent: "Villanova",
         date: "2008-8-30",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6195,6 +6440,9 @@ combination: "BlueWhiteGold"
         opponent: "Marshall",
         date: "2008-9-27",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6209,6 +6457,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2008-10-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6223,6 +6474,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2008-10-11",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6238,6 +6492,9 @@ combination: "BlueWhiteGold"
         opponent: "Auburn",
         date: "2008-10-23",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6266,6 +6523,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2008-11-8",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6294,6 +6554,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2008-11-28",
         location: "away",
+        stadium: "Heniz Field",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -6308,6 +6571,9 @@ combination: "BlueWhiteGold"
         opponent: "USF",
         date: "2008-12-6",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6336,6 +6602,9 @@ combination: "BlueWhiteGold"
         opponent: "Liberty",
         date: "2009-9-5",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6350,6 +6619,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2009-9-12",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6378,6 +6650,9 @@ combination: "BlueWhiteGold"
         opponent: "Colorado",
         date: "2009-10-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6392,6 +6667,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2009-10-10",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "w",
@@ -6406,6 +6684,9 @@ combination: "BlueWhiteGold"
         opponent: "Marshall",
         date: "2009-10-17",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6420,6 +6701,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2009-10-24",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6448,6 +6732,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "2009-11-7",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6462,6 +6749,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2009-11-13",
         location: "away",
+        stadium: "Nippert Stadium",
+    city: "Cincinnati",
+    state: "Ohio",
         gameType: "Regular Season",
 
         result: "l",
@@ -6476,6 +6766,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2009-11-27",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6519,6 +6812,9 @@ combination: "BlueWhiteGold"
         opponent: "Coastal Carolina",
         date: "2010-9-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6547,6 +6843,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2010-9-18",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6575,6 +6874,9 @@ combination: "BlueWhiteGold"
         opponent: "UNLV",
         date: "2010-10-9",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6589,6 +6891,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2010-10-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6603,6 +6908,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2010-10-23",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -6631,6 +6939,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2010-11-13",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6659,6 +6970,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2010-11-26",
         location: "away",
+        stadium: "Heniz Field",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -6673,6 +6987,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2010-12-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6701,6 +7018,9 @@ combination: "BlueWhiteGold"
         opponent: "Marshall",
         date: "2011-9-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6715,6 +7035,9 @@ combination: "BlueWhiteGold"
         opponent: "Norfolk State",
         date: "2011-9-10",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6743,6 +7066,9 @@ combination: "BlueWhiteGold"
         opponent: "LSU",
         date: "2011-9-24",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -6757,6 +7083,9 @@ combination: "BlueWhiteGold"
         opponent: "Bowling Green",
         date: "2011-10-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6771,6 +7100,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2011-10-8",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6785,6 +7117,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2011-10-21",
         location: "away",
+        stadium: "Carrier Dome",
+    city: "Syracuse",
+    state: "New York",
         gameType: "Regular Season",
 
         result: "l",
@@ -6813,6 +7148,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "2011-11-5",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -6827,6 +7165,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2011-11-12",
         location: "away",
+        stadium: "Paul Brown Stadium",
+    city: "Cincinnati",
+    state: "Ohio",
         gameType: "Regular Season",
 
         result: "w",
@@ -6841,6 +7182,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2011-11-25",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6863,12 +7207,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteBlue"
     },
-
  {
         season: 2011,
         opponent: "Clemson",
         date: "2012-1-4",
         location: "neutral",
+        stadium: "Sun Life Stadium",
+    city: "Miami Gardens",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "w",
@@ -6877,12 +7223,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteWhite"
     },
-
      {
         season: 2012,
         opponent: "Marshall",
         date: "2012-9-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6891,12 +7239,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueWhite"
     },
-
              {
         season: 2012,
         opponent: "James Madison",
         date: "2012-9-15",
         location: "neutral",
+        stadium: "FedEx Field",
+    city: "Landover",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -6905,12 +7255,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueBlue"
     },
-
          {
         season: 2012,
         opponent: "Maryland",
         date: "2012-9-22",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6925,6 +7277,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2012-9-29",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -6939,6 +7294,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2012-10-6",
         location: "away",
+        stadium: "Darrell K Royal - Texas Memorial Stadium",
+    city: "Austin",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -6953,6 +7311,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2012-10-13",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -6967,6 +7328,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2012-10-20",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -6981,6 +7345,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2012-11-3",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -6995,6 +7362,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2012-11-10",
         location: "away",
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -7009,6 +7379,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2012-11-17",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7023,6 +7396,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2012-11-23",
         location: "away",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
         gameType: "Regular Season",
 
         result: "w",
@@ -7037,6 +7413,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2012-12-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7051,6 +7430,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2012-12-29",
         location: "neutral",
+        stadium: "Yankee Stadium",
+    city: "Bronx",
+    state: "New York",
         gameType: "Bowl",
 
         result: "l",
@@ -7065,6 +7447,9 @@ combination: "BlueWhiteGold"
         opponent: "William & Mary",
         date: "2013-8-31",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7079,6 +7464,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2014-9-7",
         location: "away",
+        stadium: "Gaylord Family Oklahoma Memorial Stadium",
+    city: "Norman",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -7093,6 +7481,9 @@ combination: "BlueWhiteGold"
         opponent: "Georgia State",
         date: "2013-9-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7121,6 +7512,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2013-9-28",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7135,6 +7529,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2014-10-5",
         location: "away",
+        stadium: "Floyd Casey Stadium",
+    city: "Waco",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7149,6 +7546,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2013-10-19",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7163,6 +7563,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2014-10-26",
         location: "away",
+        stadium: "Bill Snyder Family Stadium",
+    city: "Manhattan",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7177,6 +7580,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2013-11-2",
         location: "away",
+        stadium: "Amon G. Carter Stadium",
+    city: "Fort Worth",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7191,6 +7597,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2013-11-9",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7205,6 +7614,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2013-11-16",
         location: "away",
+        stadium: "Memorial Stadium",
+    city: "Lawerence",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7219,6 +7631,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2013-11-30",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7247,6 +7662,9 @@ combination: "BlueWhiteGold"
         opponent: "Towson",
         date: "2014-9-6",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7275,6 +7693,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2014-9-20",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7289,6 +7710,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2014-10-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7303,6 +7727,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2014-10-11",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7317,6 +7744,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2014-10-18",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7331,6 +7761,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2014-10-25",
         location: "away",
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "w",
@@ -7345,6 +7778,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2014-11-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7359,6 +7795,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2014-11-8",
         location: "away",
+        stadium: "Darrell K Royal - Texas Memorial Stadium",
+    city: "Austin",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7373,6 +7812,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2014-11-20",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7387,6 +7829,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2014-11-29",
         location: "away",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
         gameType: "Regular Season",
 
         result: "W",
@@ -7401,6 +7846,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas A&M",
         date: "2014-12-29",
         location: "neutral",
+        stadium: "Liberty Bowl Memorial Stadium",
+    city: "Memphis",
+    state: "Tennessee",
         gameType: "Bowl",
 
         result: "l",
@@ -7415,6 +7863,9 @@ combination: "BlueWhiteGold"
         opponent: "Georgia Southern",
         date: "2015-9-5",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7428,6 +7879,9 @@ combination: "BlueWhiteGold"
         opponent: "Liberty",
         date: "2015-9-12",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7442,6 +7896,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2015-9-26",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7456,6 +7913,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2015-10-3",
         location: "away",
+        stadium: "Gaylord Family Oklahoma Memorial Stadium",
+    city: "Norman",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -7469,6 +7929,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2015-10-10",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7477,12 +7940,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueGoldBlue"
     },
-
          {
         season: 2015,
         opponent: "Baylor",
         date: "2015-10-17",
         location: "away",
+        stadium: "McLane Stadium",
+    city: "Waco",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7491,13 +7956,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteWhite"
     },
-
-    
      {
         season: 2015,
         opponent: "TCU",
         date: "2015-10-29",
         location: "away",
+        stadium: "Amon G. Carter Stadium",
+    city: "Fort Worth",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7512,6 +7978,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2015-11-7",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7526,6 +7995,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2015-11-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7540,6 +8012,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2015-11-21",
         location: "away",
+        stadium: "Memorial Stadium",
+    city: "Lawerence",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7554,6 +8029,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2015-11-28",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7568,6 +8046,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2015-12-5",
         location: "away",
+        stadium: "Bill Snyder Family Stadium",
+    city: "Manhattan",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7582,6 +8063,9 @@ combination: "BlueWhiteGold"
         opponent: "Arizona State",
         date: "2016-1-2",
         location: "neutral",
+         stadium: "Chase Field",
+    city: "Phoenix",
+    state: "Arizona",
         gameType: "Bowl",
 
         result: "w",
@@ -7596,6 +8080,9 @@ combination: "BlueWhiteGold"
         opponent: "Missouri",
         date: "2016-9-3",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7610,6 +8097,9 @@ combination: "BlueWhiteGold"
         opponent: "Younstown State",
         date: "2016-9-10",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7624,6 +8114,9 @@ combination: "BlueWhiteGold"
         opponent: "BYU",
         date: "2016-9-24",
         location: "neutral",
+         stadium: "FedEx Field",
+    city: "Landover",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -7638,6 +8131,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2016-10-1",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7652,6 +8148,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2016-10-15",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7666,6 +8165,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2016-10-22",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7680,6 +8182,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2016-10-29",
         location: "away",
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -7688,12 +8193,78 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteGold"
     },
+      {
+        season: 2016,
+        opponent: "Kansas",
+        date: "2016-11-5",
+        location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
 
+        result: "w",
+        wvuScore: 48,
+        opponentScore: 21,
+
+        combination: "WhiteBlueBlue"
+    },
+    {
+        season: 2016,
+        opponent: "Texas",
+        date: "2016-11-8",
+        location: "away",
+        stadium: "Darrell K Royal - Texas Memorial Stadium",
+    city: "Austin",
+    state: "Texas",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 24,
+        opponentScore: 20,
+
+        combination: "BlueWhiteWhite"
+    },
+     {
+        season: 2016,
+        opponent: "Oklahoma",
+        date: "2016-11-19",
+        location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 28,
+        opponentScore: 56,
+
+        combination: "BlueBlueBlue"
+    },
+  {
+        season: 2016,
+        opponent: "Iowa State",
+        date: "2012-11-23",
+        location: "away",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 49,
+        opponentScore: 19,
+
+        combination: "WhiteWhiteWhite"
+    },
       {
         season: 2016,
         opponent: "Baylor",
         date: "2016-11-5",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7708,6 +8279,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "2016-12-28",
         location: "neutral",
+        stadium: "Camping World Stadium",
+    city: "Orlando",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -7722,6 +8296,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2017-9-3",
         location: "neutral",
+        stadium: "FedEx Field",
+    city: "Landover",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -7736,6 +8313,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2017-9-9",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7750,6 +8330,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2017-9-23",
         location: "away",
+        stadium: "Memorial Stadium",
+    city: "Lawerence",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7764,6 +8347,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2017-10-7",
         location: "away",
+        stadium: "Amon G. Carter Stadium",
+    city: "Fort Worth",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -7778,6 +8364,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2017-10-21",
         location: "away",
+        stadium: "McLane Stadium",
+    city: "Waco",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7792,6 +8381,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2017-10-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7805,6 +8397,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2017-10-28",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7832,6 +8427,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2017-11-11",
         location: "away",
+        stadium: "Bill Snyder Family Stadium",
+    city: "Manhattan",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7846,6 +8444,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2017-11-18",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -7860,6 +8461,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2017-11-25",
         location: "away",
+        stadium: "Gaylord Family Oklahoma Memorial Stadium",
+    city: "Norman",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -7874,6 +8478,9 @@ combination: "BlueWhiteGold"
         opponent: "Utah",
         date: "2017-12-26",
         location: "neutral",
+        stadium: "Cotton Bowl",
+    city: "Dallas",
+    state: "Texas",
         gameType: "Bowl",
 
         result: "l",
@@ -7888,6 +8495,9 @@ combination: "BlueWhiteGold"
         opponent: "Tennessee",
         date: "2018-9-1",
         location: "neutral",
+        stadium: "Bank of America Stadium",
+    city: "Charlotte",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "w",
@@ -7902,6 +8512,9 @@ combination: "BlueWhiteGold"
         opponent: "Youngstown State",
         date: "2018-9-8",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7916,6 +8529,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2018-9-22",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7930,6 +8546,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2018-9-29",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -7944,6 +8563,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2018-10-6",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7958,6 +8580,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2018-10-13",
         location: "away",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
         gameType: "Regular Season",
 
         result: "l",
@@ -7972,6 +8597,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2018-10-25",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -7986,6 +8614,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2018-11-3",
         location: "away",
+        stadium: "Darrell K Royal - Texas Memorial Stadium",
+    city: "Austin",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8000,6 +8631,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2018-11-10",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8014,6 +8648,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2018-11-17",
         location: "away",
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -8028,6 +8665,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2018-11-23",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8042,6 +8682,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2018-12-28",
         location: "neutral",
+        stadium: "Camping World Stadium",
+    city: "Orlando",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -8056,6 +8699,9 @@ combination: "BlueWhiteGold"
         opponent: "James Madison",
         date: "2019-8-31",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8070,6 +8716,9 @@ combination: "BlueWhiteGold"
         opponent: "Missouri",
         date: "2019-9-7",
         location: "away",
+        stadium: "Faurot Field at Memorial  Stadium",
+    city: "Columbia",
+    state: "Missouri",
         gameType: "Regular Season",
 
         result: "l",
@@ -8084,6 +8733,9 @@ combination: "BlueWhiteGold"
         opponent: "North Carolina State",
         date: "2019-9-14",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8098,6 +8750,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2019-9-21",
         location: "away",
+        stadium: "Memorial Stadium",
+    city: "Lawerence",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8112,6 +8767,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2019-10-5",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8126,6 +8784,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2019-10-12",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8140,6 +8801,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2019-10-19",
         location: "away",
+        stadium: "Gaylord Family Oklahoma Memorial Stadium",
+    city: "Norman",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -8154,6 +8818,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2019-10-31",
         location: "away",
+        stadium: "McLane Stadium",
+    city: "Waco",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -8168,6 +8835,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2019-11-9",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8182,6 +8852,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2019-11-16",
         location: "away",
+        stadium: "Bill Snyder Family Stadium",
+    city: "Manhattan",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8196,6 +8869,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2019-11-23",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8210,6 +8886,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2019-11-29",
         location: "away",
+        stadium: "Amon G. Carter Stadium",
+    city: "Fort Worth",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8224,6 +8903,9 @@ combination: "BlueWhiteGold"
         opponent: "Eastern Kentucky",
         date: "2020-9-12",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8238,6 +8920,9 @@ combination: "BlueWhiteGold"
         opponent: "Okahoma State",
         date: "2020-9-26",
         location: "away",
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -8252,6 +8937,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2020-10-3",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8266,6 +8954,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2020-10-17",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8280,6 +8971,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2020-10-24",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -8294,6 +8988,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2020-10-31",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8308,6 +9005,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas",
         date: "2020-11-7",
         location: "away",
+        stadium: "Darrell K Royal - Texas Memorial Stadium",
+    city: "Austin",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -8322,6 +9022,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2020-10-29",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8336,6 +9039,12 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2021-12-5",
         location: "away",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
         gameType: "Regular Season",
 
         result: "l",
@@ -8350,6 +9059,9 @@ combination: "BlueWhiteGold"
         opponent: "Army",
         date: "2020-12-31",
         location: "neutral",
+        stadium: "Liberty Bowl Memorial Stadium",
+    city: "Memphis",
+    state: "Tennessee",
         gameType: "Bowl",
 
         result: "w",
@@ -8378,6 +9090,9 @@ combination: "BlueWhiteGold"
         opponent: "LIU",
         date: "2021-9-11",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8392,6 +9107,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2021-9-18",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8406,6 +9124,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2021-9-25",
         location: "away",
+        stadium: "Gaylord Family Oklahoma Memorial Stadium",
+    city: "Norman",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -8420,6 +9141,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2021-10-2",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8434,6 +9158,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2021-10-9",
         location: "away",
+        stadium: "McLane Stadium",
+    city: "Waco",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -8448,6 +9175,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2021-10-23",
         location: "away",
+        stadium: "Amon G. Carter Stadium",
+    city: "Fort Worth",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8462,6 +9192,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2021-10-30",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8476,6 +9209,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2021-11-6",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8490,6 +9226,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2021-11-27",
         location: "away",
+        stadium: "Memorial Stadium",
+    city: "Lawerence",
+    state: "Kansas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8498,12 +9237,14 @@ combination: "BlueWhiteGold"
 
         combination: "GoldWhiteGold"
     },
-
      {
         season: 2021,
         opponent: "Minnesota",
         date: "2021-12-28",
         location: "neutral",
+        stadium: "Chase Field",
+    city: "Phoenix",
+    state: "Arizona",
         gameType: "Bowl",
 
         result: "l",
@@ -8512,12 +9253,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteGold"
     },
-
       {
         season: 2022,
         opponent: "Pittsburgh",
         date: "2022-9-22",
         location: "away",
+        stadium: "Acrisure Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -8532,6 +9275,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2022-9-10",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8546,6 +9292,9 @@ combination: "BlueWhiteGold"
         opponent: "Towson",
         date: "2022-9-17",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8568,13 +9317,14 @@ combination: "BlueWhiteGold"
 
         combination: "WhiteWhiteBlue"
     },
-
-
          {
         season: 2022,
         opponent: "Texas",
         date: "2022-10-1",
         location: "away",
+        stadium: "Darrell K Royal - Texas Memorial Stadium",
+    city: "Austin",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -8586,9 +9336,12 @@ combination: "BlueWhiteGold"
 
      {
         season: 2022,
-        opponent: "TCU",
+        opponent: "Baylor",
         date: "2022-10-13",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8603,6 +9356,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2022-10-22",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "l",
@@ -8616,6 +9372,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2022-10-22",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8630,6 +9389,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2022-11-5",
         location: "away",
+        stadium: "Jack Trice Stadium",
+    city: "Ames",
+    state: "Iowa",
         gameType: "Regular Season",
 
         result: "l",
@@ -8644,6 +9406,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2022-11-19",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8658,6 +9423,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2023-11-19",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8680,8 +9448,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteWhite"
     },
-
-
      {
         season: 2023,
         opponent: "Penn State",
@@ -8695,12 +9461,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteGold"
     },
-
     {
         season: 2023,
         opponent: "Duquesne",
         date: "2023-9-16",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8709,12 +9477,14 @@ combination: "BlueWhiteGold"
 
         combination: "GoldGrayGray"
     },
-
     {
         season: 2023,
         opponent: "Pittsburgh",
         date: "2023-9-16",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8729,6 +9499,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2023-9-23",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8743,6 +9516,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2023-9-30",
         location: "away",
+        stadium: "Amon G. Carter Stadium",
+    city: "Fort Worth",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8756,6 +9532,9 @@ combination: "BlueWhiteGold"
         opponent: "Houston",
         date: "2023-10-12",
         location: "away",
+        stadium: "TDECU Stadium",
+    city: "Houston",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8782,6 +9561,9 @@ combination: "BlueWhiteGold"
         opponent: "UCF",
         date: "2023-10-21",
         location: "away",
+        stadium: "FBC Mortgage Stadium",
+    city: "Orlando",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "w",
@@ -8795,6 +9577,9 @@ combination: "BlueWhiteGold"
         opponent: "BYU",
         date: "2023-11-4",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8809,6 +9594,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2023-11-11",
         location: "away",
+        stadium: "Gaylord Family Oklahoma Memorial Stadium",
+    city: "Norman",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "l",
@@ -8823,6 +9611,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2023-11-18",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8836,6 +9627,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2023-11-25",
         location: "away",
+        stadium: "McLane Stadium",
+    city: "Waco",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "w",
@@ -8849,6 +9643,9 @@ combination: "BlueWhiteGold"
         opponent: "North Carolina",
         date: "2023-12-27",
         location: "neutral",
+        stadium: "Bank of America Stadium",
+    city: "Charlotte",
+    state: "North Carolina",
         gameType: "Bowl",
 
         result: "w",
@@ -8862,6 +9659,9 @@ combination: "BlueWhiteGold"
         opponent: "Penn State",
         date: "2024-8-31",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8876,6 +9676,9 @@ combination: "BlueWhiteGold"
         opponent: "Albany",
         date: "2024-9-7",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8890,6 +9693,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2024-9-14",
         location: "away",
+        stadium: "Acrisure Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -8904,6 +9710,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2024-9-21",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -8919,6 +9728,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma State",
         date: "2024-10-5",
         location: "away",
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         gameType: "Regular Season",
 
         result: "w",
@@ -8933,6 +9745,9 @@ combination: "BlueWhiteGold"
         opponent: "Iowa State",
         date: "2024-10-12",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8946,6 +9761,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas State",
         date: "2024-10-19",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -8960,6 +9778,9 @@ combination: "BlueWhiteGold"
         opponent: "Arizona",
         date: "2024-10-26",
         location: "away",
+        stadium: "Arizona Stadium",
+    city: "Tucson",
+    state: "Arizona",
         gameType: "Regular Season",
 
         result: "w",
@@ -8973,6 +9794,9 @@ combination: "BlueWhiteGold"
         opponent: "Cincinnati",
         date: "2024-11-9",
         location: "away",
+        stadium: "Nippert Stadium",
+    city: "Cincinnati",
+    state: "Ohio",
         gameType: "Regular Season",
 
         result: "w",
@@ -8987,6 +9811,9 @@ combination: "BlueWhiteGold"
         opponent: "Baylor",
         date: "2024-11-16",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -9000,6 +9827,9 @@ combination: "BlueWhiteGold"
         opponent: "UCF",
         date: "2024-11-23",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -9013,6 +9843,9 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2024-11-30",
         location: "away",
+        stadium: "Jones AT&T Stadium",
+    city: "Lubbock",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "L",
@@ -9026,6 +9859,9 @@ combination: "BlueWhiteGold"
         opponent: "Memphis",
         date: "2024-12-24",
         location: "neutral",
+        stadium: "Toyota Stadium",
+    city: "Frisco",
+    state: "Texas",
         gameType: "Bowl",
 
         result: "L",
@@ -9039,6 +9875,9 @@ combination: "BlueWhiteGold"
         opponent: "Robert Morris",
         date: "2025-08-30",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "W",
@@ -9053,6 +9892,9 @@ combination: "BlueWhiteGold"
         opponent: "Ohio",
         date: "2025-09-06",
         location: "away",
+        stadium: "Peden Stadium",
+    city: "Athens",
+    state: "Ohio",
         gameType: "Regular Season",
         result: "L",
         wvuScore: 10,
@@ -9066,6 +9908,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "2025-09-13",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
         result: "W",
         wvuScore: 31,
@@ -9079,6 +9924,9 @@ combination: "BlueWhiteGold"
         opponent: "Kansas",
         date: "2025-09-20",
         location: "away",
+        stadium: "Memorial Stadium",
+    city: "Lawerence",
+    state: "Kansas",
         gameType: "Regular Season",
         result: "L",
         wvuScore: 10,
@@ -9092,6 +9940,9 @@ combination: "BlueWhiteGold"
         opponent: "Utah",
         date: "2025-09-27",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
         result: "L",
         wvuScore: 14,
@@ -9105,6 +9956,9 @@ combination: "BlueWhiteGold"
         opponent: "BYU",
         date: "2025-10-3",
         location: "away",
+        stadium: "LaVell Edwards Stadium",
+    city: "Provo",
+    state: "Utah",
         gameType: "Regular Season",
 
         result: "L",
@@ -9119,6 +9973,9 @@ combination: "BlueWhiteGold"
         opponent: "UCF",
         date: "2025-10-18",
         location: "away",
+        stadium: "FBC Mortgage Stadium",
+    city: "Orlando",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "L",
@@ -9133,6 +9990,9 @@ combination: "BlueWhiteGold"
         opponent: "TCU",
         date: "2025-10-25",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "L",
@@ -9147,6 +10007,9 @@ combination: "BlueWhiteGold"
         opponent: "Houston",
         date: "2025-11-1",
         location: "away",
+        stadium: "TDECU Stadium",
+    city: "Houston",
+    state: "Texas",
         gameType: "Regular Season",
 
         result: "W",
@@ -9161,6 +10024,9 @@ combination: "BlueWhiteGold"
         opponent: "Colorado",
         date: "2025-11-8",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
         result: "W",
         wvuScore: 29,
@@ -9173,6 +10039,9 @@ combination: "BlueWhiteGold"
         opponent: "Arizona State",
         date: "2025-11-15",
         location: "away",
+            stadium: "Sun Devil Stadium",
+    city: "Tempe",
+    state: "Arizona",
         gameType: "Regular Season",
 
         result: "L",
@@ -9186,7 +10055,11 @@ combination: "BlueWhiteGold"
         opponent: "Texas Tech",
         date: "2025-11-29",
         location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
+
         result: "L",
         wvuScore: 0,
         opponentScore: 49,
