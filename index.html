@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountaineer Uniform Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="app">
+
+        <section class="preview-panel">
+            <div id="player">
+                <img id="watermarkLayer" class="watermark-layer" src="Images/logo-background.png" alt="">
+                <img id="leggingsLayer" class="layer" alt="Leggings">
+                <img id="pantsLayer" class="layer" alt="Pants">
+                <img id="cleatsLayer" class="layer" alt="Cleats">
+                <img id="jerseyLayer" class="layer" alt="Jersey">
+                <img id="sleevesLayer" class="layer" alt="Sleeves">
+                <img id="glovesLayer" class="layer" alt="Gloves">
+                <img id="helmetLayer" class="layer" alt="Helmet">
+            </div>
+        </section>
+
+        <aside class="controls-panel">
+
+<div class="builder-title">
+    <img src="Images/MUD-Website-Graphic-Small.png" alt="Mountaineer Uniform Database logo">
+    <h1>Mountaineer<br>Uniform Builder</h1>
+</div>
+
+<div class="panel-section-title">Equipment</div>
+<div id="selectors"></div>
+
+<div class="panel-section-title">Uniform Preset</div>
+<div class="preset-panel">
+                <select id="presetSelect">
+                    <option value="">Custom</option>
+                </select>
+            </div>
+
+<div class="toolbar">
+
+    <button id="randomizeBtn">
+        <i class="fa-solid fa-dice"></i>
+        <span>Randomize</span>
+    </button>
+
+    <button id="resetBtn">
+        <i class="fa-solid fa-rotate-left"></i>
+        <span>Reset</span>
+    </button>
+
+    <button id="exportBtn">
+        <i class="fa-solid fa-camera"></i>
+        <span>Export Image</span>
+    </button>
+
+</div>
+            <div class="uniform-info">
+                <h2 id="infoTitle">Custom Uniform</h2>
+                <p id="infoDescription">Build your own Mountaineer uniform combination.</p>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <footer class="site-footer">
+        <p>Version 1.0 &nbsp; • &nbsp; Updated July 2026</p>
+    </footer>
+
+    <script src="Scripts/settings.js"></script>
+    <script src="Scripts/asset-manifest.js"></script>
+    <script src="Scripts/config.js"></script>
+
+    <script src="Data/combinations.js"></script>
+    <script src="Data/games.js"></script>
+    <script src="Data/uniforms.js"></script>
+
+    <script src="Scripts/builder.js"></script>
+
+</body>
+</html>
