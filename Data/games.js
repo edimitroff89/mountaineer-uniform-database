@@ -5869,7 +5869,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueGold"
     },
-
       {
         season: 2005,
         opponent: "Virginia Tech",
@@ -7552,6 +7551,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2013-9-21",
         location: "neutral",
+        stadium: "M&T Bank Stadium",
+    city: "Baltimore",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -9130,6 +9132,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2021-9-4",
         location: "away",
+        stadium: "Capital One Field at Maryland Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -9138,7 +9143,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueWhite"
     },
-
      {
         season: 2021,
         opponent: "LIU",
@@ -9155,7 +9159,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueGrayGray"
     },
-
      {
         season: 2021,
         opponent: "Virginia Tech",
@@ -9172,7 +9175,6 @@ combination: "BlueWhiteGold"
 
         combination: "GoldGoldBlue"
     },
-
           {
         season: 2021,
         opponent: "Oklahoma",
@@ -9189,7 +9191,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteBlue"
     },
-
           {
         season: 2021,
         opponent: "Texas Tech",
@@ -9206,7 +9207,6 @@ combination: "BlueWhiteGold"
 
         combination: "GoldBlueGold"
     },
-
           {
         season: 2021,
         opponent: "Baylor",
@@ -9223,7 +9223,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteWhite"
     },
-
       {
         season: 2021,
         opponent: "TCU",
@@ -9240,7 +9239,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteGold"
     },
-
       {
         season: 2021,
         opponent: "Iowa State",
