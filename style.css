@@ -19,15 +19,16 @@ body{
 ========================== */
 
 #app{
-    width:1400px;
-    max-width:95vw;
+    width:100%;
+    max-width:1400px;
     margin:40px auto;
 
     display:grid;
-    grid-template-columns:800px 500px;
+    grid-template-columns:minmax(0, 1.6fr) minmax(360px, .9fr);
     gap:40px;
 
     align-items:start;
+    padding:0 20px;
 }
 
 /* ==========================
@@ -43,12 +44,15 @@ body{
     display:flex;
     justify-content:center;
     align-items:flex-start;
+
+    overflow:hidden;
 }
 
 #player{
     position:relative;
-    width:700px;
-    height:875px;
+    width:100%;
+    max-width:700px;
+    aspect-ratio:1200 / 1500;
 }
 
 .layer{
