@@ -9,6 +9,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1968-9-21",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -38,6 +41,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1968-10-5",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -77,6 +83,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1968-10-26",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -90,6 +99,9 @@ const GAMES = [
         opponent: "Kentucky",
         date: "1968-11-2",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -116,6 +128,9 @@ const GAMES = [
         opponent: "Villanova",
         date: "1968-11-16",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -129,6 +144,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1968-11-23",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -142,6 +160,9 @@ const GAMES = [
         opponent: "Cincinnati",
         date: "1969-9-13",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -155,6 +176,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1969-9-20",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -181,6 +205,9 @@ const GAMES = [
         opponent: "VMI",
         date: "1969-10-4",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -194,6 +221,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1969-10-11",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -207,6 +237,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1969-10-25",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -246,6 +279,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1969-11-15",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -285,6 +321,9 @@ const GAMES = [
         opponent: "William & Mary",
         date: "1970-9-12",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -298,6 +337,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1970-9-19",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -311,6 +353,9 @@ const GAMES = [
         opponent: "VMI",
         date: "1970-9-26",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -337,6 +382,9 @@ const GAMES = [
         opponent: "Duke",
         date: "1970-10-10",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -366,6 +414,9 @@ const GAMES = [
         opponent: "Colorado State",
         date: "1970-10-24",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -379,6 +430,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1970-10-31",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -392,6 +446,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1970-11-7",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "w",
@@ -405,6 +462,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1970-11-14",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -418,6 +478,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1970-11-28",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -431,6 +494,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1971-10-9",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -457,6 +523,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1971-9-25",
         location: "away",
+        stadium: "",
+    city: "Richmond",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -470,6 +539,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1971-10-2",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -496,6 +568,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1971-10-16",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -509,6 +584,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1971-10-23",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -522,6 +600,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1971-10-30",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -574,6 +655,9 @@ const GAMES = [
         opponent: "Villanova",
         date: "1972-9-9",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -587,6 +671,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1972-9-16",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -626,6 +713,9 @@ const GAMES = [
         opponent: "William & Mary",
         date: "1972-10-7",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -639,6 +729,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1972-10-14",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -652,6 +745,9 @@ const GAMES = [
         opponent: "Tulane",
         date: "1972-10-21",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -665,6 +761,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1972-10-28",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -694,6 +793,9 @@ const GAMES = [
         opponent: "VMI",
         date: "1972-11-11",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -707,6 +809,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1972-11-18",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -734,6 +839,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1973-9-15",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -747,6 +855,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1973-9-22",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -773,6 +884,9 @@ const GAMES = [
         opponent: "Indiana",
         date: "1973-10-6",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -799,6 +913,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1973-10-27",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -825,6 +942,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1973-11-10",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -838,6 +958,9 @@ const GAMES = [
         opponent: "Virginia",
         date: "1973-11-17",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -864,6 +987,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1974-9-14",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -877,6 +1003,9 @@ const GAMES = [
         opponent: "Kentucky",
         date: "1974-9-21",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -932,6 +1061,9 @@ const GAMES = [
         opponent: "Miami",
         date: "1974-10-19",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -945,6 +1077,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1974-10-26",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -958,6 +1093,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1974-11-2",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "l",
@@ -971,6 +1109,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1974-9-13",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -984,6 +1125,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1975-11-16",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -997,6 +1141,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1974-11-23",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1010,6 +1157,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1975-9-13",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1036,6 +1186,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1975-9-27",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1062,6 +1215,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1975-10-11",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1075,6 +1231,9 @@ const GAMES = [
         opponent: "Tulane",
         date: "1975-10-18",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1088,6 +1247,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1975-10-25",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1101,6 +1263,9 @@ const GAMES = [
         opponent: "Kent State",
         date: "1975-11-1",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1114,6 +1279,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1975-11-8",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1166,6 +1334,9 @@ const GAMES = [
         opponent: "Villanova",
         date: "1976-9-11",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1179,6 +1350,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1976-9-18",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1205,6 +1379,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1976-10-2",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1231,6 +1408,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1976-10-16",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "l",
@@ -1244,6 +1424,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1976-10-23",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1257,6 +1440,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1976-10-30",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1299,6 +1485,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1976-11-20",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1312,6 +1501,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1977-9-10",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1325,6 +1517,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1977-9-17",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -1364,6 +1559,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1977-10-8",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1377,6 +1575,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1977-10-15",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1390,6 +1591,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1977-10-22",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1404,6 +1608,9 @@ const GAMES = [
         opponent: "Villanova",
         date: "1977-10-29",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1417,6 +1624,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1977-11-5",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1430,6 +1640,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1977-11-12",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1456,6 +1669,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1978-9-9",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1494,7 +1710,10 @@ const GAMES = [
         season: 1978,
         opponent: "California",
         date: "1978-9-30",
-        location: "home",
+        location: "home", 
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1508,6 +1727,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1978-10-7",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1521,6 +1743,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1978-10-14",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1547,6 +1772,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1978-10-28",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1560,6 +1788,9 @@ const GAMES = [
         opponent: "Virginia",
         date: "1978-11-4",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1602,6 +1833,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1979-9-8",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1627,7 +1861,10 @@ const GAMES = [
         season: 1979,
         opponent: "North Carolina State",
         date: "1979-9-22",
-        location: "home",
+        location: "home", 
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1654,6 +1891,9 @@ const GAMES = [
         opponent: "Kentucky",
         date: "1979-10-6",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1667,6 +1907,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1979-10-13",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -1680,6 +1923,9 @@ const GAMES = [
         opponent: "Tulane",
         date: "1979-10-20",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1693,6 +1939,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1979-10-27",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1706,6 +1955,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1979-11-3",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1719,6 +1971,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1979-11-10",
         location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1745,6 +2000,9 @@ const GAMES = [
         opponent: "Cincinnati",
         date: "1980-9-6",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1771,6 +2029,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1980-9-20",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1784,6 +2045,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1980-9-27",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1797,6 +2061,9 @@ const GAMES = [
         opponent: "Virginia",
         date: "1980-10-4",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1839,6 +2106,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1980-10-25",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1852,6 +2122,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1980-11-1",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1865,6 +2138,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1980-11-8",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -1878,6 +2154,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1980-11-15",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -1891,6 +2170,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1980-11-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1918,6 +2200,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1981-9-19",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -1931,6 +2216,9 @@ const GAMES = [
         opponent: "Colorado State",
         date: "1981-9-26",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1944,6 +2232,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1981-10-3",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -1957,6 +2248,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1981-10-10",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -1970,6 +2264,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1981-10-17",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -1983,6 +2280,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1981-10-24",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -1996,6 +2296,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1981-10-31",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2009,6 +2312,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1981-11-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2022,6 +2328,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1981-11-14",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2077,6 +2386,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1982-9-18",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2090,6 +2402,9 @@ const GAMES = [
         opponent: "Richmond",
         date: "1982-9-25",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2119,6 +2434,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1982-10-9",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2132,6 +2450,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1982-10-16",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2145,6 +2466,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1982-10-23",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2158,6 +2482,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1982-10-30",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2171,6 +2498,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1982-11-6",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -2184,6 +2514,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1982-11-11",
         location: "away",
+        stadium: "Giants Stadium",
+    city: "East Rutherford",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -2197,6 +2530,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1982-11-20",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2210,6 +2546,9 @@ const GAMES = [
         opponent: "Florida State",
         date: "1982-12-30",
         location: "neutral",
+        stadium: "Gator Bowl Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -2223,6 +2562,9 @@ const GAMES = [
         opponent: "Ohio",
         date: "1983-9-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2236,6 +2578,9 @@ const GAMES = [
         opponent: "Pacific",
         date: "1983-9-10",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2249,6 +2594,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1983-9-17",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -2262,6 +2610,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1983-9-24",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -2272,9 +2623,12 @@ const GAMES = [
     },
 {
         season: 1983,
-        opponent: "Pitt",
+        opponent: "Pittsburgh",
         date: "1983-10-1",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2288,6 +2642,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1983-10-15",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2301,6 +2658,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1983-10-22",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2327,6 +2687,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1983-11-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2340,6 +2703,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1983-11-12",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2382,6 +2748,9 @@ const GAMES = [
         opponent: "Ohio",
         date: "1984-9-1",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2395,6 +2764,9 @@ const GAMES = [
         opponent: "Louisville",
         date: "1984-9-8",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2408,6 +2780,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1984-9-15",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2421,6 +2796,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1984-9-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2450,6 +2828,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1984-10-13",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2463,6 +2844,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1984-10-20",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2476,6 +2860,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1984-10-27",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2489,6 +2876,9 @@ const GAMES = [
         opponent: "Virginia",
         date: "1984-11-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2502,6 +2892,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1984-11-10",
         location: "away",
+        stadium: "Giants Stadium",
+    city: "East Rutherford",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "l",
@@ -2515,6 +2908,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1984-11-17",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2541,6 +2937,9 @@ const GAMES = [
         opponent: "Louisville",
         date: "1985-9-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2554,6 +2953,9 @@ const GAMES = [
         opponent: "Duke",
         date: "1985-9-14",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2567,6 +2969,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1985-9-21",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -2580,6 +2985,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1985-9-28",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "t",
@@ -2593,6 +3001,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1985-10-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2606,6 +3017,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1985-10-19",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -2619,6 +3033,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1985-10-26",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2646,6 +3063,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1985-11-9",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2659,6 +3079,9 @@ const GAMES = [
         opponent: "Temple",
         date: "1985-11-16",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2688,6 +3111,9 @@ const GAMES = [
         opponent: "Northern Illinois",
         date: "1986-9-6",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2701,6 +3127,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1986-9-13",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "w",
@@ -2714,6 +3143,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1986-9-20",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2743,6 +3175,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1986-10-4",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "1",
@@ -2755,6 +3190,9 @@ const GAMES = [
         opponent: "Miami",
         date: "1986-10-11",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2768,6 +3206,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1986-10-25",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2781,6 +3222,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1986-11-1",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2794,6 +3238,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1986-11-8",
         location: "away",
+        stadium: "Giants Stadium",
+    city: "East Rutherford",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -2821,6 +3268,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1986-11-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2834,6 +3284,9 @@ const GAMES = [
         opponent: "Ohio",
         date: "1987-9-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2860,6 +3313,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1987-9-19",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -2873,6 +3329,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1987-9-26",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -2886,6 +3345,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1987-10-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2899,6 +3361,9 @@ const GAMES = [
         opponent: "Cincinnati",
         date: "1987-10-17",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2912,6 +3377,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1987-10-24",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -2925,6 +3393,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1987-10-31",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -2938,6 +3409,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1987-11-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2951,6 +3425,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1987-11-14",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -2993,6 +3470,9 @@ const GAMES = [
         opponent: "Bowling Green",
         date: "1988-9-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3006,6 +3486,9 @@ const GAMES = [
         opponent: "Cal State Fullerton",
         date: "1988-9-10",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3019,6 +3502,9 @@ const GAMES = [
         opponent: "Maryland",
         date: "1988-9-17",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3048,6 +3534,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1988-10-1",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3061,6 +3550,9 @@ const GAMES = [
         opponent: "East Carolina",
         date: "1988-10-8",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "w",
@@ -3074,6 +3566,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1988-10-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3087,6 +3582,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1988-10-29",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3113,6 +3611,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1988-11-12",
         location: "away",
+        stadium: "Giants Stadium",
+    city: "East Rutherford",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -3126,6 +3627,9 @@ const GAMES = [
         opponent: "Syracuse",
         date: "1988-11-19",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3153,6 +3657,9 @@ const GAMES = [
         opponent: "Ball State",
         date: "1989-9-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3161,13 +3668,14 @@ const GAMES = [
 
         combination: "BlueBlueGold"
    },
-
-
 {
         season: 1989,
         opponent: "Maryland",
         date: "1989-9-9",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -3181,6 +3689,9 @@ const GAMES = [
         opponent: "South Carolina",
         date: "1989-9-16",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3206,6 +3717,9 @@ const GAMES = [
         opponent: "Pittsburgh",
         date: "1989-9-30",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "t",
@@ -3219,6 +3733,9 @@ const GAMES = [
         opponent: "Virginia Tech",
         date: "1989-10-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -3233,6 +3750,9 @@ const GAMES = [
         opponent: "Cincinnati",
         date: "1989-10-21",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3247,6 +3767,9 @@ const GAMES = [
         opponent: "Boston College",
         date: "1989-10-28",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -3261,6 +3784,9 @@ const GAMES = [
         opponent: "Penn State",
         date: "1989-11-4",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -3276,6 +3802,9 @@ const GAMES = [
         opponent: "Rutgers",
         date: "1989-11-11",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3310,6 +3839,9 @@ const GAMES = [
         opponent: "Clemson",
         date: "1989-12-30",
         location: "neutral",
+        stadium: "Gator Bowl Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -3324,6 +3856,9 @@ season: 1990,
 opponent: "Kent State",
 date: "1990-9-1",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "w",
@@ -3338,6 +3873,9 @@ season: 1990,
 opponent: "Maryland",
 date: "1990-9-8",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "l",
@@ -3352,6 +3890,9 @@ season: 1990,
 opponent: "Louisville",
 date: "1990-9-22",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "l",
@@ -3383,6 +3924,9 @@ season: 1990,
 opponent: "Virginia Tech",
 date: "1990-10-6",
 location: "away",
+stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
 gameType: "Regular Season",
 
 result: "l",
@@ -3397,6 +3941,9 @@ season: 1990,
 opponent: "Cincinnati",
 date: "1990-10-13",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "w",
@@ -3411,6 +3958,9 @@ season: 1990,
 opponent: "Boston College",
 date: "1990-10-27",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "l",
@@ -3425,6 +3975,9 @@ season: 1990,
 opponent: "Penn State",
 date: "1990-11-3",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "l",
@@ -3439,6 +3992,9 @@ season: 1990,
 opponent: "Rutgers",
 date: "1990-11-10",
 location: "away",
+stadium: "Giants Stadium",
+    city: "East Rutherford",
+    state: "New Jersey",
 gameType: "Regular Season",
 
 result: "w",
@@ -3452,6 +4008,9 @@ season: 1990,
 opponent: "Syracuse",
 date: "1990-11-17",
 location: "home",
+stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 gameType: "Regular Season",
 
 result: "l",
@@ -3478,6 +4037,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1991-8-31",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "1",
@@ -3491,6 +4053,9 @@ combination: "BlueWhiteGold"
         opponent: "Bowling Green",
         date: "1991-9-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3504,6 +4069,9 @@ combination: "BlueWhiteGold"
         opponent: "South Carolina",
         date: "1991-9-14",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3517,6 +4085,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1991-9-21",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -3530,6 +4101,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1991-10-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -3543,6 +4117,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1991-10-12",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3556,6 +4133,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1991-10-19",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -3569,6 +4149,9 @@ combination: "BlueWhiteGold"
         opponent: "Penn State",
         date: "1991-10-26",
         location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "l",
@@ -3582,6 +4165,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1991-11-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3595,6 +4181,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1991-11-9",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -3624,6 +4213,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami (Ohio)",
         date: "1992-9-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "t",
@@ -3653,6 +4245,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1992-9-19",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3666,6 +4261,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1992-9-26",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3679,6 +4277,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1992-10-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "t",
@@ -3692,6 +4293,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1992-10-17",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -3705,6 +4309,9 @@ combination: "BlueWhiteGold"
         opponent: "Penn State",
         date: "1992-10-24",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -3718,6 +4325,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1992-10-31",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -3731,6 +4341,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "1992-11-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3744,6 +4357,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1992-11-14",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "l",
@@ -3758,6 +4374,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisiana Tech",
         date: "1992-11-21",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3771,6 +4390,9 @@ combination: "BlueWhiteGold"
         opponent: "Eastern Michigan",
         date: "1993-9-4",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3784,6 +4406,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1993-9-18",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -3797,6 +4422,9 @@ combination: "BlueWhiteGold"
         opponent: "Missouri",
         date: "1993-9-25",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3810,6 +4438,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1993-10-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3823,6 +4454,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisville",
         date: "1993-10-9",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3836,6 +4470,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1993-10-23",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3866,6 +4503,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1993-11-6",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3879,6 +4519,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1993-11-13",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -3892,6 +4535,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1993-11-20",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3905,6 +4551,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1993-11-26",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -3918,6 +4567,9 @@ combination: "BlueWhiteGold"
         opponent: "Florida",
         date: "1994-1-1",
         location: "neutral",
+        stadium: "Louisiana Superdome",
+    city: "New Orleans",
+    state: "Louisiana",
         gameType: "Bowl",
 
         result: "l",
@@ -3931,6 +4583,9 @@ combination: "BlueWhiteGold"
         opponent: "Nebraska",
         date: "1994-8-28",
         location: "neutral",
+        stadium: "Giants Stadium",
+    city: "East Rutherford",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "l",
@@ -3944,6 +4599,9 @@ combination: "BlueWhiteGold"
         opponent: "Ball State",
         date: "1994-9-3",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -3957,6 +4615,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1994-9-10",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "l",
@@ -3970,6 +4631,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1994-9-17",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -3983,6 +4647,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1994-9-22",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4025,6 +4692,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1994-10-22",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4038,6 +4708,9 @@ combination: "BlueWhiteGold"
         opponent: "Louisiana Tech",
         date: "1994-10-29",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4051,6 +4724,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1994-11-12",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -4064,6 +4740,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1994-11-19",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4077,6 +4756,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1994-11-24",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4090,6 +4772,9 @@ combination: "BlueWhiteGold"
         opponent: "South Carolina",
         date: "1995-1-2",
         location: "neutral",
+        stadium: "Joe Robbie Stadium",
+    city: "Miami",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -4103,6 +4788,9 @@ combination: "BlueWhiteGold"
         opponent: "Purdue",
         date: "1995-9-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4116,6 +4804,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1995-9-9",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4129,6 +4820,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1995-9-16",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -4142,6 +4836,9 @@ combination: "BlueWhiteGold"
         opponent: "Kent State",
         date: "1995-9-23",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4155,6 +4852,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "1995-9-30",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "l",
@@ -4163,13 +4863,14 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteBlue"
     },
-
-
 {
         season: 1995,
         opponent: "Boston College",
         date: "1995-10-14",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -4200,6 +4901,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1995-10-28",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4213,6 +4917,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1995-11-4",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4226,6 +4933,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1995-11-18",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -4239,6 +4949,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1995-11-24",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4268,6 +4981,9 @@ combination: "BlueWhiteGold"
         opponent: "Western Michigan",
         date: "1996-9-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4281,6 +4997,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "1996-9-14",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4307,6 +5026,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1996-9-28",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4320,6 +5042,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1996-10-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4333,6 +5058,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1996-10-19",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -4346,6 +5074,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1996-10-26",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4359,6 +5090,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1996-11-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4372,6 +5106,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1996-11-9",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -4386,6 +5123,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1996-11-23",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4399,6 +5139,9 @@ combination: "BlueWhiteGold"
         opponent: "North Carolina",
         date: "1997-1-1",
         location: "neutral",
+        stadium: "Alltel Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -4412,6 +5155,9 @@ combination: "BlueWhiteGold"
         opponent: "Marshall",
         date: "1997-8-30",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4425,6 +5171,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "1997-10-4",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4438,6 +5187,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1997-9-13",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -4451,6 +5203,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1997-9-27",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "w",
@@ -4464,6 +5219,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1997-10-4",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4477,6 +5235,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1997-10-11",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -4490,6 +5251,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1997-10-25",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4519,6 +5283,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1997-11-15",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4532,6 +5299,9 @@ combination: "BlueWhiteGold"
         opponent: "Notre Dame",
         date: "1997-11-22",
         location: "away",
+        stadium: "Notre Dame Stadium",
+    city: "South Bend",
+    state: "Indiana",
         gameType: "Regular Season",
 
         result: "l",
@@ -4545,6 +5315,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1997-11-28",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4558,6 +5331,9 @@ combination: "BlueWhiteGold"
         opponent: "Georgia Tech",
         date: "1998-12-29",
         location: "neutral",
+        stadium: "Pro Player Stadium",
+    city: "Miami",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -4571,6 +5347,9 @@ combination: "BlueWhiteGold"
         opponent: "Ohio State",
         date: "1998-9-5",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4584,6 +5363,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1998-9-19",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4597,6 +5379,9 @@ combination: "BlueWhiteGold"
         opponent: "Tulsa",
         date: "1998-9-26",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4623,6 +5408,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1998-10-10",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -4636,6 +5424,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1998-10-24",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4649,6 +5440,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1998-10-31",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4662,6 +5456,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "1998-11-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4675,6 +5472,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1998-11-14",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -4688,6 +5488,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1998-11-21",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4714,9 +5517,12 @@ combination: "BlueWhiteGold"
     },
    {
         season: 1998,
-        opponent: "Ole Miss",
+        opponent: "Missouri",
         date: "1998-12-26",
         location: "neutral",
+        stadium: "Arizona Stadium",
+    city: "Tuscon",
+    state: "Arizona",
         gameType: "Bowl",
 
         result: "l",
@@ -4730,6 +5536,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "1999-9-11",
         location: "neutral",
+        stadium: "Ericsson Stadium",
+    city: "Charlotte",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "l",
@@ -4743,6 +5552,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami (Ohio)",
         date: "1999-9-11",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4756,6 +5568,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "1999-9-18",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -4786,6 +5601,9 @@ combination: "BlueWhiteGold"
         opponent: "Navy",
         date: "1999-10-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4799,6 +5617,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "1999-10-16",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4812,6 +5633,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "1999-10-23",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4825,6 +5649,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "1999-10-30",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -4838,6 +5665,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "1999-11-6",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4851,6 +5681,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "1999-11-13",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "l",
@@ -4864,6 +5697,9 @@ combination: "BlueWhiteGold"
         opponent: "Pittsburgh",
         date: "1999-11-27",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4877,6 +5713,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "2000-9-2",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4890,6 +5729,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2000-9-16",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4903,6 +5745,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "2000-9-23",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4915,20 +5760,26 @@ combination: "BlueWhiteGold"
         season: 2000,
         opponent: "Temple",
         date: "2000-9-28",
-        location: "home",
+        location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
         wvuScore: 29,
         opponentScore: 24,
 
-        combination: "BlueBlueGold "
+        combination: "BlueWhiteGold "
     },
         {
         season: 2000,
         opponent: "Idaho",
         date: "2000-10-7",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4942,6 +5793,9 @@ combination: "BlueWhiteGold"
         opponent: "Notre Dame",
         date: "2000-10-21",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4955,6 +5809,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2000-10-12",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -4969,6 +5826,9 @@ combination: "BlueWhiteGold"
         opponent: "Syracuse",
         date: "2000-11-4",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -4982,6 +5842,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2000-11-11",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -4995,6 +5858,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2000-11-18",
         location: "home",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5024,6 +5890,9 @@ combination: "BlueWhiteGold"
         opponent: "Ole Miss",
         date: "2000-12-28",
         location: "neutral",
+        stadium: "Adelphia Coliseum",
+    city: "Nashville",
+    state: "Tennessee",
         gameType: "Bowl",
 
         result: "w",
@@ -5038,6 +5907,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "2001-9-1",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "l",
@@ -5084,6 +5956,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2001-9-29",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "l",
@@ -5113,6 +5988,9 @@ combination: "BlueWhiteGold"
         opponent: "Notre Dame",
         date: "2001-10-13",
         location: "away",
+        stadium: "Notre Dame Stadium",
+    city: "South Bend",
+    state: "Indiana",
         gameType: "Regular Season",
 
         result: "l",
@@ -5126,6 +6004,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "2001-10-25",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -5282,6 +6163,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2002-10-12",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -5329,6 +6213,9 @@ combination: "BlueWhiteGold"
         opponent: "Temple",
         date: "2002-11-2",
         location: "away",
+        stadium: "Veterans Stadium",
+    city: "Philadelphia",
+    state: "Pennsylvania",
         gameType: "Regular Season",
 
         result: "w",
@@ -5360,6 +6247,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2002-11-20",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "w",
@@ -5390,6 +6280,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia",
         date: "2002-12-28",
         location: "neutral",
+        stadium: "Ericsson Stadium",
+    city: "Charlotte",
+    state: "North Carolina",
         gameType: "Bowl",
 
         result: "l",
@@ -5421,6 +6314,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2003-09-6",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "w",
@@ -5469,6 +6365,9 @@ combination: "BlueWhiteGold"
         opponent: "Miami",
         date: "2003-10-02",
         location: "away",
+        stadium: "Orange Bowl",
+    city: "Miami",
+    state: "Florida",
         gameType: "Regular Season",
 
         result: "l",
@@ -5511,8 +6410,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueBlue"
     }, 
-
-
              {
         season: 2003,
         opponent: "UCF",
@@ -5535,6 +6432,9 @@ combination: "BlueWhiteGold"
         opponent: "Boston College",
         date: "2003-11-08",
         location: "away",
+        stadium: "Alumni Stadium",
+    city: "Chestnut Hill",
+    state: "Massachusetts",
         gameType: "Regular Season",
 
         result: "w",
@@ -5603,6 +6503,9 @@ combination: "BlueWhiteGold"
     city: "Morgantown",
     state: "West Virginia",
         location: "neutral",
+        stadium: "Alltel Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -5683,6 +6586,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2004-10-2",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
@@ -5697,6 +6603,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2004-10-13",
         location: "away",
+        stadium: "Rentschler Field",
+    city: "East Hartford",
+    state: "Connecticut",
         gameType: "Regular Season",
 
         result: "w",
@@ -5729,6 +6638,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2004-10-30",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -5795,6 +6707,9 @@ combination: "BlueWhiteGold"
         opponent: "Florida State",
         date: "2005-1-1",
         location: "neutral",
+        stadium: "Alltel Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "l",
@@ -5890,6 +6805,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2005-10-8",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -5989,6 +6907,9 @@ combination: "BlueWhiteGold"
         opponent: "Georgia",
         date: "2006-1-2",
         location: "neutral",
+        stadium: "Georiga Dome",
+    city: "Atlanta",
+    state: "Georiga",
         gameType: "Bowl",
 
         result: "w",
@@ -6054,6 +6975,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2006-9-23",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "w",
@@ -6099,6 +7023,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2006-10-20",
         location: "away",
+        stadium: "Rentschler Field",
+    city: "East Hartford",
+    state: "Connecticut",
         gameType: "Regular Season",
 
         result: "w",
@@ -6198,6 +7125,9 @@ combination: "BlueWhiteGold"
         opponent: "Georgia Tech",
         date: "2007-1-1",
         location: "neutral",
+        stadium: "Jacksonville Municipal Stadium",
+    city: "Jacksonville",
+    state: "Florida",
         gameType: "Bowl",
 
         result: "w",
@@ -6331,6 +7261,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2007-10-27",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -6413,6 +7346,9 @@ combination: "BlueWhiteGold"
         opponent: "Oklahoma",
         date: "2008-1-2",
         location: "neutral",
+    stadium: "University of Phoenix Stadium",
+    city: "Glendale",
+    state: "Arizona",
         gameType: "Bowl",
 
         result: "w",
@@ -6444,6 +7380,9 @@ combination: "BlueWhiteGold"
         opponent: "East Carolina",
         date: "2008-9-6",
         location: "away",
+        stadium: "Dowdy Ficklen Stadium",
+    city: "Greenville",
+    state: "North Carolina",
         gameType: "Regular Season",
 
         result: "l",
@@ -6458,6 +7397,9 @@ combination: "BlueWhiteGold"
         opponent: "Colorado",
         date: "2008-9-18",
         location: "away",
+        stadium: "Folsom Field",
+    city: "Boulder",
+    state: "Colorado",
         gameType: "Regular Season",
 
         result: "l",
@@ -6541,6 +7483,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2008-11-1",
         location: "away",
+        stadium: "Rentschler Field",
+    city: "East Hartford",
+    state: "Connecticut",
         gameType: "Regular Season",
 
         result: "w",
@@ -6674,6 +7619,9 @@ combination: "BlueWhiteGold"
         opponent: "Auburn",
         date: "2009-9-12",
         location: "away",
+        stadium: "Jordan-Hare Stadium",
+    city: "Auburn",
+    state: "Alabama",
         gameType: "Regular Season",
 
         result: "l",
@@ -6824,6 +7772,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2009-12-5",
         location: "away",
+        stadium: "Rutgers Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -6969,6 +7920,9 @@ combination: "BlueWhiteGold"
         opponent: "Connecticut",
         date: "2010-10-29",
         location: "away",
+        stadium: "Rentschler Field",
+    city: "East Hartford",
+    state: "Connecticut",
         gameType: "Regular Season",
 
         result: "l",
@@ -7184,6 +8138,9 @@ combination: "BlueWhiteGold"
         opponent: "Rutgers",
         date: "2011-10-29",
         location: "away",
+        stadium: "High Point Solutions Stadium",
+    city: "Piscataway",
+    state: "New Jersey",
         gameType: "Regular Season",
 
         result: "w",
@@ -7735,6 +8692,9 @@ combination: "BlueWhiteGold"
         opponent: "Maryland",
         date: "2014-9-13",
         location: "away",
+        stadium: "Byrd Stadium",
+    city: "College Park",
+    state: "Maryland",
         gameType: "Regular Season",
 
         result: "w",
@@ -7743,7 +8703,6 @@ combination: "BlueWhiteGold"
 
         combination: "GoldBlueGold"
     },
-
           {
         season: 2014,
         opponent: "Oklahoma",
@@ -7760,7 +8719,6 @@ combination: "BlueWhiteGold"
 
         combination: "GoldBlueBlue"
     },
-
           {
         season: 2014,
         opponent: "Kansas",
@@ -7777,7 +8735,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueGoldGold"
     },
-
       {
         season: 2014,
         opponent: "Texas Tech",
@@ -7794,7 +8751,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueBlue"
     },
-
       {
         season: 2014,
         opponent: "Baylor",
@@ -7811,7 +8767,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueWhite"
     },
-
   {
         season: 2014,
         opponent: "Oklahoma State",
@@ -7828,7 +8783,6 @@ combination: "BlueWhiteGold"
 
         combination: "GoldWhiteGold"
     },
-
          {
         season: 2014,
         opponent: "TCU",
@@ -7845,7 +8799,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueBlueBlue"
     },
-
       {
         season: 2014,
         opponent: "Texas",
@@ -7862,7 +8815,6 @@ combination: "BlueWhiteGold"
 
         combination: "BlueWhiteWhite"
     },
-
      {
         season: 2014,
         opponent: "Kansas State",
@@ -7879,7 +8831,6 @@ combination: "BlueWhiteGold"
 
         combination: "WhiteBlueWhite"
     },
-
   {
         season: 2014,
         opponent: "Iowa State",
@@ -7896,7 +8847,6 @@ combination: "BlueWhiteGold"
 
         combination: "WhiteWhiteBlue"
     },
-
    {
         season: 2014,
         opponent: "Texas A&M",
@@ -9361,6 +10311,9 @@ combination: "BlueWhiteGold"
         opponent: "Virginia Tech",
         date: "2022-9-22",
         location: "away",
+        stadium: "Lane Stadium",
+    city: "Blacksburg",
+    state: "Virginia",
         gameType: "Regular Season",
 
         result: "l",
