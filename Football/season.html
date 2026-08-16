@@ -3,16 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Football Season</title>
-    <link rel="stylesheet" href="../style.css">
-</head>
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="football.css">
+<link rel="icon" type="image/png" href="Images/Favicon.png">
+
 <body>
 
-    <main class="season-page">
-        <h1 id="seasonTitle"></h1>
-        <div id="seasonGames"></div>
-    </main>
+<header class="site-header" id="siteHeader"></header>
 
-    <script src="../Data/games.js"></script>
-<script src="season-page.js"></script>
+<main class="database-page">
+
+<h1 id="seasonTitle"></h1>
+
+<div class="game-filters">
+    <input id="gameSearch" type="search" placeholder="Search opponent, bowl, stadium, color...">
+
+    <select id="locationFilter">
+        <option value="">All locations</option>
+        <option value="home">Home</option>
+        <option value="away">Away</option>
+        <option value="neutral">Neutral</option>
+    </select>
+
+    <select id="resultFilter">
+        <option value="">All results</option>
+        <option value="W">Wins</option>
+        <option value="L">Losses</option>
+    </select>
+
+    <select id="gameTypeFilter">
+        <option value="">All game types</option>
+        <option value="Regular Season">Regular Season</option>
+        <option value="Bowl">Bowl Games</option>
+    </select>
+</div>
+<header class="site-header" id="siteHeader"></header>
+<div id="seasonGames"></div>    </main>
+
+<script src="../Data/games.js"></script>
+<script src="../Data/football-seasons.js"></script>
+<script src="season-overview-renderer.js"></script>
+<script src="season-selector.js"></script>
+<script src="../header.js"></script>
+
 </body>
 </html>
+

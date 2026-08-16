@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Men's Basketball Season Overview</title>
+
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="basketball.css">
+</head>
+
+<body>
+
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="database-page">
+
+        <section class="season-search-wrap">
+            <label
+                for="basketballSeasonSelect"
+                class="season-select-label"
+            >
+                Select a season
+            </label>
+
+            <select id="basketballSeasonSelect">
+                <option value="">Choose a season...</option>
+            </select>
+        </section>
+
+        <div id="basketballSeasonOverview"></div>
+
+    </main>
+
+<script src="../Data/m-basketball-seasons.js"></script>
+<script src="basketball-season-overview-renderer.js"></script>
+<script src="season-selector.js"></script>
+<script src="../header.js"></script>
+</body>
+
+</html>

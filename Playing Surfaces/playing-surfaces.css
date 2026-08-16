@@ -1,0 +1,204 @@
+/* ==========================================
+   Field Design Selector
+========================================== */
+
+.field-search-wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 32px auto 40px;
+    padding: 0 20px;
+}
+
+.field-select-label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #002855;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#fieldSeasonSelect {
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #002855;
+
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ==========================================
+   Field Design Overview
+========================================== */
+
+#fieldDesignOverview {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.field-design-card {
+    width: 100%;
+    margin-bottom: 64px;
+    scroll-margin-top: 145px;
+}
+
+/* ==========================================
+   Field Artwork Card
+========================================== */
+
+.field-design-frame {
+    width: 100%;
+    padding: 20px;
+
+    overflow: hidden;
+
+    background: #fff;
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.field-design-image {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    max-height: 760px;
+
+    object-fit: contain;
+    object-position: center;
+
+    border-radius: 4px;
+}
+
+/* ==========================================
+   Field Information
+========================================== */
+
+.field-design-info {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.field-design-info h2 {
+    margin: 0 0 8px;
+
+    color: #555;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.field-design-info h3 {
+    margin: 0 0 7px;
+
+    color: #555;
+    font-size: 1.65rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.field-design-info p {
+    max-width: 900px;
+    margin: 0 auto;
+
+    color: #555;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media (max-width: 900px) {
+    .field-design-frame {
+        padding: 14px;
+    }
+
+    .field-design-info h2 {
+        font-size: 2rem;
+    }
+
+    .field-design-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .field-design-info p {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .field-search-wrap {
+        padding: 0 12px;
+    }
+
+    #fieldDesignOverview {
+        padding: 0 12px 40px;
+    }
+
+    .field-design-card {
+        margin-bottom: 48px;
+    }
+
+    .field-design-frame {
+        padding: 8px;
+    }
+
+    .field-design-info {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .field-design-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .field-design-info h3 {
+        font-size: 1.15rem;
+    }
+
+    .field-design-info p {
+        font-size: 1rem;
+    }
+}
+#fieldSeasonSelect,
+#bowlFieldSelect,
+#coliseumFloorSelect {
+        width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #002855;
+
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#fieldDesignOverview,
+#bowlFieldOverview,
+#coliseumFloorOverview {
+        width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}

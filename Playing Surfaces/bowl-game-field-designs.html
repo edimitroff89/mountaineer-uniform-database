@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bowl Game Field Designs</title>
+
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="playing-surfaces.css">
+    <link rel="icon" type="image/png" href="Images/Favicon.png">
+</head>
+
+<body class="field-designs-page">
+
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="database-page">
+
+        <section class="field-search-wrap">
+            <label
+                for="bowlFieldSelect"
+                class="field-select-label"
+            >
+                Select a bowl game field
+            </label>
+
+            <select id="bowlFieldSelect">
+                <option value="">Choose a bowl game...</option>
+            </select>
+        </section>
+
+        <div id="bowlFieldOverview"></div>
+
+    </main>
+
+    <script src="../Data/bowl-game-field-designs.js"></script>
+    <script src="bowl-game-field-designs-renderer.js"></script>
+    <script src="bowl-game-field-selector.js"></script>
+    <script src="../header.js"></script>
+
+</body>
+
+</html>

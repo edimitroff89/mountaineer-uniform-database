@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Football Season Overview</title>
+
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="football.css">
+    <link rel="icon" type="image/png" href="Images/Favicon.png">
+</head>
+
+<body>
+
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="database-page">
+
+<section class="season-search-wrap">
+    <label for="seasonSelect" class="season-select-label">
+        Select a season
+    </label>
+
+    <select id="seasonSelect">
+        <option value="">Choose a year...</option>
+    </select>
+</section>
+
+        <div id="seasonOverview"></div>
+
+    </main>
+
+<script src="../Data/games.js"></script>
+<script src="../Data/football-seasons.js"></script>
+<script src="season-overview-renderer.js"></script>
+<script src="season-selector.js"></script>
+<script src="../header.js"></script>
+</body>
+
+</html>

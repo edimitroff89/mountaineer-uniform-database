@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Women's Basketball Season Overview</title>
+
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="basketball.css">
+</head>
+
+<body class="womens-basketball-page">
+
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="database-page">
+
+        <section class="season-search-wrap">
+    <label
+        for="womensBasketballSeasonSelect"
+        class="season-select-label"
+    >
+        Select a season
+    </label>
+
+    <select id="womensBasketballSeasonSelect">
+        <option value="">Choose a season...</option>
+    </select>
+</section>
+
+        <div id="womensBasketballSeasonOverview"></div>
+
+    </main>
+
+    <script src="../Data/w-basketball-seasons.js"></script>
+    <script src="womens-season-overview-renderer.js"></script>
+    <script src="womens-season-selector.js"></script>
+    <script src="../header.js"></script>
+
+</body>
+
+</html>

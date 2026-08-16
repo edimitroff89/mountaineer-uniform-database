@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Baseball Season Overview</title>
+
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="baseball.css">
+</head>
+
+<body class="baseball-seasons-page">
+
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="database-page">
+
+        <section class="season-search-wrap">
+            <label
+                for="baseballSeasonSelect"
+                class="season-select-label"
+            >
+                Select a season
+            </label>
+
+            <select id="baseballSeasonSelect">
+                <option value="">Choose a season...</option>
+            </select>
+        </section>
+
+        <div id="baseballSeasonOverview"></div>
+
+    </main>
+
+    <script src="../Data/baseball-seasons.js"></script>
+    <script src="baseball-season-overview-renderer.js"></script>
+    <script src="baseball-season-selector.js"></script>
+    <script src="../header.js"></script>
+
+</body>
+
+</html>

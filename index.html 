@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mountaineer Uniform Database</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="site-brand">
+        <img src="Images/MUD-Website-Graphic-Small.png" alt="">
+        <h1>Mountaineer Uniform Database</h1>
+    </div>
+
+    <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="Football/database.html">Football</a>
+        <a href="Builder/index.html">Uniform Builder</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<main class="home-page">
+
+    <section class="hero">
+        <h2>West Virginia Uniform History</h2>
+        <p>A visual archive of Mountaineer uniforms, seasons, playing surfaces, and game-by-game combinations.</p>
+    </section>
+
+    <section class="home-grid">
+
+        <a class="home-card" href="Football/database.html">
+            <h3>Football Database</h3>
+            <p>Search games by season, opponent, result, location, bowl games, and uniform elements.</p>
+        </a>
+
+        <a class="home-card" href="Football/season-overview.html?year=2024">
+            <h3>Football Seasons</h3>
+            <p>View season-by-season uniform overviews generated from the game database.</p>
+        </a>
+
+        <a class="home-card" href="Builder/index.html">
+            <h3>Uniform Builder</h3>
+            <p>Create custom WVU football uniform combinations.</p>
+        </a>
+
+        <a class="home-card" href="#">
+            <h3>Basketball</h3>
+            <p>Men’s and women’s basketball season uniform overviews.</p>
+        </a>
+
+        <a class="home-card" href="#">
+            <h3>Baseball</h3>
+            <p>Season-by-season baseball uniform archive.</p>
+        </a>
+
+        <a class="home-card" href="#">
+            <h3>Playing Surfaces</h3>
+            <p>Mountaineer Field, WVU Coliseum, and bowl game field designs.</p>
+        </a>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>Mountaineer Uniform Database</p>
+</footer>
+
+</body>
+</html>

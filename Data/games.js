@@ -4,6 +4,705 @@
 // ======================================
 
 const GAMES = [
+    {
+        season: 1964,
+    opponent: "Richmond",
+        date: "1964-9-19",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 20,
+        opponentScore: 10,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-Richmond.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "The Citadel",
+        date: "1964-9-26",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 7,
+        opponentScore: 3,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-thecitadel.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Rice",
+        date: "1964-10-03",
+        location: "home",
+        stadium: "Rice Stadium",
+    city: "Houston",
+    state: "Texas",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 0,
+        opponentScore: 24,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-Rice.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Pittsburgh",
+        date: "1964-10-10",
+        location: "home",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh",
+    state: "Pennsylvania",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 0,
+        opponentScore: 14,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-Pitt.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Virginia Tech",
+        date: "1964-10-17",
+        location: "home",
+        stadium: "Field",
+    city: "Blacksburg",
+    state: "Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 23,
+        opponentScore: 10,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-VirginiaTech.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Penn State",
+        date: "1964-10-24",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 8,
+        opponentScore: 37,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-PennState.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Kentucky",
+        date: "1964-10-31",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 24,
+        opponentScore: 14,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-Kentucky.png",
+        combination: "GoldBlueGold"
+    },
+     {
+        season: 1966,
+    opponent: "George Washington",
+        date: "1964-11-7",
+        location: "away",
+        stadium: "",
+    city: "Washington",
+    state: "District of Columbia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 20,
+        opponentScore: 19,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-GeorgeWashington.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "William & Mary",
+        date: "1964-11-14",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 24,
+        opponentScore: 14,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-William&Mary.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Syracuse",
+        date: "1964-11-21",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 28,
+        opponentScore: 27,
+wvuArtwork: "1964-GoldBlueGold.png",
+opponentArtwork: "1964-Syracuse.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1964,
+    opponent: "Utah",
+        date: "1964-12-19",
+        location: "neutral",
+        stadium: "Radio City Music Hall",
+    city: "Atlantic City",
+    state: "New Jersey",
+        gameType: "Bowl",
+event: "Liberty Bowl",
+        result: "l",
+        wvuScore: 6,
+        opponentScore: 32,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1964-Utah.png",
+        combination: "GoldBlueGold"
+    },
+     {
+        season: 1965,
+    opponent: "Richmond",
+        date: "1965-9-19",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 63,
+        opponentScore: 48,
+wvuArtwork: "1965-GoldBlueGold-2.png",
+opponentArtwork: "1965-William&Mary.png",
+        combination: "GoldBlueGold"
+    },
+     {
+        season: 1965,
+    opponent: "William & Mary",
+        date: "1965-9-25",
+        location: "away",
+        stadium: "Field",
+    city: "Williamsburg",
+    state: "Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 34,
+        opponentScore: 14,
+wvuArtwork: "1965-GoldGoldGold.png",
+opponentArtwork: "1965-William&Mary.png",
+        combination: "GoldGoldGold"
+    },
+    {
+        season: 1965,
+    opponent: "Pittsburgh",
+        date: "1965-10-2",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 63,
+        opponentScore: 48,
+wvuArtwork: "1965-GoldBlueGold-2.png",
+opponentArtwork: "1965-Pitt.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1965,
+    opponent: "The Citadel",
+        date: "1965-10-9",
+        location: "away",
+        stadium: "Field",
+    city: "Charleston",
+    state: "South Carolina",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 25,
+        opponentScore: 2,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1965-TheCitadel.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1965,
+    opponent: "Virginia",
+        date: "1965-10-16",
+        location: "neutral",
+        stadium: "Field",
+    city: "Richmond",
+    state: "Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 0,
+        opponentScore: 41,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1965-Virginia.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1965,
+    opponent: "Penn State",
+        date: "1965-10-23",
+        location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 6,
+        opponentScore: 44,
+wvuArtwork: "1965-GoldGoldGold.png",
+opponentArtwork: "1965-PennState.png",
+        combination: "GoldGoldGold"
+    },
+    {
+        season: 1965,
+    opponent: "Kentucky",
+        date: "1965-10-30",
+        location: "away",
+        stadium: "Field",
+    city: "Lexington",
+    state: "Kentucky",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 8,
+        opponentScore: 28,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1965-Kentucky.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1965,
+    opponent: "Virginia Tech",
+        date: "1965-11-6",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 31,
+        opponentScore: 22,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1965-VirginiaTech.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1965,
+    opponent: "Syracuse",
+        date: "1965-11-20",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 19,
+        opponentScore: 41,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1965-Syracuse.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1965,
+    opponent: "George Washington",
+        date: "1965-11-20",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 37,
+        opponentScore: 24,
+wvuArtwork: "1965-GoldBlueGold-1.png",
+opponentArtwork: "1965-GeorgeWashington.png",
+        combination: "GoldBlueGold"
+    },
+    {
+        season: 1966,
+    opponent: "Duke",
+        date: "1966-9-17",
+        location: "away",
+        stadium: " Field",
+    city: "Durham",
+    state: "North Carolina",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 15,
+        opponentScore: 34,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-Duke.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1966,
+    opponent: "William & Mary",
+        date: "1966-9-24",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 24,
+        opponentScore: 13,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-William&Mary.png",
+        combination: "WhiteBlueWhite"
+    },
+
+     {
+        season: 1966,
+    opponent: "Virginia Tech",
+        date: "1966-10-1",
+        location: "away",
+        stadium: "Field",
+    city: "Blacksburg",
+    state: "Virginia",
+        gameType: "Regular Season",
+
+        result: "t",
+        wvuScore: 13,
+        opponentScore: 13,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-VirginiaTech.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1966,
+    opponent: "Pittsburgh",
+        date: "1966-10-8",
+        location: "away",
+        stadium: "Pitt Stadium",
+    city: "Pittsburgh ",
+    state: "Pennsylvania",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 14,
+        opponentScore: 17,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-Pitt.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1966,
+    opponent: "Maryland",
+        date: "1966-10-22",
+        location: "away",
+        stadium: "Field",
+    city: "College Park",
+    state: "Maryland",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 9,
+        opponentScore: 28,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-Maryland.png",
+        combination: "WhiteBlueWhite"
+    },
+     {
+        season: 1966,
+    opponent: "Penn State",
+        date: "1966-10-22",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 6,
+        opponentScore: 38,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-PennState.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1966,
+    opponent: "Kentucky",
+        date: "1966-10-29",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "t",
+        wvuScore: 14,
+        opponentScore: 14,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-Kentucky.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1966,
+    opponent: "The Citadel",
+        date: "1966-11-5",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 35,
+        opponentScore: 0,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-TheCitadel.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1966,
+    opponent: "George Washington",
+        date: "1966-11-12",
+        location: "away",
+        stadium: "",
+    city: "Washington",
+    state: "District of Columbia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 21,
+        opponentScore: 6,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-GeorgeWashington.png",
+        combination: "WhiteBlueWhite"
+    },
+     {
+        season: 1966,
+    opponent: "Syracuse",
+        date: "1966-11-19",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 7,
+        opponentScore: 32,
+wvuArtwork: "1966-WhiteBlueWhite.png",
+opponentArtwork: "1966-Syracuse.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1967,
+    opponent: "Villanova",
+        date: "1967-9-9",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 40,
+        opponentScore: 0,
+wvuArtwork: "1967-WhiteBlueWhite.png",
+opponentArtwork: "1967-Villanova.png",
+        combination: "WhiteBlueWhite"
+    },
+     {
+        season: 1967,
+        opponent: "Richmond",
+        date: "1967-9-16",
+        location: "away",
+        stadium: "Stadium",
+    city: "Richmond",
+    state: "Virginia", 
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 27,
+        opponentScore: 6,
+wvuArtwork: "1967-WhiteGoldWhite.png",
+opponentArtwork: "1967-Richmond.png",
+        combination: "WhiteGoldWhite"
+    },
+    {
+        season: 1967,
+    opponent: "VMI",
+        date: "1967-9-23",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 21,
+        opponentScore: 9,
+wvuArtwork: "1967-WhiteBlueWhite.png",
+opponentArtwork: "1967-VMI.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1967,
+        opponent: "Syracuse",
+        date: "1967-9-30",
+        location: "away",
+        stadium: "Stadium",
+    city: "Syracuse",
+    state: "New York",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 6,
+        opponentScore: 23,
+wvuArtwork: "1967-WhiteGoldWhite.png",
+opponentArtwork: "1967-Syracuse.png",
+        combination: "WhiteGoldWhite"
+    },
+    {
+        season: 1967,
+    opponent: "Pittsburgh",
+        date: "1967-10-7",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 15,
+        opponentScore: 0,
+wvuArtwork: "1967-WhiteBlueWhite.png",
+opponentArtwork: "1967-Pitt.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1967,
+        opponent: "Penn State",
+        date: "1967-10-21",
+        location: "away",
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 14,
+        opponentScore: 21,
+wvuArtwork: "1967-WhiteGoldWhite.png",
+opponentArtwork: "1967-PennState.png",
+        combination: "WhiteGoldWhite"
+    },
+    {
+        season: 1967,
+    opponent: "Virginia Tech",
+        date: "1967-10-28",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 7,
+        opponentScore: 20,
+wvuArtwork: "1967-WhiteBlueWhite.png",
+opponentArtwork: "1967-VirginiaTech.png",
+        combination: "WhiteBlueWhite"
+    },
+    {
+        season: 1967,
+        opponent: "Kentucky",
+        date: "1967-11-4",
+        location: "away",
+        stadium: "Field",
+    city: "Lexington",
+    state: "Kentucky",
+        gameType: "Regular Season",
+
+        result: "l",
+        wvuScore: 7,
+        opponentScore: 22,
+wvuArtwork: "1967-WhiteGoldWhite.png",
+opponentArtwork: "1967-Kentucky.png",
+        combination: "WhiteGoldWhite"
+    },
+    {
+        season: 1967,
+        opponent: "William & Mary",
+        date: "1967-11-11",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "t",
+        wvuScore: 16,
+        opponentScore: 16,
+wvuArtwork: "1967-WhiteBlueWhite.png",
+opponentArtwork: "1967-WilliamMary.png",
+        combination: "WhiteBlueWhite"
+    },
+{
+        season: 1967,
+        opponent: "Davidson",
+        date: "1967-11-18",
+        location: "home",
+        stadium: "(Old) Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
+
+        result: "w",
+        wvuScore: 35,
+        opponentScore: 0,
+wvuArtwork: "1967-WhiteBlueWhite.png",
+opponentArtwork: "1967-Davidson.png",
+        combination: "WhiteBlueWhite"
+    },
+
          {
         season: 1968,
         opponent: "Richmond",
@@ -17,7 +716,8 @@ const GAMES = [
         result: "w",
         wvuScore: 17,
         opponentScore: 0,
-
+wvuArtwork: "1968-WhiteBlueWhite.png",
+opponentArtwork: "1968-Richmond.png",
         combination: "WhiteBlueWhite"
     },
          {
@@ -33,7 +733,8 @@ const GAMES = [
         result: "w",
         wvuScore: 38,
         opponentScore: 15,
-
+        wvuArtwork: "1968-WhiteGoldWhite.png",
+        opponentArtwork: "1968-Pitt.png",
         combination: "WhiteGoldWhite"
     },
      {
@@ -49,7 +750,8 @@ const GAMES = [
         result: "l",
         wvuScore: 20,
         opponentScore: 31,
-
+        wvuArtwork: "1968-WhiteBlueWhite.png",
+        opponentArtwork: "1968-PennState.png",
         combination: "WhiteBlueWhite"
     },
          {
@@ -62,7 +764,8 @@ const GAMES = [
         result: "w",
         wvuScore: 14,
         opponentScore: 7,
-
+        wvuArtwork: "1968-WhiteGoldWhite.png",
+        opponentArtwork: "1968-VMI.png",
         combination: "WhiteGoldWhite"
     },
      {
@@ -75,7 +778,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 0,
-
+        wvuArtwork: "1968-WhiteBlueWhite.png",
+        opponentArtwork: "1968-WilliamMary.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -91,7 +795,8 @@ const GAMES = [
         result: "l",
         wvuScore: 12,
         opponentScore: 27,
-
+        wvuArtwork: "1968-WhiteGoldWhite.png",
+        opponentArtwork: "1968-VirginiaTech.png",
         combination: "WhiteGoldWhite"
     },
      {
@@ -107,7 +812,8 @@ const GAMES = [
         result: "l",
         wvuScore: 16,
         opponentScore: 35,
-
+        wvuArtwork: "1968-WhiteBlueWhite.png",
+        opponentArtwork: "1968-Kentucky.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -120,7 +826,8 @@ const GAMES = [
         result: "w",
         wvuScore: 17,
         opponentScore: 0,
-
+        wvuArtwork: "1968-WhiteGoldWhite.png",
+        opponentArtwork: "1968-TheCitadel.png",
         combination: "WhiteGoldWhite"
     },
     {
@@ -136,7 +843,8 @@ const GAMES = [
         result: "w",
         wvuScore: 30,
         opponentScore: 20,
-
+        wvuArtwork: "1968-WhiteBlueWhite.png",
+        opponentArtwork: "1968-Villanova.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -152,7 +860,8 @@ const GAMES = [
         result: "w",
         wvuScore: 23,
         opponentScore: 6,
-
+        wvuArtwork: "1968-WhiteBlueWhite.png",
+        opponentArtwork: "1968-Syracuse.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -168,7 +877,8 @@ const GAMES = [
         result: "w",
         wvuScore: 57,
         opponentScore: 11,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-Cincinnati.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -184,7 +894,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 7,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-Maryland.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -197,7 +908,8 @@ const GAMES = [
         result: "w",
         wvuScore: 35,
         opponentScore: 17,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-Tulane.png",
         combination: "WhiteBlueWhite"
     },  
         {
@@ -213,7 +925,8 @@ const GAMES = [
         result: "w",
         wvuScore: 32,
         opponentScore: 0,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-VMI.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -229,7 +942,8 @@ const GAMES = [
         result: "l",
         wvuScore: 0,
         opponentScore: 20,
-
+        wvuArtwork: "1969-WhiteGoldWhite.png",
+        opponentArtwork: "1969-PennState.png",
         combination: "WhiteGoldWhite"
     },  
         {
@@ -245,7 +959,8 @@ const GAMES = [
         result: "w",
         wvuScore: 49,
         opponentScore: 18,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-Pitt.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -258,7 +973,8 @@ const GAMES = [
         result: "w",
         wvuScore: 7,
         opponentScore: 6,
-
+        wvuArtwork: "1969-WhiteGoldWhite.png",
+        opponentArtwork: "1969-Kentucky.png",
         combination: "WhiteGoldWhite"
     },  
     {
@@ -271,7 +987,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 0,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-William&Mary.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -287,7 +1004,8 @@ const GAMES = [
         result: "w",
         wvuScore: 33,
         opponentScore: 21,
-
+        wvuArtwork: "1969-WhiteBlueWhite.png",
+        opponentArtwork: "1969-Richmond.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -300,7 +1018,8 @@ const GAMES = [
         result: "w",
         wvuScore: 13,
         opponentScore: 10,
-
+        wvuArtwork: "1969-WhiteGoldWhite.png",
+        opponentArtwork: "1969-Syracuse.png",
         combination: "WhiteGoldWhite"
     },
      {
@@ -309,11 +1028,15 @@ const GAMES = [
         date: "1969-12-30",
         location: "neutral",
         gameType: "Bowl",
-
+        stadium: "Grant Field",
+    city: "Atlanta",
+    state: "Georgia",
+event: "Peach Bowl",
         result: "w",
         wvuScore: 14,
         opponentScore: 3,
-
+        wvuArtwork: "1969-WhiteGoldWhite.png",
+        opponentArtwork: "1969-SouthCarolina.png",
         combination: "WhiteGoldWhite"
     },
      {
@@ -329,7 +1052,8 @@ const GAMES = [
         result: "w",
         wvuScore: 43,
         opponentScore: 7,
-
+        wvuArtwork: "1970-WhiteBlueWhite.png",
+        opponentArtwork: "1970-William&Mary.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -345,7 +1069,8 @@ const GAMES = [
         result: "w",
         wvuScore: 49,
         opponentScore: 10,
-
+        wvuArtwork: "1970-WhiteBlueWhite.png",
+        opponentArtwork: "1970-Richmond.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -361,7 +1086,8 @@ const GAMES = [
         result: "w",
         wvuScore: 47,
         opponentScore: 10,
-
+        wvuArtwork: "1970-WhiteBlueWhite.png",
+        opponentArtwork: "1970-VMI.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -374,7 +1100,8 @@ const GAMES = [
         result: "w",
         wvuScore: 16,
         opponentScore: 10,
-
+        wvuArtwork: "1970-WhiteWhiteWhite.png",
+        opponentArtwork: "1970-Indiana.png",
         combination: "WhiteWhiteWhite"
     },
     {
@@ -390,7 +1117,8 @@ const GAMES = [
         result: "l",
         wvuScore: 13,
         opponentScore: 21,
-
+        wvuArtwork: "1970-WhiteBlueWhite.png",
+        opponentArtwork: "1970-Duke.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -406,7 +1134,8 @@ const GAMES = [
         result: "l",
         wvuScore: 35,
         opponentScore: 36,
-
+        wvuArtwork: "1970-WhiteWhiteWhite.png",
+        opponentArtwork: "1970-Pitt.png",
         combination: "WhiteWhiteWhite"
     },
     {
@@ -422,7 +1151,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+        wvuArtwork: "1970-WhiteBlueWhite.png",
+        opponentArtwork: "1970-ColoradoState.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -438,7 +1168,8 @@ const GAMES = [
         result: "l",
         wvuScore: 8,
         opponentScore: 42,
-
+        wvuArtwork: "1970-WhiteWhiteWhite.png",
+        opponentArtwork: "1970-PennState.png",
         combination: "WhiteWhiteWhite"
     },
     {
@@ -454,7 +1185,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 14,
-
+        wvuArtwork: "1970-WhiteWhiteWhite.png",
+        opponentArtwork: "1970-EastCarolina.png",
         combination: "WhiteWhiteWhite"
     },
      {
@@ -470,7 +1202,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 19,
-
+        wvuArtwork: "1970-WhiteBlueWhite.png",
+        opponentArtwork: "1970-Syracuse.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -486,7 +1219,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 10,
-
+        wvuArtwork: "1970-WhiteWhiteWhite.png",
+        opponentArtwork: "1970-Maryland.png",
         combination: "WhiteWhiteWhite"
     },
      {
@@ -502,12 +1236,13 @@ const GAMES = [
         result: "w",
         wvuScore: 45,
         opponentScore: 14,
-
+        wvuArtwork: "1971-WhiteBlueWhite.png",
+        opponentArtwork: "1971-BostonCollege.png",
         combination: "WhiteBlueWhite"
     },
         {
         season: 1971,
-        opponent: "Califnoria",
+        opponent: "California",
         date: "1971-9-18",
         location: "away",
         gameType: "Regular Season",
@@ -515,7 +1250,8 @@ const GAMES = [
         result: "l",
         wvuScore: 10,
         opponentScore: 20,
-
+        wvuArtwork: "1971-WhiteWhiteWhite.png",
+        opponentArtwork: "1971-California.png",
         combination: "WhiteWhiteWhite"
     },
      {
@@ -531,7 +1267,8 @@ const GAMES = [
         result: "w",
         wvuScore: 16,
         opponentScore: 3,
-
+        wvuArtwork: "1971-WhiteWhiteWhite.png",
+        opponentArtwork: "1971-Richmond.png",
         combination: "WhiteWhiteWhite"
     },
         {
@@ -547,7 +1284,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 9,
-
+        wvuArtwork: "1971-WhiteBlueWhite.png",
+        opponentArtwork: "1971-Pitt.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -560,7 +1298,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 23,
-
+        wvuArtwork: "1971-WhiteWhiteWhite.png",
+        opponentArtwork: "1971-WilliamAndMary.png",
         combination: "WhiteWhiteWhite"
     },
         {
@@ -576,7 +1315,8 @@ const GAMES = [
         result: "w",
         wvuScore: 44,
         opponentScore: 21,
-
+        wvuArtwork: "1971-WhiteBlueWhite.png",
+        opponentArtwork: "1971-EastCarolina.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -592,7 +1332,8 @@ const GAMES = [
         result: "w",
         wvuScore: 43,
         opponentScore: 33,
-
+        wvuArtwork: "1971-WhiteBlueWhite.png",
+        opponentArtwork: "1971-Temple.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -608,7 +1349,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 35,
-
+        wvuArtwork: "1971-WhiteBlueWhite.png",
+        opponentArtwork: "1971-PennState.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -621,7 +1363,8 @@ const GAMES = [
         result: "l",
         wvuScore: 15,
         opponentScore: 31,
-
+        wvuArtwork: "1971-WhiteWhiteWhite.png",
+        opponentArtwork: "1971-Duke.png",
         combination: "WhiteWhiteWhite"
     },
     {
@@ -634,7 +1377,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 3,
-
+        wvuArtwork: "1971-WhiteBlueWhite.png",
+        opponentArtwork: "1971-VMI.png",
         combination: "WhiteBlueWhite"
     },
       {
@@ -647,7 +1391,8 @@ const GAMES = [
         result: "l",
         wvuScore: 24,
         opponentScore: 28,
-
+        wvuArtwork: "1971-WhiteWhiteWhite.png",
+        opponentArtwork: "1971-Syracuse.png",
         combination: "WhiteWhiteWhite"
     },
       {
@@ -663,7 +1408,8 @@ const GAMES = [
         result: "w",
         wvuScore: 25,
         opponentScore: 6,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-Villanova.png",
         combination: "WhiteBlueWhite"
     },
        {
@@ -679,7 +1425,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 7,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-Richmond.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -692,7 +1439,8 @@ const GAMES = [
         result: "w",
         wvuScore: 48,
         opponentScore: 10,
-
+        wvuArtwork: "1972-WhiteWhiteWhite.png",
+        opponentArtwork: "1972-Virginia.png",
         combination: "WhiteWhiteWhite"
     },
     {
@@ -705,7 +1453,8 @@ const GAMES = [
         result: "l",
         wvuScore: 35,
         opponentScore: 41,
-
+        wvuArtwork: "1972-WhiteWhiteWhite.png",
+        opponentArtwork: "1972-Stanford.png",
         combination: "WhiteWhiteWhite"
     },
       {
@@ -721,7 +1470,8 @@ const GAMES = [
         result: "w",
         wvuScore: 49,
         opponentScore: 34,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-William&Mary.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -737,7 +1487,8 @@ const GAMES = [
         result: "l",
         wvuScore: 36,
         opponentScore: 39,
-
+        wvuArtwork: "1972-WhiteWhiteWhite.png",
+        opponentArtwork: "1972-Temple.png",
         combination: "WhiteWhiteWhite"
     },
     {
@@ -753,7 +1504,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 19,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-Tulane.png",
         combination: "WhiteBlueWhite"
     },
        {
@@ -769,7 +1521,8 @@ const GAMES = [
         result: "l",
         wvuScore: 19,
         opponentScore: 28,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-PennState.png",
         combination: "WhiteBlueWhite"
     },
      {
@@ -785,7 +1538,8 @@ const GAMES = [
         result: "w",
         wvuScore: 38,
         opponentScore: 20,
-
+        wvuArtwork: "1972-WhiteWhiteWhite.png",
+        opponentArtwork: "1972-Pitt.png",
         combination: "WhiteWhiteWhite"
     },
      {
@@ -801,7 +1555,8 @@ const GAMES = [
         result: "w",
         wvuScore: 50,
         opponentScore: 24,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-VMI.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -817,7 +1572,8 @@ const GAMES = [
         result: "w",
         wvuScore: 43,
         opponentScore: 12,
-
+        wvuArtwork: "1972-WhiteBlueWhite.png",
+        opponentArtwork: "1972-Syracuse.png",
         combination: "WhiteBlueWhite"
     },
         {
@@ -826,11 +1582,15 @@ const GAMES = [
         date: "1972-12-29",
         location: "neutral",
         gameType: "Bowl",
-
+          stadium: "Fulton County Stadium",
+    city: "Atlanta",
+    state: "Georgia",
+    event: "Peach Bowl",
         result: "l",
         wvuScore: 13,
         opponentScore: 49,
-
+        wvuArtwork: "1972-WhiteWhiteWhite.png",
+        opponentArtwork: "1972-NCState.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -847,7 +1607,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 13,
-
+        wvuArtwork: "1973-GoldWhiteGold.png",
+        opponentArtwork: "1973-Maryland.png",
         combination: "GoldWhiteGold"
     },
       {
@@ -863,7 +1624,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 10,
-
+        wvuArtwork: "1973-GoldBlueGold.png",
+        opponentArtwork: "1973-VirginiaTech.png",
         combination: "GoldBlueGold"
     },
       {
@@ -876,7 +1638,8 @@ const GAMES = [
         result: "w",
         wvuScore: 17,
         opponentScore: 10,
-
+        wvuArtwork: "1973-GoldWhiteGold.png",
+        opponentArtwork: "1973-Illinois.png",
         combination: "GoldWhiteGold"
     },
     {
@@ -892,7 +1655,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 28,
-
+        wvuArtwork: "1973-GoldBlueGold.png",
+        opponentArtwork: "1973-Indiana.png",
         combination: "GoldBlueGold"
     },
        {
@@ -905,7 +1669,8 @@ const GAMES = [
         result: "l",
         wvuScore: 17,
         opponentScore: 38,
-
+        wvuArtwork: "1973-GoldWhiteGold.png",
+        opponentArtwork: "1973-Richmond.png",
         combination: "GoldWhiteGold"
     },
        {
@@ -921,7 +1686,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 62,
-
+        wvuArtwork: "1973-GoldWhiteGold.png",
+        opponentArtwork: "1973-PennState.png",
         combination: "GoldWhiteGold"
     },
        {
@@ -934,7 +1700,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 14,
-
+        wvuArtwork: "1973-GoldWhiteGold.png",
+        opponentArtwork: "1973-Miami.png",
         combination: "GoldWhiteGold"
     },
       {
@@ -950,7 +1717,8 @@ const GAMES = [
         result: "l",
         wvuScore: 13,
         opponentScore: 25,
-
+        wvuArtwork: "1973-GoldBlueGold.png",
+        opponentArtwork: "1973-BostonCollege.png",
         combination: "GoldBlueGold"
     },
          {
@@ -966,7 +1734,8 @@ const GAMES = [
         result: "w",
         wvuScore: 42,
         opponentScore: 17,
-
+        wvuArtwork: "1973-GoldBlueGold.png",
+        opponentArtwork: "1973-Virginia.png",
         combination: "GoldBlueGold"
     },
      {
@@ -979,7 +1748,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 14,
-
+        wvuArtwork: "1973-GoldWhiteGold.png",
+        opponentArtwork: "1973-Syracuse.png",
         combination: "GoldWhiteGold"
     },
       {
@@ -995,7 +1765,8 @@ const GAMES = [
         result: "l",
         wvuScore: 25,
         opponentScore: 29,
-
+        wvuArtwork: "1974-GoldBlueGold.png",
+        opponentArtwork: "1974-Richmond.png",
         combination: "GoldBlueGold"
     },
    {
@@ -1011,7 +1782,8 @@ const GAMES = [
         result: "w",
         wvuScore: 16,
         opponentScore: 3,
-
+        wvuArtwork: "1974-GoldBlueGold.png",
+        opponentArtwork: "1974-Kentucky.png",
         combination: "GoldBlueGold"
     },
             {
@@ -1024,7 +1796,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 17,
-
+        wvuArtwork: "1974-GoldWhiteGold.png",
+        opponentArtwork: "1974-Tulane.png",
         combination: "GoldWhiteGold"
     },
             {
@@ -1037,7 +1810,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 0,
-
+        wvuArtwork: "1974-GoldWhiteGold.png",
+        opponentArtwork: "1974-Indiana.png",
         combination: "GoldWhiteGold"
     },
             {
@@ -1053,7 +1827,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 31,
-
+        wvuArtwork: "1974-GoldWhiteGold.png",
+        opponentArtwork: "1974-Pitt.png",
         combination: "GoldWhiteGold"
     },
              {
@@ -1069,7 +1844,8 @@ const GAMES = [
         result: "l",
         wvuScore: 20,
         opponentScore: 21,
-
+        wvuArtwork: "1974-GoldBlueGold.png",
+        opponentArtwork: "1974-Miami.png",
         combination: "GoldBlueGold"
     },
               {
@@ -1085,7 +1861,8 @@ const GAMES = [
         result: "l",
         wvuScore: 12,
         opponentScore: 21,
-
+        wvuArtwork: "1974-GoldBlueGold.png",
+        opponentArtwork: "1974-PennState.png",
         combination: "GoldBlueGold"
     },
          {
@@ -1101,7 +1878,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 35,
-
+        wvuArtwork: "1974-GoldWhiteGold.png",
+        opponentArtwork: "1974-BostonCollege.png",
         combination: "GoldWhiteGold"
     },
           {
@@ -1117,7 +1895,8 @@ const GAMES = [
         result: "w",
         wvuScore: 39,
         opponentScore: 11,
-
+        wvuArtwork: "1974-GoldBlueGold.png",
+        opponentArtwork: "1974-Syracuse.png",
         combination: "GoldBlueGold"
     },
               {
@@ -1133,7 +1912,8 @@ const GAMES = [
         result: "l",
         wvuScore: 21,
         opponentScore: 35,
-
+        wvuArtwork: "1974-GoldBlueGold.png",
+        opponentArtwork: "1974-Temple.png",
         combination: "GoldBlueGold"
     },
      {
@@ -1149,7 +1929,8 @@ const GAMES = [
         result: "w",
         wvuScore: 22,
         opponentScore: 21,
-
+        wvuArtwork: "1974-GoldWhiteGold.png",
+        opponentArtwork: "1974-VirginiaTech.png",
         combination: "GoldWhiteGold"
     },
           {
@@ -1165,7 +1946,8 @@ const GAMES = [
         result: "w",
         wvuScore: 50,
         opponentScore: 7,
-
+        wvuArtwork: "1975-GoldWhiteGold.png",
+        opponentArtwork: "1975-Temple.png",
         combination: "GoldWhiteGold"
     },
      {
@@ -1178,7 +1960,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 10,
-
+        wvuArtwork: "1975-GoldBlueGold.png",
+        opponentArtwork: "1975-California.png",
         combination: "GoldWhiteGold"
     },
          {
@@ -1194,7 +1977,8 @@ const GAMES = [
         result: "w",
         wvuScore: 35,
         opponentScore: 18,
-
+        wvuArtwork: "1975-GoldBlueGold.png",
+        opponentArtwork: "1975-BostonCollege.png",
         combination: "GoldBlueGold"
     },
      {
@@ -1207,7 +1991,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 22,
-
+        wvuArtwork: "1975-GoldWhiteGold.png",
+        opponentArtwork: "1975-SMU.png",
         combination: "GoldWhiteGold"
     },
          {
@@ -1223,7 +2008,8 @@ const GAMES = [
         result: "l",
         wvuScore: 0,
         opponentScore: 39,
-
+        wvuArtwork: "1975-GoldWhiteGold.png",
+        opponentArtwork: "1975-PennState.png",
         combination: "GoldWhiteGold"
     },
      {
@@ -1239,7 +2025,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 16,
-
+        wvuArtwork: "1975-GoldBlueGold.png",
+        opponentArtwork: "1975-Tulane.png",
         combination: "GoldBlueGold"
     },
           {
@@ -1255,7 +2042,8 @@ const GAMES = [
         result: "w",
         wvuScore: 10,
         opponentScore: 7,
-
+        wvuArtwork: "1975-GoldBlueGold.png",
+        opponentArtwork: "1975-VirginiaTech.png",
         combination: "GoldBlueGold"
     },
        {
@@ -1271,7 +2059,8 @@ const GAMES = [
         result: "w",
         wvuScore: 38,
         opponentScore: 13,
-
+        wvuArtwork: "1975-GoldBlueGold.png",
+        opponentArtwork: "1975-KentState.png",
         combination: "GoldBlueGold"
     },
              {
@@ -1287,7 +2076,8 @@ const GAMES = [
         result: "w",
         wvuScore: 17,
         opponentScore: 14,
-
+        wvuArtwork: "1975-GoldBlueGold.png",
+        opponentArtwork: "1975-Pitt.png",
         combination: "GoldBlueGold"
     },
        {
@@ -1300,7 +2090,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 13,
-
+        wvuArtwork: "1975-GoldWhiteGold.png",
+        opponentArtwork: "1975-Richmond.png",
         combination: "GoldWhiteGold"
     },
              {
@@ -1313,7 +2104,8 @@ const GAMES = [
         result: "l",
         wvuScore: 19,
         opponentScore: 20,
-
+        wvuArtwork: "1975-GoldWhiteGold.png",
+        opponentArtwork: "1975-Syracuse.png",
         combination: "GoldWhiteGold"
     },
     {
@@ -1322,11 +2114,15 @@ const GAMES = [
         date: "1975-12-31",
         location: "neutral",
         gameType: "Bowl",
-
+     stadium: "Fulton County Stadium",
+    city: "Atlanta",
+    state: "Georgia",
+event: "Peach Bowl",
         result: "w",
         wvuScore: 13,
         opponentScore: 10,
-
+        wvuArtwork: "1975-PeachBowl.png",
+        opponentArtwork: "1975-NCState.png",
         combination: "GoldWhiteGold"
     },
         {
@@ -1342,7 +2138,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 7,
-
+        wvuArtwork: "1976-GoldBlueGold.png",
+        opponentArtwork: "1976-Villanova.png",
         combination: "GoldBlueGold"
     },
      {
@@ -1358,7 +2155,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 24,
-
+        wvuArtwork: "1976-GoldBlueGold.png",
+        opponentArtwork: "1976-Maryland.png",
         combination: "GoldBlueGold"
     },
          {
@@ -1371,7 +2169,8 @@ const GAMES = [
         result: "l",
         wvuScore: 10,
         opponentScore: 14,
-
+        wvuArtwork: "1976-GoldWhiteGold.png",
+        opponentArtwork: "1976-Kentucky.png",
         combination: "GoldWhiteGold"
     },
  {
@@ -1387,7 +2186,8 @@ const GAMES = [
         result: "w",
         wvuScore: 9,
         opponentScore: 6,
-
+        wvuArtwork: "1976-GoldBlueGold.png",
+        opponentArtwork: "1976-Richmond.png",
         combination: "GoldBlueGold"
     },
          {
@@ -1400,7 +2200,8 @@ const GAMES = [
         result: "w",
         wvuScore: 42,
         opponentScore: 0,
-
+        wvuArtwork: "1976-GoldWhiteGold.png",
+        opponentArtwork: "1976-Temple.png",
         combination: "GoldWhiteGold"
     },
      {
@@ -1416,7 +2217,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 14,
-
+        wvuArtwork: "1976-GoldWhiteGold.png",
+        opponentArtwork: "1976-BostonCollege.png",
         combination: "GoldWhiteGold"
     },
          {
@@ -1432,7 +2234,8 @@ const GAMES = [
         result: "l",
         wvuScore: 0,
         opponentScore: 33,
-
+        wvuArtwork: "1976-GoldBlueGold.png",
+        opponentArtwork: "1976-PennState.png",
         combination: "GoldBlueGold"
     },
       {
@@ -1448,7 +2251,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 24,
-
+        wvuArtwork: "1976-GoldWhiteGold.png",
+        opponentArtwork: "1976-VirginiaTech.png",
         combination: "GoldWhiteGold"
     },
   {
@@ -1461,7 +2265,8 @@ const GAMES = [
         result: "w",
         wvuScore: 32,
         opponentScore: 28,
-
+        wvuArtwork: "1976-GoldWhiteGold.png",
+        opponentArtwork: "1976-Tulane.png",
         combination: "GoldWhiteGold"
     },
         {
@@ -1477,7 +2282,8 @@ const GAMES = [
         result: "l",
         wvuScore: 16,
         opponentScore: 24,
-
+        wvuArtwork: "1976-GoldWhiteGold.png", 
+        opponentArtwork: "1976-Pitt.png", 
         combination: "GoldWhiteGold"
     },
      {
@@ -1493,7 +2299,8 @@ const GAMES = [
         result: "w",
         wvuScore: 34,
         opponentScore: 28,
-
+        wvuArtwork: "1976-GoldBlueGold.png",
+        opponentArtwork: "1976-Syracuse.png",
         combination: "GoldBlueGold"
     },
        {
@@ -1509,7 +2316,8 @@ const GAMES = [
         result: "w",
         wvuScore: 36,
         opponentScore: 0,
-
+        wvuArtwork: "1977-GoldBlueGold.png",
+        opponentArtwork: "1977-Richmond.png",
         combination: "GoldBlueGold"
     },
      {
@@ -1525,6 +2333,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 16,
+        wvuArtwork: "1977-GoldWhiteGold.png",
+        opponentArtwork: "1977-Maryland.png",
 
         combination: "GoldWhiteGold"
     },
@@ -1538,7 +2348,8 @@ const GAMES = [
         result: "l",
         wvuScore: 13,
         opponentScore: 28,
-
+        wvuArtwork: "1977-GoldWhiteGold.png",
+        opponentArtwork: "1977-Kentucky.png",
         combination: "GoldWhiteGold"
     },
      {
@@ -1551,7 +2362,8 @@ const GAMES = [
         result: "w",
         wvuScore: 13,
         opponentScore: 0,
-
+        wvuArtwork: "1977-GoldWhiteGold.png",
+        opponentArtwork: "1977-Virginia.png",
         combination: "GoldWhiteGold"
     },
      {
@@ -1567,7 +2379,8 @@ const GAMES = [
         result: "w",
         wvuScore: 38,
         opponentScore: 16,
-
+        wvuArtwork: "1977-GoldBlueGold.png",
+        opponentArtwork: "1977-Temple.png",
         combination: "GoldBlueGold"
     },
  {
@@ -1583,7 +2396,8 @@ const GAMES = [
         result: "l",
         wvuScore: 24,
         opponentScore: 28,
-
+        wvuArtwork: "1977-GoldBlueGold.png",
+        opponentArtwork: "1977-BostonCollege.png",
         combination: "GoldBlueGold"
     },
  {
@@ -1599,7 +2413,8 @@ const GAMES = [
         result: "l",
         wvuScore: 28,
         opponentScore: 49,
-
+        wvuArtwork: "1977-GoldWhiteGold.png",
+        opponentArtwork: "1977-PennState.png",
         combination: "GoldWhiteGold"
     },
 
@@ -1616,7 +2431,8 @@ const GAMES = [
         result: "l",
         wvuScore: 36,
         opponentScore: 41,
-
+        wvuArtwork: "1977-GoldBlueGold.png",
+        opponentArtwork: "1977-Villanova.png",
         combination: "GoldBlueGold"
     },
      {
@@ -1632,7 +2448,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 44,
-
+        wvuArtwork: "1977-GoldBlueGold.png",
+        opponentArtwork: "1977-Pitt.png",
         combination: "GoldBlueGold"
     },
           {
@@ -1648,7 +2465,8 @@ const GAMES = [
         result: "w",
         wvuScore: 14,
         opponentScore: 12,
-
+        wvuArtwork: "1977-GoldBlueGold.png",
+        opponentArtwork: "1977-VirginiaTech.png",
         combination: "GoldBlueGold"
     },
  {
@@ -1661,7 +2479,8 @@ const GAMES = [
         result: "l",
         wvuScore: 9,
         opponentScore: 28,
-
+        wvuArtwork: "1977-GoldWhiteGold.png",
+        opponentArtwork: "1977-Syracuse.png",
         combination: "GoldWhiteGold"
     },
       {
@@ -1677,7 +2496,8 @@ const GAMES = [
         result: "w",
         wvuScore: 14,
         opponentScore: 12,
-
+        wvuArtwork: "1978-GoldBlueGold.png",
+        opponentArtwork: "1978-Richmond.png",
         combination: "GoldBlueGold"
     },
               {
@@ -1690,7 +2510,8 @@ const GAMES = [
         result: "l",
         wvuScore: 10,
         opponentScore: 52,
-
+        wvuArtwork: "1978-GoldWhiteGold.png",
+        opponentArtwork: "1978-Oklahoma.png",
         combination: "GoldWhiteGold"
     },
           {
@@ -1703,7 +2524,8 @@ const GAMES = [
         result: "l",
         wvuScore: 15,
         opponentScore: 29,
-
+        wvuArtwork: "1978-GoldWhiteGold.png",
+        opponentArtwork: "1978-NorthCarolinaState.png",
         combination: "GoldWhiteGold"
     },
    {
@@ -1719,7 +2541,8 @@ const GAMES = [
         result: "l",
         wvuScore: 21,
         opponentScore: 28,
-
+        wvuArtwork: "1978-GoldBlueGold.png",
+        opponentArtwork: "1978-California.png",
         combination: "GoldBlueGold"
     },
       {
@@ -1735,7 +2558,8 @@ const GAMES = [
         result: "l",
         wvuScore: 15,
         opponentScore: 31,
-
+        wvuArtwork: "1978-GoldBlueGold.png",
+        opponentArtwork: "1978-Syracuse.png",
         combination: "GoldBlueGold"
     },
           {
@@ -1751,7 +2575,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 16,
-
+        wvuArtwork: "1978-GoldWhiteGold.png",
+        opponentArtwork: "1978-VirginiaTech.png",
         combination: "GoldWhiteGold"
     },
           {
@@ -1764,7 +2589,8 @@ const GAMES = [
         result: "l",
         wvuScore: 27,
         opponentScore: 28,
-
+        wvuArtwork: "1978-GoldWhiteGold.png",
+        opponentArtwork: "1978-Temple.png",
         combination: "GoldWhiteGold"
     },
         {
@@ -1780,7 +2606,8 @@ const GAMES = [
         result: "l",
         wvuScore: 21,
         opponentScore: 49,
-
+        wvuArtwork: "1978-GoldBlueGold.png",
+        opponentArtwork: "1978-PennState.png",
         combination: "GoldBlueGold"
     },
      {
@@ -1796,7 +2623,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 17,
-
+        wvuArtwork: "1978-GoldBlueGold.png",
+        opponentArtwork: "1978-Virginia.png",
         combination: "GoldBlueGold"
     },
       {
@@ -1812,7 +2640,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 52,
-
+        wvuArtwork: "1978-GoldWhiteGold.png",
+        opponentArtwork: "1978-Pittsburgh.png",
         combination: "GoldWhiteGold"
     },
           {
@@ -1825,7 +2654,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 50,
-
+        wvuArtwork: "1978-GoldWhiteGold.png",
+        opponentArtwork: "1978-ColoradoState.png",
         combination: "GoldWhiteGold"
     },
       {
@@ -1841,7 +2671,8 @@ const GAMES = [
         result: "l",
         wvuScore: 16,
         opponentScore: 38,
-
+        wvuArtwork: "1979-WhiteBlueWhite.png",
+        opponentArtwork: "1979-Temple.png",
         combination: "WhiteBlueWhite"
     },
         {
@@ -1854,7 +2685,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 24,
-
+        wvuArtwork: "1979-WhiteWhiteWhite.png",
+        opponentArtwork: "1979-Syracuse.png",
         combination: "WhiteWhiteWhite"
     },
           {
@@ -1870,7 +2702,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 38,
-
+        wvuArtwork: "1979-WhiteBlueWhite.png",
+        opponentArtwork: "1979-NorthCarolinaState.png",
         combination: "WhiteBlueWhite"
     },
         {
@@ -1883,7 +2716,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 18,
-
+        wvuArtwork: "1979-WhiteWhiteWhite.png",
+        opponentArtwork: "1979-Richmond.png",
         combination: "WhiteWhiteWhite"
     },
       {
@@ -1899,7 +2733,8 @@ const GAMES = [
         result: "w",
         wvuScore: 10,
         opponentScore: 6,
-
+        wvuArtwork: "1979-WhiteBlueWhite.png",
+        opponentArtwork: "1979-Kentucky.png",
         combination: "WhiteBlueWhite"
     },
         {
@@ -1915,7 +2750,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 18,
-
+        wvuArtwork: "1979-WhiteWhiteWhite.png",
+        opponentArtwork: "1979-BostonCollege.png",
         combination: "WhiteWhiteWhite"
     },
        {
@@ -1931,7 +2767,8 @@ const GAMES = [
         result: "w",
         wvuScore: 27,
         opponentScore: 17,
-
+        wvuArtwork: "1979-WhiteBlueWhite.png",
+        opponentArtwork: "1979-Tulane.png",
         combination: "WhiteBlueWhite"
     },
         {
@@ -1947,7 +2784,8 @@ const GAMES = [
         result: "l",
         wvuScore: 6,
         opponentScore: 31,
-
+        wvuArtwork: "1979-WhiteWhiteWhite.png",
+        opponentArtwork: "1979-PennState.png",
         combination: "WhiteWhiteWhite"
     },
             {
@@ -1963,7 +2801,8 @@ const GAMES = [
         result: "w",
         wvuScore: 34,
         opponentScore: 23,
-
+        wvuArtwork: "1979-WhiteBlueWhite.png",
+        opponentArtwork: "1979-VirginiaTech.png",
         combination: "WhiteBlueWhite"
     },
         {
@@ -1979,7 +2818,8 @@ const GAMES = [
         result: "l",
         wvuScore: 17,
         opponentScore: 24,
-
+        wvuArtwork: "1979-WhiteBlueWhite.png",
+        opponentArtwork: "1979-Pittsburgh.png",
         combination: "WhiteBlueWhite"
     },
     {
@@ -1992,7 +2832,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 42,
-
+        wvuArtwork: "1979-WhiteWhiteWhite.png",
+        opponentArtwork: "1979-ArizonaState.png",
         combination: "WhiteWhiteWhite"
     },
 {
@@ -2008,7 +2849,8 @@ const GAMES = [
         result: "w",
         wvuScore: 41,
         opponentScore: 27,
-
+        wvuArtwork: "1980-BlueBlueGold.png",
+        opponentArtwork: "1980-Cincinnati.png",
         combination: "BlueBlueGold"
    },
 {
@@ -2021,7 +2863,8 @@ const GAMES = [
         result: "w",
         wvuScore: 52,
         opponentScore: 24,
-
+        wvuArtwork: "1980-BlueWhiteGold.png",
+        opponentArtwork: "1980-ColoradoState.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2037,7 +2880,8 @@ const GAMES = [
         result: "l",
         wvuScore: 11,
         opponentScore: 14,
-
+        wvuArtwork: "1980-BlueBlueGold.png",
+        opponentArtwork: "1980-Maryland.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2053,7 +2897,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 28,
-
+        wvuArtwork: "1980-BlueBlueGold.png",
+        opponentArtwork: "1980-Richmond.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2069,7 +2914,8 @@ const GAMES = [
         result: "w",
         wvuScore: 45,
         opponentScore: 21,
-
+        wvuArtwork: "1980-BlueBlueGold.png",
+        opponentArtwork: "1980-Virginia.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2082,7 +2928,8 @@ const GAMES = [
         result: "l",
         wvuScore: 13,
         opponentScore: 16,
-
+        wvuArtwork: "1980-BlueWhiteGold.png",
+        opponentArtwork: "1980-Hawaii.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2098,7 +2945,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 42,
-
+        wvuArtwork: "1980-BlueWhiteGold.png",
+        opponentArtwork: "1980-Pittsburgh.png",
         combination: "BlueWhiteGold"
     }, 
 {
@@ -2114,7 +2962,8 @@ const GAMES = [
         result: "l",
         wvuScore: 15,
         opponentScore: 20,
-
+        wvuArtwork: "1980-BlueBlueGold.png",
+        opponentArtwork: "1980-PennState.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2130,7 +2979,8 @@ const GAMES = [
         result: "l",
         wvuScore: 11,
         opponentScore: 34,
-
+        wvuArtwork: "1980-BlueWhiteGold.png",
+        opponentArtwork: "1980-VirginiaTech.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2146,7 +2996,8 @@ const GAMES = [
         result: "w",
         wvuScore: 41,
         opponentScore: 28,
-
+        wvuArtwork: "1980-BlueWhiteGold.png",
+        opponentArtwork: "1980-Temple.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2162,7 +3013,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 15,
-
+        wvuArtwork: "1980-BlueWhiteGold.png",
+        opponentArtwork: "1980-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2178,7 +3030,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 20,
-
+        wvuArtwork: "1980-BlueBlueGold.png",
+        opponentArtwork: "1980-Syracuse.png",
         combination: "BlueBlueGold"
     },
 
@@ -2192,7 +3045,8 @@ const GAMES = [
         result: "w",
         wvuScore: 32,
         opponentScore: 18,
-
+        wvuArtwork: "1981-BlueWhiteGold.png",
+        opponentArtwork: "1981-Virginia.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2208,7 +3062,8 @@ const GAMES = [
         result: "w",
         wvuScore: 17,
         opponentScore: 13,
-
+        wvuArtwork: "1981-BlueWhiteGold.png",
+        opponentArtwork: "1981-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2224,7 +3079,8 @@ const GAMES = [
         result: "w",
         wvuScore: 49,
         opponentScore: 3,
-
+        wvuArtwork: "1981-BlueBlueGold.png",
+        opponentArtwork: "1981-ColoradoState.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2240,7 +3096,8 @@ const GAMES = [
         result: "w",
         wvuScore: 38,
         opponentScore: 10,
-
+        wvuArtwork: "1981-BlueWhiteGold.png",
+        opponentArtwork: "1981-BostonCollege.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2256,7 +3113,8 @@ const GAMES = [
         result: "l",
         wvuScore: 0,
         opponentScore: 17,
-
+        wvuArtwork: "1981-BlueBlueGold.png",
+        opponentArtwork: "1981-Pittsburgh.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2272,7 +3130,8 @@ const GAMES = [
         result: "w",
         wvuScore: 27,
         opponentScore: 6,
-
+        wvuArtwork: "1981-BlueBlueGold.png",
+        opponentArtwork: "1981-VirginiaTech.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2288,7 +3147,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 30,
-
+        wvuArtwork: "1981-BlueWhiteGold.png",
+        opponentArtwork: "1981-PennState.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2304,7 +3164,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 3,
-
+        wvuArtwork: "1981-BlueBlueGold.png",
+        opponentArtwork: "1981-EastCarolina.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2320,7 +3181,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 19,
-
+        wvuArtwork: "1981-BlueBlueGold.png",
+        opponentArtwork: "1981-Temple.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2336,7 +3198,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 3,
-
+        wvuArtwork: "1981-BlueBlueGold.png",
+        opponentArtwork: "1981-Rutgers.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2352,7 +3215,8 @@ const GAMES = [
         result: "l",
         wvuScore: 24,
         opponentScore: 27,
-
+        wvuArtwork: "1981-BlueWhiteGold.png",
+        opponentArtwork: "1981-Syracuse.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2361,11 +3225,15 @@ const GAMES = [
         date: "1981-12-31",
         location: "neutral",
         gameType: "Bowl",
-
+event: "Peach Bowl",
+stadium: "Fulton County Stadium",
+    city: "Atlanta",
+    state: "Georgia ",
         result: "w",
         wvuScore: 26,
         opponentScore: 6,
-
+        wvuArtwork: "1981-PeachBowl.png",
+        opponentArtwork: "1981-Florida.png",
         combination: "BlueWhiteGold"
     },
     {
@@ -2378,7 +3246,8 @@ const GAMES = [
         result: "w",
         wvuScore: 41,
         opponentScore: 27,
-
+        wvuArtwork: "1982-BlueWhiteGold.png",
+        opponentArtwork: "1982-Oklahoma.png",
         combination: "BlueWhiteGold"
    },
 {
@@ -2395,7 +3264,9 @@ const GAMES = [
         wvuScore: 19,
         opponentScore: 18,
 
-        combination: "BlueBlueGold"
+        combination: "BlueBlueGold",
+        wvuArtwork: "1982-BlueBlueGold.png",
+        opponentArtwork: "1982-Maryland.png"
     },
 {
         season: 1982,
@@ -2410,7 +3281,8 @@ const GAMES = [
         result: "w",
         wvuScore: 43,
         opponentScore: 10,
-
+        wvuArtwork: "1982-BlueBlueGold.png",
+        opponentArtwork: "1982-Richmond.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2426,7 +3298,8 @@ const GAMES = [
         result: "l",
         wvuScore: 13,
         opponentScore: 16,
-
+        wvuArtwork: "1982-BlueWhiteGold.png",
+        opponentArtwork: "1982-Pittsburgh.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2442,7 +3315,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 13,
-
+        wvuArtwork: "1982-BlueBlueGold.png",
+        opponentArtwork: "1982-BostonCollege.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2458,7 +3332,8 @@ const GAMES = [
         result: "w",
         wvuScore: 16,
         opponentScore: 6,
-
+        wvuArtwork: "1982-BlueWhiteGold.png",
+        opponentArtwork: "1982-VirginiaTech.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2474,7 +3349,8 @@ const GAMES = [
         result: "l",
         wvuScore: 0,
         opponentScore: 24,
-
+        wvuArtwork: "1982-BlueBlueGold.png",
+        opponentArtwork: "1982-PennState.png",
         combination: "BlueBlueGold"
     }, 
 {
@@ -2490,7 +3366,8 @@ const GAMES = [
         result: "w",
         wvuScore: 30,
         opponentScore: 3,
-
+        wvuArtwork: "1982-BlueBlueGold.png",
+        opponentArtwork: "1982-EastCarolina.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2506,7 +3383,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 17,
-
+        wvuArtwork: "1982-BlueWhiteGold.png",
+        opponentArtwork: "1982-Temple.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2522,7 +3400,8 @@ const GAMES = [
         result: "w",
         wvuScore: 44,
         opponentScore: 17,
-
+        wvuArtwork: "1982-BlueWhiteGold.png",
+        opponentArtwork: "1982-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2538,7 +3417,8 @@ const GAMES = [
         result: "w",
         wvuScore: 26,
         opponentScore: 0,
-
+        wvuArtwork: "1982-BlueBlueGold.png",
+        opponentArtwork: "1982-Syracuse.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2550,11 +3430,12 @@ const GAMES = [
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "l",
         wvuScore: 12,
         opponentScore: 31,
-
+        wvuArtwork: "1982-GatorBowl.png",
+        opponentArtwork: "1982-FloridaState.png",
         combination: "BlueWhiteGold"
     },
     {
@@ -2570,7 +3451,8 @@ const GAMES = [
         result: "w",
         wvuScore: 55,
         opponentScore: 3,
-
+        wvuArtwork: "1983-BlueBlueGold.png",
+        opponentArtwork: "1983-Ohio.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2586,7 +3468,8 @@ const GAMES = [
         result: "w",
         wvuScore: 48,
         opponentScore: 7,
-
+        wvuArtwork: "1983-BlueBlueGold.png",
+        opponentArtwork: "1983-Pacific.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2602,7 +3485,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 21,
-
+        wvuArtwork: "1983-BlueWhiteGold.png",
+        opponentArtwork: "1983-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2618,7 +3502,8 @@ const GAMES = [
         result: "w",
         wvuScore: 27,
         opponentScore: 17,
-
+        wvuArtwork: "1983-BlueWhiteGold.png",
+        opponentArtwork: "1983-BostonCollege.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2634,7 +3519,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+        wvuArtwork: "1983-BlueBlueGold.png",
+        opponentArtwork: "1983-Pittsburgh.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2650,7 +3536,8 @@ const GAMES = [
         result: "w",
         wvuScore: 13,
         opponentScore: 0,
-
+        wvuArtwork: "1983-BlueBlueGold.png",
+        opponentArtwork: "1983-VirginiaTech.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2667,6 +3554,8 @@ const GAMES = [
         wvuScore: 23,
         opponentScore: 41,
 
+        wvuArtwork: "1983-BlueWhiteGold.png",
+        opponentArtwork: "1983-PennState.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2680,6 +3569,8 @@ const GAMES = [
         wvuScore: 3,
         opponentScore: 20,
 
+        wvuArtwork: "1983-BlueWhiteGold.png",
+        opponentArtwork: "1983-Miami.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2695,7 +3586,8 @@ const GAMES = [
         result: "w",
         wvuScore: 27,
         opponentScore: 9,
-
+        wvuArtwork: "1983-BlueBlueGold.png",
+        opponentArtwork: "1983-Temple.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2711,7 +3603,8 @@ const GAMES = [
         result: "w",
         wvuScore: 35,
         opponentScore: 7,
-
+        wvuArtwork: "1983-BlueBlueGold.png",
+        opponentArtwork: "1983-Rutgers.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2727,7 +3620,8 @@ const GAMES = [
         result: "l",
         wvuScore: 16,
         opponentScore: 27,
-
+        wvuArtwork: "1983-BlueWhiteGold.png",
+        opponentArtwork: "1983-Syracuse.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2736,11 +3630,12 @@ const GAMES = [
         date: "1983-12-23",
         location: "neutral",
         gameType: "Bowl",
-
+event: "Hall of Fame Bowl",
         result: "w",
         wvuScore: 20,
         opponentScore: 16,
-
+        wvuArtwork: "1983-Bowl.png",
+        opponentArtwork: "1983-Kentucky.png",
         combination: "BlueBlueGold"
     },
     {
@@ -2756,7 +3651,8 @@ const GAMES = [
         result: "w",
         wvuScore: 38,
         opponentScore: 0,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-Ohio.png",
         combination: "BlueBlueGold"
    },
 {
@@ -2772,7 +3668,8 @@ const GAMES = [
         result: "w",
         wvuScore: 30,
         opponentScore: 6,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-Louisville.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2788,7 +3685,8 @@ const GAMES = [
         result: "w",
         wvuScore: 14,
         opponentScore: 7,
-
+        wvuArtwork: "1984-BlueWhiteGold.png",
+        opponentArtwork: "1984-VirginiaTech.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2804,7 +3702,8 @@ const GAMES = [
         result: "l",
         wvuScore: 17,
         opponentScore: 20,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-Maryland.png",
         combination: "BlueBlueGold"
     },
     {
@@ -2820,7 +3719,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 10,
-
+        wvuArtwork: "1984-BlueWhiteGold.png",
+        opponentArtwork: "1984-Pittsburgh.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2836,7 +3736,8 @@ const GAMES = [
         result: "w",
         wvuScore: 20,
         opponentScore: 10,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-Syracuse.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2852,7 +3753,8 @@ const GAMES = [
         result: "w",
         wvuScore: 21,
         opponentScore: 20,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-BostonCollege.png",
         combination: "BlueBlueGold"
     }, 
 {
@@ -2868,7 +3770,8 @@ const GAMES = [
         result: "w",
         wvuScore: 17,
         opponentScore: 14,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-PennState.png",
         combination: "BlueBlueGold"
     },
 {
@@ -2884,7 +3787,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 27,
-
+        wvuArtwork: "1984-BlueBlueGold.png",
+        opponentArtwork: "1984-Virginia.png",
         combination: "BlueBlueGold"
     },
     {
@@ -2900,7 +3804,8 @@ const GAMES = [
         result: "l",
         wvuScore: 19,
         opponentScore: 23,
-
+        wvuArtwork: "1984-BlueWhiteGold.png",
+        opponentArtwork: "1984-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2916,7 +3821,8 @@ const GAMES = [
         result: "l",
         wvuScore: 17,
         opponentScore: 19,
-
+wvuArtwork: "1984-BlueWhiteGold.png",
+opponentArtwork: "1984-Temple.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2925,11 +3831,12 @@ const GAMES = [
         date: "1984-12-31",
         location: "neutral",
         gameType: "Bowl",
-
+event: "Bluebonnet Bowl",
         result: "w",
         wvuScore: 31,
         opponentScore: 14,
-
+wvuArtwork: "1984-Bowl.png",
+opponentArtwork: "1984-TCU.png",
         combination: "BlueBlueGold"
     },
     {
@@ -2946,6 +3853,8 @@ const GAMES = [
         wvuScore: 52,
         opponentScore: 13,
 
+        wvuArtwork: "1985-BlueBlueGold.png",
+        opponentArtwork: "1985-Louisville.png",
         combination: "BlueBlueGold"
    },
 {
@@ -2978,6 +3887,8 @@ const GAMES = [
         wvuScore: 0,
         opponentScore: 28,
 
+        wvuArtwork: "1985-BlueWhiteGold.png",
+        opponentArtwork: "1985-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -2993,7 +3904,8 @@ const GAMES = [
         result: "t",
         wvuScore: 10,
         opponentScore: 10,
-
+        wvuArtwork: "1985-BlueBlueGold.png",
+        opponentArtwork: "1985-Pittsburgh.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3009,7 +3921,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 9,
-
+        wvuArtwork: "1985-BlueBlueGold.png",
+        opponentArtwork: "1985-VirginiaTech.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3025,7 +3938,8 @@ const GAMES = [
         result: "w",
         wvuScore: 13,
         opponentScore: 6,
-
+        wvuArtwork: "1985-BlueWhiteGold.png",
+        opponentArtwork: "1985-BostonCollege.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3042,6 +3956,8 @@ const GAMES = [
         wvuScore: 0,
         opponentScore: 27,
 
+        wvuArtwork: "1985-BlueWhiteGold.png",
+        opponentArtwork: "1985-PennState.png",
         combination: "BlueWhiteGold"
     }, 
 
@@ -3055,7 +3971,8 @@ const GAMES = [
         result: "l",
         wvuScore: 7,
         opponentScore: 27,
-
+        wvuArtwork: "1985-BlueWhiteGold.png",
+        opponentArtwork: "1985-Virginia.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3071,7 +3988,8 @@ const GAMES = [
         result: "w",
         wvuScore: 27,
         opponentScore: 0,
-
+        wvuArtwork: "1985-BlueBlueGold.png",
+        opponentArtwork: "1985-Rutgers.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3087,7 +4005,8 @@ const GAMES = [
         result: "w",
         wvuScore: 23,
         opponentScore: 10,
-
+        wvuArtwork: "1985-BlueBlueGold.png",
+        opponentArtwork: "1985-Temple.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3103,7 +4022,8 @@ const GAMES = [
         result: "w",
         wvuScore: 13,
         opponentScore: 10,
-
+        wvuArtwork: "1985-BlueWhiteGold.png",
+        opponentArtwork: "1985-Syracuse.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3119,7 +4039,8 @@ const GAMES = [
         result: "w",
         wvuScore: 47,
         opponentScore: 14,
-
+        wvuArtwork: "1986-BlueBlueGold.png",
+        opponentArtwork: "1986-NorthernIllinois.png",
         combination: "BlueBlueGold"
    },
 {
@@ -3135,7 +4056,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+        wvuArtwork: "1986-BlueWhiteGold.png",
+        opponentArtwork: "1986-EastCarolina.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3151,6 +4073,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 24,
+        wvuArtwork: "1986-BlueBlueGold.png",
+        opponentArtwork: "1986-Maryland.png",
 
         combination: "BlueBlueGold"
     },
@@ -3167,7 +4091,8 @@ const GAMES = [
         result: "l",
         wvuScore: 16,
         opponentScore: 48,
-
+wvuArtwork: "1986-BlueWhiteGold.png",
+opponentArtwork: "1986-Pitt.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3183,6 +4108,8 @@ const GAMES = [
         result: "1",
         wvuScore: 7,
         opponentScore: 13,
+        wvuArtwork: "1986-BlueWhiteGold.png",
+opponentArtwork: "1986-VPI.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3198,7 +4125,8 @@ const GAMES = [
         result: "l",
         wvuScore: 14,
         opponentScore: 58,
-
+        wvuArtwork: "1986-BlueBlueGold.png",
+        opponentArtwork: "1986-Miami.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3214,7 +4142,8 @@ const GAMES = [
         result: "l",
         wvuScore: 10,
         opponentScore: 19,
-
+wvuArtwork: "1986-BlueWhiteGold.png",
+opponentArtwork: "1986-BC.png",
         combination: "BlueBlueGold"
     }, 
 {
@@ -3230,7 +4159,8 @@ const GAMES = [
         result: "l",
         wvuScore: 0,
         opponentScore: 19,
-
+        wvuArtwork: "1986-BlueBlueGold.png",
+        opponentArtwork: "1986-PennState.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3246,7 +4176,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
-
+        wvuArtwork: "1986-BlueWhiteGold.png",
+        opponentArtwork: "1986-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 
@@ -3260,7 +4191,8 @@ const GAMES = [
         result: "w",
         wvuScore: 42,
         opponentScore: 19,
-
+wvuArtwork: "1986-BlueWhiteGold.png",
+opponentArtwork: "1986-Louisville.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3276,7 +4208,8 @@ const GAMES = [
         result: "l",
         wvuScore: 23,
         opponentScore: 24,
-
+wvuArtwork: "1986-BlueBlueGold.png",
+opponentArtwork: "1986-Syracuse.png",
         combination: "BlueBlueGold"
     },
     {
@@ -3293,6 +4226,8 @@ const GAMES = [
         wvuScore: 23,
         opponentScore: 3,
 
+        wvuArtwork: "1987-BlueBlueGold.png",
+        opponentArtwork: "1987-Ohio.png",
         combination: "BlueBlueGold"
    },
 {
@@ -3305,7 +4240,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 24,
-
+        wvuArtwork: "1987-BlueWhiteGold.png",
+        opponentArtwork: "1987-OhioState.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3322,6 +4258,8 @@ const GAMES = [
         wvuScore: 20,
         opponentScore: 25,
 
+        wvuArtwork: "1987-BlueWhiteGold.png",
+        opponentArtwork: "1987-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3337,7 +4275,8 @@ const GAMES = [
         result: "l",
         wvuScore: 3,
         opponentScore: 6,
-
+        wvuArtwork: "1987-BlueBlueGold.png",
+        opponentArtwork: "1987-Pittsburgh.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3353,7 +4292,8 @@ const GAMES = [
         result: "w",
         wvuScore: 49,
         opponentScore: 0,
-
+        wvuArtwork: "1987-BlueBlueGold.png",
+        opponentArtwork: "1987-EastCarolina.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3369,7 +4309,8 @@ const GAMES = [
         result: "w",
         wvuScore: 45,
         opponentScore: 17,
-
+        wvuArtwork: "1987-BlueBlueGold.png",
+        opponentArtwork: "1987-Cincinnati.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3385,7 +4326,8 @@ const GAMES = [
         result: "w",
         wvuScore: 37,
         opponentScore: 16,
-
+        wvuArtwork: "1987-BlueWhiteGold.png",
+        opponentArtwork: "1987-BostonCollege.png",
         combination: "BlueWhiteGold"
     }, 
 {
@@ -3401,7 +4343,8 @@ const GAMES = [
         result: "l",
         wvuScore: 21,
         opponentScore: 25,
-
+        wvuArtwork: "1987-BlueWhiteGold.png",
+        opponentArtwork: "1987-PennState.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3417,7 +4360,8 @@ const GAMES = [
         result: "w",
         wvuScore: 28,
         opponentScore: 16,
-
+        wvuArtwork: "1987-BlueBlueGold.png",
+        opponentArtwork: "1987-VirginiaTech.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3433,7 +4377,8 @@ const GAMES = [
         result: "w",
         wvuScore: 37,
         opponentScore: 13,
-
+        wvuArtwork: "1987-BlueBlueGold.png",
+        opponentArtwork: "1987-Rutgers.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3449,7 +4394,8 @@ const GAMES = [
         result: "l",
         wvuScore: 31,
         opponentScore: 32,
-
+wvuArtwork: "1987-BlueWhiteGold.png",
+opponentArtwork: "1987-Syracuse.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3458,11 +4404,12 @@ const GAMES = [
         date: "1987-12-25",
         location: "neutral",
         gameType: "Bowl",
-
+event: "Sun Bowl",
         result: "l",
         wvuScore: 33,
         opponentScore: 35,
-
+        wvuArtwork: "1987-SunBowl.png",
+        opponentArtwork: "1987-OklahomaState.png",
         combination: "BlueBlueGold"
     },
     {
@@ -3478,7 +4425,8 @@ const GAMES = [
         result: "w",
         wvuScore: 62,
         opponentScore: 14,
-
+        wvuArtwork: "1988-BlueBlueGold.png",
+        opponentArtwork: "1988-BowlingGreen.png",
         combination: "BlueBlueGold"
    },
 {
@@ -3494,7 +4442,8 @@ const GAMES = [
         result: "w",
         wvuScore: 45,
         opponentScore: 10,
-
+        wvuArtwork: "1988-BlueBlueGold.png",
+        opponentArtwork: "1988-CalStateFullerton.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3511,6 +4460,8 @@ const GAMES = [
         wvuScore: 55,
         opponentScore: 24,
 
+        wvuArtwork: "1988-BlueBlueGold.png",
+        opponentArtwork: "1988-Maryland.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3526,7 +4477,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 10,
-    
+        wvuArtwork: "1988-BlueWhiteGold.png",
+        opponentArtwork: "1988-Pittsburgh.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3543,6 +4495,8 @@ const GAMES = [
         wvuScore: 22,
         opponentScore: 10,
 
+        wvuArtwork: "1988-BlueWhiteGold.png",
+        opponentArtwork: "1988-VirginiaTech.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3559,6 +4513,8 @@ const GAMES = [
         wvuScore: 30,
         opponentScore: 10,
 
+        wvuArtwork: "1988-BlueWhiteGold.png",
+        opponentArtwork: "1988-EastCarolina.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3575,6 +4531,8 @@ const GAMES = [
         wvuScore: 59,
         opponentScore: 19,
 
+        wvuArtwork: "1988-BlueBlueGold.png",
+        opponentArtwork: "1988-BostonCollege.png",
         combination: "BlueBlueGold"
     }, 
 {
@@ -3591,6 +4549,8 @@ const GAMES = [
         wvuScore: 51,
         opponentScore: 30,
 
+        wvuArtwork: "1988-BlueBlueGold.png",
+        opponentArtwork: "1988-PennState.png",
         combination: "BlueBlueGold"
     },
     {
@@ -3604,6 +4564,8 @@ const GAMES = [
         wvuScore: 51,
         opponentScore: 13,
 
+        wvuArtwork: "1988-BlueWhiteGold.png",
+        opponentArtwork: "1988-Cincinnati.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3620,6 +4582,8 @@ const GAMES = [
         wvuScore: 35,
         opponentScore: 25,
 
+        wvuArtwork: "1988-BlueWhiteGold.png",
+        opponentArtwork: "1988-Rutgers.png",
         combination: "BlueWhiteGold"
     },
     {
@@ -3635,7 +4599,8 @@ const GAMES = [
         result: "w",
         wvuScore: 31,
         opponentScore: 9,
-
+        wvuArtwork: "1988-BlueBlueGold.png",
+        opponentArtwork: "1988-Syracuse.png",
         combination: "BlueBlueGold"
     },
    {
@@ -3644,11 +4609,12 @@ const GAMES = [
         date: "1989-1-2",
         location: "neutral",
         gameType: "Bowl",
-
+event: "Fiesta Bowl",
         result: "l",
         wvuScore: 21,
         opponentScore: 34,
-
+        wvuArtwork: "1988-FiestaBowl.png",
+        opponentArtwork: "1988-NotreDame.png",
         combination: "BlueWhiteGold"
     },
     
@@ -3666,6 +4632,8 @@ const GAMES = [
         wvuScore: 35,
         opponentScore: 10,
 
+        wvuArtwork: "1989-BlueBlueGold.png",
+        opponentArtwork: "1989-BallState.png",
         combination: "BlueBlueGold"
    },
 {
@@ -3682,6 +4650,8 @@ const GAMES = [
         wvuScore: 14,
         opponentScore: 10,
 
+        wvuArtwork: "1989-BlueWhiteGold.png",
+        opponentArtwork: "1989-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -3697,7 +4667,8 @@ const GAMES = [
         result: "w",
         wvuScore: 45,
         opponentScore: 21,
-
+        wvuArtwork: "1989-BlueBlueGold.png",
+        opponentArtwork: "1989-SouthCarolina.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3710,7 +4681,9 @@ const GAMES = [
         result: "w",
         wvuScore: 30,
         opponentScore: 21,
- combination: "BlueWhiteGold"
+        wvuArtwork: "1989-BlueWhiteGold.png",
+        opponentArtwork: "1989-Louisville.png",
+        combination: "BlueWhiteGold"
     },
 {
         season: 1989,
@@ -3725,7 +4698,8 @@ const GAMES = [
         result: "t",
         wvuScore: 31,
         opponentScore: 31,
-
+        wvuArtwork: "1989-BlueBlueGold.png",
+        opponentArtwork: "1989-Pittsburgh.png",
         combination: "BlueBlueGold"
     },
 {
@@ -3741,7 +4715,8 @@ const GAMES = [
         result: "l",
         wvuScore: 10,
         opponentScore: 12,
-
+        wvuArtwork: "1989-BlueBlueGold.png",
+        opponentArtwork: "1989-VirginiaTech.png",
         combination: "BlueBlueGold"
     },
 
@@ -3758,7 +4733,8 @@ const GAMES = [
         result: "w",
         wvuScore: 69,
         opponentScore: 3,
-
+        wvuArtwork: "1989-BlueBlueGold.png",
+        opponentArtwork: "1989-Cincinnati.png",
         combination: "BlueBlueGold"
 
     }, 
@@ -3775,7 +4751,8 @@ const GAMES = [
         result: "w",
         wvuScore: 44,
         opponentScore: 30,
-
+        wvuArtwork: "1989-BlueWhiteGold.png",
+        opponentArtwork: "1989-BostonCollege.png",  
         combination: "BlueWhiteGold"
 
     },
@@ -3792,7 +4769,8 @@ const GAMES = [
         result: "l",
         wvuScore: 9,
         opponentScore: 19,
-
+        wvuArtwork: "1989-BlueWhiteGold.png",
+        opponentArtwork: "1989-PennState.png",
         combination: "BlueWhiteGold"
 
     },
@@ -3810,7 +4788,8 @@ const GAMES = [
         result: "w",
         wvuScore: 21,
         opponentScore: 20,
-
+        wvuArtwork: "1989-BlueBlueGold.png",
+        opponentArtwork: "1989-Rutgers.png",
         combination: "BlueBlueGold"
 
     },
@@ -3829,7 +4808,8 @@ const GAMES = [
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
-
+        wvuArtwork: "1989-BlueWhiteGold.png",
+        opponentArtwork: "1989-Syracuse.png",
         combination: "BlueWhiteGold"
 
     },
@@ -3843,11 +4823,12 @@ const GAMES = [
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "l",
         wvuScore: 7,
         opponentScore: 27,
-
+wvuArtwork: "1989-GatorBowl.png",
+opponentArtwork: "1989-Clemson.png",
         combination: "BlueWhiteGold"
 
     },    
@@ -3864,7 +4845,8 @@ gameType: "Regular Season",
 result: "w",
 wvuScore: 35,
 opponentScore: 24,
-
+wvuArtwork: "1990-BlueBlueGold.png",
+opponentArtwork: "1990-KentState.png",
 combination: "BlueBlueGold"
 },
 
@@ -3881,7 +4863,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 10,
 opponentScore: 14,
-
+wvuArtwork: "1990-BlueBlueGold.png",
+opponentArtwork: "1990-Maryland.png",
 combination: "BlueBlueGold"
 },
 
@@ -3898,7 +4881,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 7,
 opponentScore: 9,
-
+wvuArtwork: "1990-BlueBlueGold.png",
+opponentArtwork: "1990-Louisville.png",
 combination: "BlueBlueGold"
 },
 
@@ -3915,7 +4899,8 @@ gameType: "Regular Season",
 result: "w",
 wvuScore: 38,
 opponentScore: 24,
-
+wvuArtwork: "1990-BlueWhiteGold.png",
+opponentArtwork: "1990-Pitt.png",
 combination: "BlueWhiteGold"
 },
 
@@ -3932,7 +4917,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 21,
 opponentScore: 26,
-
+wvuArtwork: "1990-BlueWhiteGold.png",
+opponentArtwork: "1990-VirginiaTech.png",
 combination: "BlueWhiteGold"
 },
 
@@ -3949,7 +4935,8 @@ gameType: "Regular Season",
 result: "w",
 wvuScore: 28,
 opponentScore: 20,
-
+wvuArtwork: "1990-BlueBlueGold.png",
+opponentArtwork: "1990-Cincinnati.png",
 combination: "BlueBlueGold"
 },
 
@@ -3966,7 +4953,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 14,
 opponentScore: 27,
-
+wvuArtwork: "1990-BlueBlueGold.png",
+opponentArtwork: "1990-BostonCollege.png",
 combination: "BlueBlueGold"
 },
 
@@ -3983,7 +4971,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 19,
 opponentScore: 31,
-
+wvuArtwork: "1990-BlueBlueGold.png",
+opponentArtwork: "1990-PennState.png",
 combination: "BlueBlueGold"
 },
 
@@ -4000,7 +4989,8 @@ gameType: "Regular Season",
 result: "w",
 wvuScore: 28,
 opponentScore: 3,
-
+wvuArtwork: "1990-BlueWhiteGold.png",
+opponentArtwork: "1990-Rutgers.png",
 combination: "BlueWhiteGold"
 },
 {
@@ -4016,7 +5006,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 7,
 opponentScore: 31,
-
+wvuArtwork: "1990-BlueWhiteGold.png",
+opponentArtwork: "1990-Syracuse.png",
 combination: "BlueBlueGold"
 },
 {
@@ -4029,7 +5020,8 @@ gameType: "Regular Season",
 result: "l",
 wvuScore: 10,
 opponentScore: 29,
-
+wvuArtwork: "1990-BlueWhiteGold.png",
+opponentArtwork: "1990-SouthCarolina.png",
 combination: "BlueWhiteGold"
 },
 {
@@ -4045,7 +5037,8 @@ combination: "BlueWhiteGold"
         result: "1",
         wvuScore: 3,
         opponentScore: 34,
-
+wvuArtwork: "1991-BlueBlueGold.png",
+opponentArtwork: "1991-Pitt.png",
         combination: "BlueBlueGold"
    },
 {
@@ -4061,7 +5054,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
-
+wvuArtwork: "1991-BlueBlueGold.png",
+opponentArtwork: "1991-BowlingGreen.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4077,7 +5071,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 21,
         opponentScore: 16,
-
+wvuArtwork: "1991-BlueBlueGold.png",
+opponentArtwork: "1991-SouthCarolina.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4093,7 +5088,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 7,
-
+wvuArtwork: "1991-BlueWhiteGold.png",
+opponentArtwork: "1991-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4109,7 +5105,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 20,
-
+wvuArtwork: "1991-BlueBlueGold.png",
+opponentArtwork: "1991-VirginiaTech.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4125,7 +5122,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 10,
         opponentScore: 9,
-
+wvuArtwork: "1991-BlueBlueGold.png",
+opponentArtwork: "1991-Temple.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4141,7 +5139,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 24,
-
+wvuArtwork: "1991-BlueWhiteGold.png",
+opponentArtwork: "1991-BostonCollege.png",
         combination: "BlueWhiteGold"
     }, 
 {
@@ -4157,7 +5156,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 6,
         opponentScore: 51,
-
+wvuArtwork: "1991-BlueWhiteGold.png",
+opponentArtwork: "1991-PennState.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4173,7 +5173,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 3,
-
+wvuArtwork: "1991-BlueBlueGold.png",
+opponentArtwork: "1991-Rutgers.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4189,7 +5190,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 3,
         opponentScore: 27,
-
+wvuArtwork: "1991-BlueWhiteGold.png",
+opponentArtwork: "1991-Miami.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4205,7 +5207,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 10,
         opponentScore: 16,
-
+wvuArtwork: "1991-BlueWhiteGold.png",
+opponentArtwork: "1991-Syracuse.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4221,7 +5224,8 @@ combination: "BlueWhiteGold"
         result: "t",
         wvuScore: 29,
         opponentScore: 29,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-MiamiOhio.png",
         combination: "BlueBlueGold"
    },
 {
@@ -4237,7 +5241,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 44,
         opponentScore: 6,
-
+wvuArtwork: "1992-BlueWhiteGold.png",
+opponentArtwork: "1992-Pitt.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4253,7 +5258,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 33,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-Maryland.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4269,7 +5275,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 16,
         opponentScore: 7,
-
+wvuArtwork: "1992-BlueWhiteGold.png",
+opponentArtwork: "1992-VPI.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4285,7 +5292,8 @@ combination: "BlueWhiteGold"
         result: "t",
         wvuScore: 24,
         opponentScore: 24,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-BostonCollege.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4301,7 +5309,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 20,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-Syracuse.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4317,7 +5326,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 26,
         opponentScore: 40,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-PennState.png",
         combination: "BlueBlueGold"
     }, 
 {
@@ -4333,7 +5343,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 23,
         opponentScore: 35,
-
+wvuArtwork: "1992-BlueWhiteGold.png",
+opponentArtwork: "1992-Miami.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4349,7 +5360,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 28,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-EastCarolina.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4365,7 +5377,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 9,
         opponentScore: 13,
-
+wvuArtwork: "1992-BlueWhiteGold.png",
+opponentArtwork: "1992-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 
@@ -4382,7 +5395,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 23,
         opponentScore: 3,
-
+wvuArtwork: "1992-BlueBlueGold.png",
+opponentArtwork: "1992-LouisianaTech.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4398,7 +5412,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 6,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-EasternMichigan.png",
         combination: "BlueBlueGold"
    },
 {
@@ -4414,7 +5429,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 37,
-
+wvuArtwork: "1993-BlueWhiteGold.png",
+opponentArtwork: "1993-Maryland.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4430,7 +5446,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 3,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-Missouri.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4446,7 +5463,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 14,
         opponentScore: 13,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-VPI.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4462,7 +5480,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 36,
         opponentScore: 34,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-Louisville.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4478,7 +5497,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 21,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-Pitt.png",
         combination: "BlueBlueGold"
     },
 
@@ -4495,7 +5515,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 43,
         opponentScore: 0,
-
+wvuArtwork: "1993-BlueWhiteGold.png",
+opponentArtwork: "1993-Syracuse.png",
         combination: "BlueWhiteGold"
     }, 
 {
@@ -4511,7 +5532,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 58,
         opponentScore: 22,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-Rutgers.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4527,7 +5549,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 49,
         opponentScore: 7,
-
+wvuArtwork: "1993-BlueWhiteGold.png",
+opponentArtwork: "1993-Temple.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4543,7 +5566,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 14,
-
+wvuArtwork: "1993-BlueBlueGold.png",
+opponentArtwork: "1993-Miami.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4559,7 +5583,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 14,
-
+wvuArtwork: "1993-BlueWhiteGold.png",
+opponentArtwork: "1993-BC.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4571,10 +5596,12 @@ combination: "BlueWhiteGold"
     city: "New Orleans",
     state: "Louisiana",
         gameType: "Bowl",
-
+event: "Sugar Bowl",
         result: "l",
         wvuScore: 7,
         opponentScore: 41,
+wvuArtwork: "1994-SugarBowl.png",
+opponentArtwork: "1993-Florida.png",
 
         combination: "BlueBlueGold"
     },
@@ -4591,7 +5618,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 0,
         opponentScore: 31,
-
+wvuArtwork: "1994-BlueBlueGold-1.png",
+opponentArtwork: "1994-Nebraska.png",
         combination: "BlueBlueGold"
    },
 {
@@ -4607,7 +5635,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 16,
         opponentScore: 14,
-
+wvuArtwork: "1994-BlueBlueGold.png",
+opponentArtwork: "1994-BallState.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4623,7 +5652,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 12,
         opponentScore: 17,
-
+wvuArtwork: "1994-BlueWhiteGold.png",
+opponentArtwork: "1994-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4639,7 +5669,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 24,
-
+wvuArtwork: "1994-BlueBlueGold.png",
+opponentArtwork: "1994-Maryland.png",
         combination: "BlueBlueGold"
     },
 {
@@ -4655,7 +5686,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 6,
         opponentScore: 34,
-
+wvuArtwork: "1994-BlueWhiteGold.png",
+opponentArtwork: "1994-VPI.png",
         combination: "BlueWhiteGold"
     },
 {
@@ -4668,6 +5700,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 10,
+wvuArtwork: "1994-BlueWhiteGold.png",
+opponentArtwork: "1994-Missouri.png",
 
         combination: "BlueWhiteGold"
     },
@@ -4684,7 +5718,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 47,
         opponentScore: 41,
-
+wvuArtwork: "1994-BlueWhiteGold.png",
+opponentArtwork: "1994-Pitt.png",
         combination: "BlueWhiteGold"
     }, 
 {
@@ -4700,6 +5735,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 6,
         opponentScore: 38,
+wvuArtwork: "1994-BlueBlueGold.png",
+opponentArtwork: "1994-Miami.png",
 
         combination: "BlueBlueGold"
     },
@@ -4716,6 +5753,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 52,
         opponentScore: 16,
+wvuArtwork: "1994-BlueBlueGold.png",
+opponentArtwork: "1994-LouisianaTech.png",
 
         combination: "BlueBlueGold"
     },
@@ -4732,6 +5771,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 55,
         opponentScore: 17,
+wvuArtwork: "1994-BlueWhiteGold.png",
+opponentArtwork: "1994-Temple.png",
 
         combination: "BlueWhiteGold"
     },
@@ -4748,6 +5789,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 21,
         opponentScore: 20,
+wvuArtwork: "1994-BlueBlueGold.png",
+opponentArtwork: "1994-BostonCollege.png",
 
         combination: "BlueBlueGold"
     },
@@ -4764,6 +5807,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 13,
         opponentScore: 0,
+wvuArtwork: "1994-BlueBlueGold.png",
+opponentArtwork: "1994-Syracuse.png",
 
         combination: "BlueBlueGold"
     },
@@ -4776,10 +5821,12 @@ combination: "BlueWhiteGold"
     city: "Miami",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Carquest Bowl",
         result: "l",
         wvuScore: 21,
         opponentScore: 24,
+wvuArtwork: "1994-Bowl.png",
+opponentArtwork: "1994-SouthCarolina.png",
 
         combination: "BlueBlueGold"
     },
@@ -4796,6 +5843,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 24,
         opponentScore: 26,
+wvuArtwork: "1995-BlueBlueGold.png",
+opponentArtwork: "1995-Purdue.png",
 
         combination: "BlueBlueGold"
    },
@@ -4812,6 +5861,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 13,
+wvuArtwork: "1995-BlueBlueGold.png",
+opponentArtwork: "1995-Temple.png",
 
         combination: "BlueBlueGold"
     },
@@ -4828,6 +5879,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 31,
+wvuArtwork: "1995-BlueWhiteBlue.png",
+opponentArtwork: "1995-Maryland.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -4844,6 +5897,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 6,
+wvuArtwork: "1995-BlueBlueGold.png",
+opponentArtwork: "1995-KentState.png",
 
         combination: "BlueBlueGold"
     },
@@ -4860,6 +5915,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 23,
+wvuArtwork: "1995-BlueWhiteBlue.png",
+opponentArtwork: "1995-ECU.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -4876,6 +5933,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 19,
+wvuArtwork: "1995-BlueWhiteBlue.png",
+opponentArtwork: "1995-BC.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -4893,6 +5952,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 0,
         opponentScore: 22,
+wvuArtwork: "1995-BlueWhiteBlue.png",
+opponentArtwork: "1995-Syracuse.png",
 
         combination: "BlueWhiteBlue"
     }, 
@@ -4909,6 +5970,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 0,
         opponentScore: 27,
+wvuArtwork: "1995-BlueBlueGold.png",
+opponentArtwork: "1995-VPI.png",
 
         combination: "BlueBlueGold"
     },
@@ -4925,6 +5988,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 59,
         opponentScore: 26,
+wvuArtwork: "1995-BlueBlueGold.png",
+opponentArtwork: "1995-Rutgers.png",
 
         combination: "BlueBlueGold"
     },
@@ -4941,6 +6006,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 12,
         opponentScore: 17,
+wvuArtwork: "1995-BlueWhiteBlue.png",
+opponentArtwork: "1995-Miami.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -4957,6 +6024,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 21,
         opponentScore: 0,
+wvuArtwork: "1995-BlueBlueGold.png",
+opponentArtwork: "1995-Pitt.png",
 
         combination: "BlueBlueGold"
     },
@@ -4973,6 +6042,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 0,
+wvuArtwork: "1996-BlueWhiteGold.png",
+opponentArtwork: "1996-Pitt.png",
 
         combination: "BlueWhiteGold"
    },
@@ -4989,6 +6060,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 9,
+wvuArtwork: "1996-BlueBlueGold.png",
+opponentArtwork: "1996-WesternMichigan.png",
 
         combination: "BlueBlueGold"
     },
@@ -5005,6 +6078,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 10,
         opponentScore: 9,
+wvuArtwork: "1996-BlueBlueGold.png",
+opponentArtwork: "1996-ECU.png",
 
         combination: "BlueBlueGold"
     },
@@ -5018,6 +6093,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 6,
+wvuArtwork: "1996-BlueWhiteGold.png",
+opponentArtwork: "1996-Purdue.png",
 
         combination: "BlueWhiteGold"
     },
@@ -5034,6 +6111,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 13,
         opponentScore: 0,
+wvuArtwork: "1996-BlueBlueGold.png",
+opponentArtwork: "1996-Maryland.png",
 
         combination: "BlueBlueGold"
     },
@@ -5050,6 +6129,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 17,
+wvuArtwork: "1996-BlueBlueGold.png",
+opponentArtwork: "1996-BC.png",
 
         combination: "BlueBlueGold"
     },
@@ -5066,6 +6147,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 10,
+wvuArtwork: "1996-BlueWhiteGold.png",
+opponentArtwork: "1996-Temple.png",
 
         combination: "BlueWhiteGold"
     }, 
@@ -5082,6 +6165,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 7,
         opponentScore: 10,
+wvuArtwork: "1996-BlueBlueGold.png",
+opponentArtwork: "1996-Miami.png",
 
         combination: "BlueBlueGold"
     },
@@ -5098,6 +6183,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 7,
         opponentScore: 30,
+wvuArtwork: "1996-BlueBlueGold.png",
+opponentArtwork: "1996-Syracuse.png",
 
         combination: "BlueBlueGold"
     },
@@ -5114,6 +6201,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 55,
         opponentScore: 14,
+wvuArtwork: "1996-BlueWhiteGold.png",
+opponentArtwork: "1996-Rutgers.png",
 
         combination: "BlueWhiteGold"
     },
@@ -5131,6 +6220,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 31,
+wvuArtwork: "1996-BlueWhiteGold.png",
+opponentArtwork: "1996-VPI.png",
 
         combination: "BlueWhiteGold"
     },
@@ -5143,10 +6234,12 @@ combination: "BlueWhiteGold"
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "l",
         wvuScore: 13,
         opponentScore: 20,
+wvuArtwork: "1997-Gator.png",
+opponentArtwork: "1996-UNC.png",
 
         combination: "BlueBlueGold"
     },
@@ -5163,6 +6256,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 31,
+wvuArtwork: "1997-BlueBlueGold.png",
+opponentArtwork: "1997-Marshall.png",
 
         combination: "BlueBlueGold "
     },
@@ -5179,6 +6274,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
+wvuArtwork: "1997-BlueBlueGold.png",
+opponentArtwork: "1997-ECU.png",
 
         combination: "BlueBlueGold "
     },
@@ -5195,6 +6292,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 31,
+wvuArtwork: "1997-BlueWhiteGold.png",
+opponentArtwork: "1997-BC.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5211,6 +6310,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 17,
+wvuArtwork: "1997-BlueWhiteGold.png",
+opponentArtwork: "1997-Miami.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5227,6 +6328,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 0,
+wvuArtwork: "1997-BlueBlueGold.png",
+opponentArtwork: "1997-Rutgers.png",
 
         combination: "BlueBlueGold "
     },
@@ -5243,6 +6346,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 14,
         opponentScore: 31,
+wvuArtwork: "1997-BlueWhiteGold.png",
+opponentArtwork: "1997-Maryland.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5259,6 +6364,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 17,
+wvuArtwork: "1997-BlueBlueGold.png",
+opponentArtwork: "1997-VPI.png",
 
         combination: "BlueBlueGold "
     },
@@ -5275,6 +6382,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 10,
         opponentScore: 40,
+wvuArtwork: "1997-BlueWhiteGold.png",
+opponentArtwork: "1997-Syracuse.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5291,6 +6400,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 21,
+wvuArtwork: "1997-BlueBlueGold.png",
+opponentArtwork: "1997-Temple.png",
 
         combination: "BlueBlueGold "
     },
@@ -5307,6 +6418,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 21,
+wvuArtwork: "1997-BlueWhiteGold.png",
+opponentArtwork: "1997-ND.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5323,6 +6436,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 38,
         opponentScore: 41,
+wvuArtwork: "1997-BlueBlueGold.png",
+opponentArtwork: "1997-Pitt.png",
 
         combination: "BlueBlueGold "
     },
@@ -5335,10 +6450,12 @@ combination: "BlueWhiteGold"
     city: "Miami",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Carquest Bowl",
         result: "l",
         wvuScore: 30,
         opponentScore: 35,
+wvuArtwork: "1997-Bowl.png",
+opponentArtwork: "1997-GA-Tech.png",
 
         combination: "BlueBlueGold"
     },
@@ -5355,7 +6472,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 34,
-
+wvuArtwork: "1998-BlueBlueGold.png",
+opponentArtwork: "1998-OhioState.png",
         combination: "BlueBlueGold "
     },
      {
@@ -5371,6 +6489,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 20,
+wvuArtwork: "1998-BlueBlueGold.png",
+opponentArtwork: "1998-Maryland.png",
 
         combination: "BlueBlueGold "
     },
@@ -5387,6 +6507,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 44,
         opponentScore: 21,
+wvuArtwork: "1998-BlueBlueGold.png",
+opponentArtwork: "1998-Tulsa.png",
 
         combination: "BlueBlueGold "
     },
@@ -5400,6 +6522,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 24,
+wvuArtwork: "1998-BlueWhiteGold.png",
+opponentArtwork: "1998-Navy.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5416,6 +6540,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 7,
+wvuArtwork: "1998-BlueWhiteGold.png",
+opponentArtwork: "1998-Temple.png",
 
         combination: "BlueWhiteGold "
     },
@@ -5432,7 +6558,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 31,
         opponentScore: 34,
-
+wvuArtwork: "1998-BlueBlueGold.png",
+opponentArtwork: "1998-Miami.png",
         combination: "BlueBlueGold "
     },
    {
@@ -5448,7 +6575,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 27,
-
+wvuArtwork: "1998-BlueWhiteGold.png",
+opponentArtwork: "1998-VPI.png",
         combination: "BlueWhiteGold "
     },
       {
@@ -5464,7 +6592,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 28,
-
+wvuArtwork: "1998-BlueBlueGold.png",
+opponentArtwork: "1998-Syracuse.png",
         combination: "BlueBlueGold "
     },
    {
@@ -5480,7 +6609,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 14,
-
+wvuArtwork: "1998-BlueWhiteGold.png",
+opponentArtwork: "1998-Rutgers.png",
         combination: "BlueWhiteGold "
     },
       {
@@ -5496,7 +6626,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 10,
-
+wvuArtwork: "1998-BlueBlueGold.png",
+opponentArtwork: "1998-BC.png",
         combination: "BlueBlueGold "
     },
    {
@@ -5512,7 +6643,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 52,
         opponentScore: 14,
-
+wvuArtwork: "1998-BlueWhiteGold.png",
+opponentArtwork: "1998-Pitt.png",
         combination: "BlueWhiteGold "
     },
    {
@@ -5524,17 +6656,18 @@ combination: "BlueWhiteGold"
     city: "Tuscon",
     state: "Arizona",
         gameType: "Bowl",
-
+event: "Insight.com Bowl",
         result: "l",
         wvuScore: 31,
         opponentScore: 34,
-
+wvuArtwork: "1998-Bowl.png",
+opponentArtwork: "1998-Missouri.png",
         combination: "BlueWhiteGold"
     },
      {
         season: 1999,
         opponent: "East Carolina",
-        date: "1999-9-11",
+        date: "1999-9-4",
         location: "neutral",
         stadium: "Ericsson Stadium",
     city: "Charlotte",
@@ -5544,7 +6677,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 23,
         opponentScore: 30,
-
+wvuArtwork: "1999-BlueWhiteGold.png",
+opponentArtwork: "1999-ECU.png",
         combination: "BlueWhiteGold "
     },
       {
@@ -5560,7 +6694,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 43,
         opponentScore: 27,
-
+wvuArtwork: "1999-BlueBlueGold.png",
+opponentArtwork: "1999-Miami-OH.png",
         combination: "BlueBlueGold "
     },
    {
@@ -5576,7 +6711,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 0,
         opponentScore: 33,
-
+wvuArtwork: "1999-BlueWhiteGold.png",
+opponentArtwork: "1999-Maryland.png",
         combination: "BlueWhiteGold "
     },
    {
@@ -5592,7 +6728,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 7,
         opponentScore: 30,
-
+wvuArtwork: "1999-BlueWhiteGold.png",
+opponentArtwork: "1999-Syracuse.png",
         combination: "BlueWhiteGold "
     },
 
@@ -5609,7 +6746,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 28,
         opponentScore: 31,
-
+wvuArtwork: "1999-BlueBlueGold.png",
+opponentArtwork: "1999-Navy.png",
         combination: "BlueBlueGold "
     },
       {
@@ -5625,7 +6763,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 62,
         opponentScore: 16,
-
+wvuArtwork: "1999-BlueBlueGold.png",
+opponentArtwork: "1999-Rutgers.png",
         combination: "BlueBlueGold "
     },
       {
@@ -5641,7 +6780,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 17,
-
+wvuArtwork: "1999-BlueBlueGold.png",
+opponentArtwork: "1999-Temple.png",
         combination: "BlueBlueGold "
     },
              {
@@ -5657,7 +6797,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 28,
-
+wvuArtwork: "1999-BlueWhiteGold.png",
+opponentArtwork: "1999-Miami.png",
         combination: "BlueWhiteGold "
     },
       {
@@ -5673,7 +6814,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 22,
-
+wvuArtwork: "1999-BlueBlueGold.png",
+opponentArtwork: "1999-VPI.png",
         combination: "BlueBlueGold "
     },
          {
@@ -5689,7 +6831,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 34,
-
+wvuArtwork: "1999-BlueWhiteGold.png",
+opponentArtwork: "1999-BC.png",
         combination: "BlueWhiteGold "
     },
          {
@@ -5705,7 +6848,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 52,
         opponentScore: 21,
-
+wvuArtwork: "1999-BlueBlueGold.png",
+opponentArtwork: "1999-Pitt.png",
         combination: "BlueBlueGold "
     },
        {
@@ -5717,7 +6861,8 @@ combination: "BlueWhiteGold"
     city: "Morgantown",
     state: "West Virginia",
         gameType: "Regular Season",
-
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-BC.png",
         result: "w",
         wvuScore: 34,
         opponentScore: 14,
@@ -5737,7 +6882,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 17,
-
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-Maryland.png",
         combination: "BlueBlueGold "
     },
     {
@@ -5753,7 +6899,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 10,
         opponentScore: 47,
-
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-Miami.png",
         combination: "BlueBlueGold "
     },
          {
@@ -5769,7 +6916,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 29,
         opponentScore: 24,
-
+wvuArtwork: "2000-BlueWhiteGold.png",
+opponentArtwork: "2000-Temple.png",
         combination: "BlueWhiteGold "
     },
         {
@@ -5785,7 +6933,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 16,
-
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-Idaho.png",
         combination: "BlueBlueGold "
     },
     {
@@ -5801,7 +6950,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 28,
         opponentScore: 42,
-
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-ND.png",
         combination: "BlueBlueGold "
     },
          {
@@ -5817,7 +6967,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 48,
-
+wvuArtwork: "2000-BlueWhiteGold.png",
+opponentArtwork: "2000-VPI.png",
         combination: "BlueWhiteGold "
     },
 
@@ -5834,8 +6985,9 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 27,
         opponentScore: 31,
-
-        combination: "BlueWhiteGold "
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-Syracuse.png",
+        combination: "BlueBlueGold "
     },
      {
         season: 2000,
@@ -5850,7 +7002,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 24,
-
+wvuArtwork: "2000-BlueWhiteGold.png",
+opponentArtwork: "2000-Rutgers.png",
         combination: "BlueWhiteGold "
     },
     {
@@ -5866,8 +7019,9 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 24,
-
-        combination: "BlueWhiteGold "
+wvuArtwork: "2000-BlueBlueGold.png",
+opponentArtwork: "2000-ECU.png",
+        combination: "BlueBlueGold "
     },
      {
         season: 2000,
@@ -5882,7 +7036,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 28,
         opponentScore: 38,
-
+wvuArtwork: "2000-BlueWhiteGold.png",
+opponentArtwork: "2000-Pitt.png",
         combination: "BlueWhiteGold "
     },
    {
@@ -5894,11 +7049,12 @@ combination: "BlueWhiteGold"
     city: "Nashville",
     state: "Tennessee",
         gameType: "Bowl",
-
+event: "Music City Bowl",
         result: "w",
         wvuScore: 48,
         opponentScore: 39,
-
+wvuArtwork: "2000-MusicCity.png",
+opponentArtwork: "2000-OleMiss.png",
         combination: "BlueBlueGold"
     },
 
@@ -5915,7 +7071,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 10,
         opponentScore: 34,
-
+wvuArtwork: "2001-BlueWhiteGold.png",
+opponentArtwork: "2001-BC.png",
         combination: "BlueWhiteGold "
     },
 
@@ -5932,7 +7089,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 3,
-
+wvuArtwork: "2001-BlueBlueGold.png",
+opponentArtwork: "2001-Ohio.png",
         combination: "BlueBlueGold "
     },
        {
@@ -5948,7 +7106,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 14,
-
+wvuArtwork: "2001-BlueBlueGold.png",
+opponentArtwork: "2001-KentState.png",
         combination: "BlueBlueGold "
     },
          {
@@ -5964,7 +7123,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 32,
-
+wvuArtwork: "2001-BlueWhiteGold.png",
+opponentArtwork: "2001-Maryland.png",
         combination: "BlueWhiteGold "
     },
           {
@@ -5980,7 +7140,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 0,
         opponentScore: 35,
-
+wvuArtwork: "2001-BlueBlueWhite.png",
+opponentArtwork: "2001-VPI.png",
         combination: "BlueBlueWhite "
     },
         {
@@ -5996,7 +7157,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 24,
         opponentScore: 34,
-
+wvuArtwork: "2001-BlueWhiteGold.png",
+opponentArtwork: "2001-NotreDame.png",
         combination: "BlueWhiteGold "
     },
              {
@@ -6012,7 +7174,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 3,
         opponentScore: 45,
-
+wvuArtwork: "2001-BlueWhiteGold.png",
+opponentArtwork: "2001-Miami.png",
         combination: "BlueWhiteGold "
     },
          {
@@ -6028,7 +7191,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 80,
         opponentScore: 0,
-
+wvuArtwork: "2001-BlueBlueGold.png",
+opponentArtwork: "2001-Rutgers.png",
         combination: "BlueBlueGold "
     },
          {
@@ -6044,21 +7208,26 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 24,
-
+wvuArtwork: "2001-BlueWhiteGold.png",
+opponentArtwork: "2001-Syracuse.png",
         combination: "BlueWhiteGold "
     },
      {
         season: 2001,
         opponent: "Temple",
-        date: "2001-11-24",
-        location: "away",
+        date: "2001-11-17",
+        location: "home",
         gameType: "Regular Season",
+        stadium: "Mountaineer Field",
+    city: "Morgantown",
+    state: "West Virginia",
 
         result: "l",
         wvuScore: 14,
         opponentScore: 17,
-
-        combination: "BlueWhiteGold "
+wvuArtwork: "2001-BlueBlueGold.png",
+opponentArtwork: "2001-Temple.png",
+        combination: "BlueBlueGold "
     },
 
              {
@@ -6074,6 +7243,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 23,
+wvuArtwork: "2001-BlueBlueWhite.png",
+opponentArtwork: "2001-Pitt.png",
 
         combination: "BlueBlueWhite"
     },
@@ -6091,7 +7262,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 56,
         opponentScore: 7,
-
+wvuArtwork: "2002-BlueBlueGold.png",
+opponentArtwork: "2002-UTC.png",
         combination: "BlueBlueGold"
     },
 
@@ -6101,11 +7273,14 @@ combination: "BlueWhiteGold"
         date: "2002-9-7",
         location: "away",
         gameType: "Regular Season",
-
+        stadium: "Camp Randall Stadium",
+    city: "Madison",
+    state: "Wisconsin",
         result: "l",
         wvuScore: 17,
         opponentScore: 34,
-
+wvuArtwork: "2002-BlueWhiteGold.png",
+opponentArtwork: "2002-Wisconsin.png",
         combination: "BlueWhiteGold"
     }, 
           {
@@ -6121,7 +7296,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 32,
-
+wvuArtwork: "2002-BlueWhiteWhite.png",
+opponentArtwork: "2002-Cincinnati.png",
         combination: "BlueWhiteWhite"
     }, 
              {
@@ -6137,7 +7313,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 17,
-
+wvuArtwork: "2002-BlueBlueGold.png",
+opponentArtwork: "2002-ECU.png",
         combination: "BlueBlueGold"
     },
 
@@ -6154,7 +7331,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 48,
-
+wvuArtwork: "2002-BlueBlueGold.png",
+opponentArtwork: "2002-Maryland.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6171,7 +7349,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 40,
         opponentScore: 0,
-
+wvuArtwork: "2002-BlueWhiteGold.png",
+opponentArtwork: "2002-Rutgers.png",
         combination: "BlueWhiteGold"
     }, 
 
@@ -6188,7 +7367,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 7,
-
+wvuArtwork: "2002-BlueBlueGold.png",
+opponentArtwork: "2002-Syracuse.png",
         combination: "BlueBlueGold"
     }, 
          {
@@ -6204,7 +7384,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 23,
         opponentScore: 40,
-
+wvuArtwork: "2002-BlueBlueGold.png",
+opponentArtwork: "2000-Miami.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6221,7 +7402,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 46,
         opponentScore: 20,
-
+wvuArtwork: "2002-BlueWhiteWhite.png",
+opponentArtwork: "2002-Temple.png",
         combination: "BlueWhiteWhite"
     }, 
 
@@ -6238,7 +7420,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 14,
-
+wvuArtwork: "2002-BlueBlueGold.png",
+opponentArtwork: "2002-BC.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6255,7 +7438,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 21,
         opponentScore: 18,
-
+wvuArtwork: "2002-BlueWhiteWhite.png",
+opponentArtwork: "2002-VPI.png",
         combination: "BlueWhiteWhite"
     }, 
 
@@ -6272,7 +7456,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
-
+wvuArtwork: "2002-BlueWhiteWhite.png",
+opponentArtwork: "2002-Pitt.png",
         combination: "BlueWhiteWhite"
     }, 
  {
@@ -6284,11 +7469,12 @@ combination: "BlueWhiteGold"
     city: "Charlotte",
     state: "North Carolina",
         gameType: "Bowl",
-
+event: "Tire Bowl",
         result: "l",
         wvuScore: 22,
         opponentScore: 48,
-
+wvuArtwork: "2002-TireBowl.png",
+opponentArtwork: "2002-UVA.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -6303,10 +7489,11 @@ combination: "BlueWhiteGold"
     state: "West Virginia",
         gameType: "Regular Season",
 
-        result: "w",
-        wvuScore: 24,
-        opponentScore: 17,
-
+        result: "l",
+        wvuScore: 17,
+        opponentScore: 24,
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2003-Wisconsin.png",
         combination: "BlueBlueGold"
     }, 
      {
@@ -6322,7 +7509,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 7,
-
+wvuArtwork: "2003-BlueWhiteGold.png",
+opponentArtwork: "2003-ECU.png",
         combination: "BlueWhiteGold"
     }, 
 
@@ -6339,7 +7527,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 13,
-
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2003-Cincinnati.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6356,6 +7545,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 7,
         opponentScore: 34,
+wvuArtwork: "2003-BlueWhiteGold.png",
+opponentArtwork: "2003-Maryland.png",
 
         combination: "BlueWhiteGold"
     }, 
@@ -6373,7 +7564,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 22,
-
+wvuArtwork: "2003-BlueWhiteWhite.png",
+opponentArtwork: "2003-Miami.png",
         combination: "BlueWhiteWhite"
     }, 
 
@@ -6390,7 +7582,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 19,
-
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2003-Rutgers.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6407,7 +7600,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 7,
-
+wvuArtwork: "2003-BlueBlueBlue.png",
+opponentArtwork: "2003-VPI.png",
         combination: "BlueBlueBlue"
     }, 
              {
@@ -6423,7 +7617,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 36,
         opponentScore: 18,
-
+wvuArtwork: "2003-BlueBlueBlue.png",
+opponentArtwork: "2003-UCF.png",
         combination: "BlueBlueBlue"
     }, 
 
@@ -6440,7 +7635,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 28,
-
+wvuArtwork: "2003-BlueWhiteWhite.png",
+opponentArtwork: "2003-BC.png",
         combination: "BlueWhiteWhite"
     }, 
 
@@ -6457,7 +7653,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 52,
         opponentScore: 31,
-
+wvuArtwork: "2003-BlueBlueBlue.png",
+opponentArtwork: "2003-Pitt.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6474,7 +7671,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 23,
-
+wvuArtwork: "2003-BlueWhiteBlue.png",
+opponentArtwork: "2003-Syracuse.png",
         combination: "BlueWhiteBlue"
     }, 
 
@@ -6491,7 +7689,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 28,
-
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2003-Temple.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6507,10 +7706,12 @@ combination: "BlueWhiteGold"
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "l",
         wvuScore: 7,
         opponentScore: 41,
+wvuArtwork: "2004-Gator.png",
+opponentArtwork: "2003-Marlyand-Bowl.png",
 
         combination: "BlueWhiteGold"
     },
@@ -6528,6 +7729,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 56,
         opponentScore: 23,
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2004-ECU.png",
 
         combination: "BlueBlueGold"
     }, 
@@ -6542,7 +7745,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 20,
-
+wvuArtwork: "2003-BlueWhiteWhite.png",
+opponentArtwork: "2004-UCF.png",
         combination: "BlueWhiteWhite"
     },   
 
@@ -6559,7 +7763,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 19,
         opponentScore: 16,
-
+wvuArtwork: "2003-BlueBlueBlue.png",
+opponentArtwork: "2004-Maryland.png",
         combination: "BlueBlueBlue"
     }, 
 
@@ -6577,7 +7782,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 10,
-
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2004-JMU.png",
         combination: "BlueBlueGold"
     }, 
 
@@ -6594,6 +7800,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 19,
+wvuArtwork: "2003-BlueWhiteWhite.png",
+opponentArtwork: "2004-VPI.png",
 
         combination: "BlueWhiteWhite"
     },   
@@ -6611,7 +7819,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 19,
-
+wvuArtwork: "2003-BlueWhiteGold.png",
+opponentArtwork: "2004-UConn.png",
         combination: "BlueWhiteGold"
     },   
 
@@ -6629,7 +7838,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 27,
         opponentScore: 6,
-
+wvuArtwork: "2003-BlueBlueBlue.png",
+opponentArtwork: "2004-Syracuse.png",
         combination: "BlueBlueBlue"
     }, 
 
@@ -6646,7 +7856,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 30,
-
+wvuArtwork: "2003-BlueWhiteBlue.png",
+opponentArtwork: "2004-Rutgers.png",
         combination: "BlueWhiteBlue"
     },   
 
@@ -6664,6 +7875,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 21,
+wvuArtwork: "2003-BlueBlueBlue.png",
+opponentArtwork: "2004-Temple.png",
 
         combination: "BlueBlueBlue"
     },   
@@ -6681,7 +7894,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 36,
-
+wvuArtwork: "2003-BlueBlueGold.png",
+opponentArtwork: "2004-BC.png",
         combination: "BlueBlueGold"
     },   
 
@@ -6698,7 +7912,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 16,
-
+wvuArtwork: "2003-BlueWhiteGold.png",
+opponentArtwork: "2004-Pitt.png",
         combination: "BlueWhiteGold"
     },   
 
@@ -6711,10 +7926,12 @@ combination: "BlueWhiteGold"
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "l",
         wvuScore: 18,
         opponentScore: 30,
+wvuArtwork: "2005-Gator.png",
+opponentArtwork: "2005-FSU.png",
 
         combination: "BlueBlueBlue"
     },
@@ -6732,6 +7949,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 15,
         opponentScore: 7,
+wvuArtwork: "2005-BlueBlueBlue.png",
+opponentArtwork: "2005-Syracuse.png",
 
         combination: "BlueBlueBlue"
     },   
@@ -6749,6 +7968,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 7,
+wvuArtwork: "2005-BlueBlueGold.png",
+opponentArtwork: "2005-Wofford.png",
 
         combination: "BlueBlueGold"
     },     
@@ -6765,6 +7986,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 15,
+wvuArtwork: "2005-BlueWhiteBlue.png",
+opponentArtwork: "2005-Maryland.png",
 
         combination: "BlueWhiteBlue"
     }, 
@@ -6781,6 +8004,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 19,
+wvuArtwork: "2005-BlueBlueGold.png",
+opponentArtwork: "2005-ECU.png",
 
         combination: "BlueBlueGold"
     },
@@ -6797,7 +8022,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 17,
         opponentScore: 34,
-
+wvuArtwork: "2005-BlueBlueBlue.png",
+opponentArtwork: "2005-VPI.png",
         combination: "BlueBlueBlue"
     },
      {
@@ -6813,7 +8039,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 27,
         opponentScore: 14,
-
+wvuArtwork: "2005-BlueWhiteGold.png",
+opponentArtwork: "2005-Rutgers.png",
         combination: "BlueWhiteGold"
     },
   {
@@ -6829,7 +8056,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 46,
         opponentScore: 44,
-
+wvuArtwork: "2005-BlueBlueBlue.png",
+opponentArtwork: "2005-Louisville.png",
         combination: "BlueBlueBlue"
     },
 
@@ -6846,7 +8074,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 13,
-
+wvuArtwork: "2005-BlueBlueWhite.png",
+opponentArtwork: "2005-UConn.png",
         combination: "BlueBlueWhite"
     },
 
@@ -6863,7 +8092,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 0,
-
+wvuArtwork: "2005-BlueWhiteWhite.png",
+opponentArtwork: "2007-Cincinnati.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -6880,7 +8110,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 13,
-
+wvuArtwork: "2005-BlueBlueBlue.png",
+opponentArtwork: "2005-Pitt.png",
         combination: "BlueBlueBlue"
     },
 
@@ -6897,7 +8128,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 13,
-
+wvuArtwork: "2005-BlueWhiteWhite.png",
+opponentArtwork: "2005-USF.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -6911,11 +8143,12 @@ combination: "BlueWhiteGold"
     city: "Atlanta",
     state: "Georiga",
         gameType: "Bowl",
-
+event: "Sugar Bowl",
         result: "w",
         wvuScore: 38,
         opponentScore: 35,
-
+wvuArtwork: "2006-Sugar.png",
+opponentArtwork: "2006-UGA.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -6932,7 +8165,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 10,
-
+wvuArtwork: "2006-BlueBlueBlue.png",
+opponentArtwork: "2006-Marshall.png",
         combination: "BlueBlueBlue"
     },
 
@@ -6949,7 +8183,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 52,
         opponentScore: 3,
-
+wvuArtwork: "2005-BlueBlueGold.png",
+opponentArtwork: "2006-EW.png",
         combination: "BlueBlueGold"
     },
 
@@ -6966,7 +8201,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 24,
-
+wvuArtwork: "2006-BlueBlueBlue.png",
+opponentArtwork: "2004-Maryland.png",
         combination: "BlueBlueBlue"
     },
 
@@ -6983,7 +8219,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 27,
         opponentScore: 10,
-
+wvuArtwork: "2005-BlueWhiteWhite.png",
+opponentArtwork: "2006-ECU.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -6997,7 +8234,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 14,
-
+wvuArtwork: "2005-BlueWhiteGold.png",
+opponentArtwork: "2006-MissState.png",
         combination: "BlueWhiteGold"
     },
 
@@ -7014,7 +8252,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 17,
-
+wvuArtwork: "2005-BlueBlueGold.png",
+opponentArtwork: "2006-Syracuse.png",
         combination: "BlueBlueGold"
     },
 
@@ -7031,7 +8270,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 11,
-
+wvuArtwork: "2006-BlueWhiteBlue.png",
+opponentArtwork: "2006-UConn.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7048,7 +8288,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 34,
         opponentScore: 44,
-
+wvuArtwork: "2005-BlueWhiteWhite.png",
+opponentArtwork: "2006-Louisville.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -7065,7 +8306,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 24,
-
+wvuArtwork: "2005-BlueBlueGold.png",
+opponentArtwork: "2006-Cincinnati.png",
         combination: "BlueBlueGold"
     },
 
@@ -7082,7 +8324,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 27,
-
+wvuArtwork: "2005-BlueWhiteGold.png",
+opponentArtwork: "2006-Pitt.png",
         combination: "BlueWhiteGold"
     },
 
@@ -7099,7 +8342,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 19,
         opponentScore: 24,
-
+wvuArtwork: "2005-BlueBlueGold.png",
+opponentArtwork: "2006-USF.png",
         combination: "BlueBlueGold"
     },
 
@@ -7116,7 +8360,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 39,
-
+wvuArtwork: "2006-BlueBlueBlue.png",
+opponentArtwork: "2006-Rutgers.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7129,11 +8374,12 @@ combination: "BlueWhiteGold"
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "w",
         wvuScore: 38,
         opponentScore: 35,
-
+wvuArtwork: "2007-Gator.png",
+opponentArtwork: "2007-GATech.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7150,6 +8396,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 62,
         opponentScore: 24,
+wvuArtwork: "2007-BlueBlueGold-1.png",
+opponentArtwork: "2007-WesternMichigan.png",
 
         combination: "BlueBlueGold"
     },
@@ -7167,7 +8415,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 23,
-
+wvuArtwork: "2007-BlueWhiteWhite.png",
+opponentArtwork: "2007-Marshall.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -7184,6 +8433,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 14,
+wvuArtwork: "2007-BlueWhiteBlue.png",
+opponentArtwork: "2007-Maryland.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -7201,7 +8452,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 7,
-
+wvuArtwork: "2007-BlueBlueBlue.png",
+opponentArtwork: "2007-ECU.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7218,7 +8470,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 21,
-
+wvuArtwork: "2008-BlueWhiteWhite.png",
+opponentArtwork: "2007-USF.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -7235,7 +8488,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 55,
         opponentScore: 14,
-
+wvuArtwork: "2008-BlueWhiteGold.png",
+opponentArtwork: "2007-Syracuse.png",
         combination: "BlueWhiteGold"
     },
 
@@ -7252,7 +8506,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 13,
-
+wvuArtwork: "2008-BlueGoldBlue.png",
+opponentArtwork: "2007-MissState.png",
         combination: "BlueGoldBlue"
     },
 
@@ -7269,13 +8524,14 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 3,
-
+wvuArtwork: "2008-BlueWhiteWhite.png",
+opponentArtwork: "2007-Rutgers.png",
         combination: "BlueWhiteWhite"
     },
 
      {
         season: 2007,
-        opponent: "Lousiville",
+        opponent: "Louisville",
         date: "2007-10-27",
         location: "home",
         stadium: "Milan Puskar Stadium",
@@ -7286,7 +8542,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 3,
-
+wvuArtwork: "2008-BlueGoldGold.png",
+opponentArtwork: "2007-Louisville.png",
         combination: "BlueGoldGold"
     },
 
@@ -7303,7 +8560,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 23,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2007-Cincinnati.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7320,7 +8578,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 66,
         opponentScore: 21,
-
+wvuArtwork: "2007-BlueBlueGold-2.png",
+opponentArtwork: "2007-UConn.png",
         combination: "BlueBlueGold"
     },
 
@@ -7337,7 +8596,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 9,
         opponentScore: 13,
-
+wvuArtwork: "2008-BlueGoldGold.png",
+opponentArtwork: "2007-Pitt.png",
         combination: "BlueGoldGold"
     },
 
@@ -7350,10 +8610,12 @@ combination: "BlueWhiteGold"
     city: "Glendale",
     state: "Arizona",
         gameType: "Bowl",
-
+event: "Fiesta Bowl",
         result: "w",
         wvuScore: 48,
         opponentScore: 28,
+wvuArtwork: "2008-Fiesta.png",
+opponentArtwork: "2008-Oklahoma.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -7371,6 +8633,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 21,
+wvuArtwork: "2008-BlueBlueGold.png",
+opponentArtwork: "2008-Nova.png",
 
         combination: "BlueBlueGold"
     },
@@ -7388,7 +8652,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 3,
         opponentScore: 24,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2008-ECU.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7405,7 +8670,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 17,
-
+wvuArtwork: "2008-BlueWhiteWhite.png",
+opponentArtwork: "2008-Colorado.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -7422,7 +8688,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 27,
         opponentScore: 3,
-
+wvuArtwork: "2008-BlueGoldBlue.png",
+opponentArtwork: "2008-Marshall.png",
         combination: "BlueGoldBlue"
     },
 
@@ -7439,7 +8706,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
-
+wvuArtwork: "2008-BlueBlueWhite.png",
+opponentArtwork: "2008-Rutgers.png",
         combination: "BlueBlueWhite"
     },
 
@@ -7456,7 +8724,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 6,
-
+wvuArtwork: "2008-BlueBlueGold.png",
+opponentArtwork: "2008-Syracuse.png",
         combination: "BlueBlueGold"
     },
 
@@ -7474,7 +8743,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 17,
-
+wvuArtwork: "2008-BlueBlueBlue.png",
+opponentArtwork: "2008-Aurburn.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7491,7 +8761,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 13,
-
+wvuArtwork: "2008-BlueWhiteGold.png",
+opponentArtwork: "2008-UConn.png",
         combination: "BlueWhiteGold"
     },
 
@@ -7508,7 +8779,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 23,
         opponentScore: 26,
-
+wvuArtwork: "2008-BlueBlueBlue.png",
+opponentArtwork: "2008-Cincinnati.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7525,7 +8797,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 21,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2008-Louisville.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7542,7 +8815,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 15,
         opponentScore: 19,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2008-Pitt.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7559,7 +8833,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 13,
         opponentScore: 7,
-
+wvuArtwork: "2008-BlueWhiteWhite.png",
+opponentArtwork: "2008-USF.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -7572,11 +8847,12 @@ combination: "BlueWhiteGold"
     city: "Charlotte",
     state: "North Carolina",
         gameType: "Bowl",
-
+event: "Car Care Bowl",
         result: "w",
         wvuScore: 31,
         opponentScore: 30,
-
+wvuArtwork: "2008-Care-Bowl.png",
+opponentArtwork: "2008-UNC.png",
         combination: "BlueBlueWhite"
     },
 
@@ -7593,7 +8869,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 33,
         opponentScore: 20,
-
+wvuArtwork: "2008-BlueBlueGold.png",
+opponentArtwork: "2009-Liberty.png",
         combination: "BlueBlueGold"
     },
 
@@ -7610,7 +8887,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 20,
-
+wvuArtwork: "2008-BlueGoldBlue.png",
+opponentArtwork: "2009-ECU.png",
         combination: "BlueGoldBlue"
     },
 
@@ -7627,7 +8905,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 35,
-
+wvuArtwork: "2008-BlueWhiteWhite.png",
+opponentArtwork: "2009-Auburn.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -7644,7 +8923,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 24,
-
+wvuArtwork: "2008-BlueGoldGold.png",
+opponentArtwork: "2009-Colorado.png",
         combination: "BlueGoldGold"
     },
 
@@ -7661,7 +8941,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 13,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2009-Syracuse.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7678,7 +8959,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 7,
-
+wvuArtwork: "2008-BlueGoldWhite.png",
+opponentArtwork: "2009-Marshall.png",
         combination: "BlueGoldWhite"
     },
 
@@ -7695,7 +8977,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 24,
-
+wvuArtwork: "2008-BlueBlueGold.png",
+opponentArtwork: "2009-UConn.png",
         combination: "BlueBlueGold"
     },
 
@@ -7712,7 +8995,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 19,
         opponentScore: 30,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2008-USF.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7729,7 +9013,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 9,
-
+wvuArtwork: "2008-BlueGoldBlue.png",
+opponentArtwork: "2009-Louisville.png",
         combination: "BlueGoldBlue"
     },
 
@@ -7746,7 +9031,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 21,
         opponentScore: 24,
-
+wvuArtwork: "2008-BlueWhiteBlue.png",
+opponentArtwork: "2009-Cincinnati.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7763,7 +9049,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 19,
         opponentScore: 16,
-
+wvuArtwork: "2008-BlueBlueBlue.png",
+opponentArtwork: "2009-Pitt.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7780,7 +9067,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+wvuArtwork: "2008-BlueWhiteGold.png",
+opponentArtwork: "2009-Rutgers.png",
         combination: "BlueWhiteGold"
     },
 
@@ -7793,11 +9081,12 @@ combination: "BlueWhiteGold"
     city: "Jacksonville",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Gator Bowl",
         result: "l",
         wvuScore: 21,
         opponentScore: 33,
-
+wvuArtwork: "2010-Gator.png",
+opponentArtwork: "2010-FSU.png",
         combination: "BlueGoldWhite"
     },
        {
@@ -7813,7 +9102,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 0,
-
+wvuArtwork: "2010-BlueBlueGold.png",
+opponentArtwork: "2010-Coastal.png",
         combination: "BlueBlueGold"
     },
    {
@@ -7829,7 +9119,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 10,
-
+wvuArtwork: "2010-BlueWhiteBlue.png",
+opponentArtwork: "2010-Marshall.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7846,7 +9137,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 17,
-
+wvuArtwork: "2010-BlueBlueWhite.png",
+opponentArtwork: "2010-Maryland.png",
         combination: "BlueBlueWhite"
     },
 
@@ -7860,7 +9152,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 20,
-
+wvuArtwork: "2010-BlueBlueBlue.png",
+opponentArtwork: "2010-LSU.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7877,13 +9170,14 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 49,
         opponentScore: 10,
-
+wvuArtwork: "2010-BlueBlueGold.png",
+opponentArtwork: "2010-UNLV.png",
         combination: "BlueBlueGold"
     },
 
       {
         season: 2010,
-        opponent: "Connecticut",
+        opponent: "USF",
         date: "2010-10-14",
         location: "home",
         stadium: "Milan Puskar Stadium",
@@ -7894,7 +9188,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 6,
-
+wvuArtwork: "2010-BlueGoldGold.png",
+opponentArtwork: "2010-USF.png",
         combination: "BlueGoldGold"
     },
 
@@ -7911,7 +9206,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 19,
-
+wvuArtwork: "2010-BlueBlueGold.png",
+opponentArtwork: "2010-Syracuse.png",
         combination: "BlueBlueGold"
     },
 
@@ -7928,7 +9224,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 16,
-
+wvuArtwork: "2010-BlueWhiteBlue.png",
+opponentArtwork: "2010-UConn.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7945,7 +9242,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 10,
-
+wvuArtwork: "2010-BlueBlueBlue.png",
+opponentArtwork: "2010-Cincinnati.png",
         combination: "BlueBlueBlue"
     },
 
@@ -7962,7 +9260,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 10,
-
+wvuArtwork: "2010-BlueWhiteBlue.png",
+opponentArtwork: "2010-Louisville.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -7979,7 +9278,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 10,
-
+wvuArtwork: "2010-ProCombat.png",
+opponentArtwork: "2010-Pitt.png",
         combination: "GrayWhiteWhite"
     },
 
@@ -7996,6 +9296,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 14,
+wvuArtwork: "2010-BlueBlueBlue.png",
+opponentArtwork: "2010-Rutgers.png",
 
         combination: "BlueBlueBlue"
     },
@@ -8005,12 +9307,16 @@ combination: "BlueWhiteGold"
         opponent: "North Carolina State",
         date: "2010-12-28",
         location: "neutral",
+ stadium: "Florida Citrus Bowl",
+    city: "Orlando",
+    state: "Florida ",
         gameType: "Bowl",
-
+event: "Champs Sports Bowl",
         result: "l",
         wvuScore: 7,
         opponentScore: 23,
-
+wvuArtwork: "2010-Champs-Bowl.png",
+opponentArtwork: "2010-NCState.png",
         combination: "GrayWhiteWhite"
     },
 
@@ -8027,6 +9333,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 13,
+wvuArtwork: "2010-BlueGoldWhite.png",
+opponentArtwork: "2011-Marshall.png",
 
         combination: "BlueGoldWhite"
     },
@@ -8044,6 +9352,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 55,
         opponentScore: 12,
+wvuArtwork: "2010-BlueGoldBlue.png",
+opponentArtwork: "2011-NSU.png",
 
         combination: "BlueGoldBlue"
     },
@@ -8061,6 +9371,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 31,
+wvuArtwork: "2010-BlueWhiteWhite.png",
+opponentArtwork: "2011-Maryland.png",
 
         combination: "BlueWhiteWhite"
     },
@@ -8078,6 +9390,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 21,
         opponentScore: 47,
+wvuArtwork: "2010-BlueGoldGold.png",
+opponentArtwork: "2011-LSU.png",
 
         combination: "BlueGoldGold"
     },
@@ -8095,6 +9409,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 55,
         opponentScore: 10,
+wvuArtwork: "2010-BlueBlueGold.png",
+opponentArtwork: "2011-BowlingGreen.png",
 
         combination: "BlueBlueGold"
     },
@@ -8112,7 +9428,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 43,
         opponentScore: 16,
-
+wvuArtwork: "2010-BlueBlueBlue.png",
+opponentArtwork: "2011-UConn.png",
         combination: "BlueBlueBlue"
     },
 
@@ -8129,6 +9446,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 23,
         opponentScore: 49,
+wvuArtwork: "2010-BlueWhiteBlue.png",
+opponentArtwork: "2011-Syracuse.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -8146,6 +9465,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 31,
+wvuArtwork: "2010-BlueWhiteGold.png",
+opponentArtwork: "2011-Rutgers.png",
 
         combination: "BlueWhiteGold"
     },
@@ -8163,7 +9484,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 35,
         opponentScore: 38,
-
+wvuArtwork: "2010-BlueBlueWhite.png",
+opponentArtwork: "2011-Louisville.png",
         combination: "BlueBlueWhite"
     },
 
@@ -8180,8 +9502,9 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
-        combination: "BlueWhiteBlue"
+wvuArtwork: "2010-BlueWhiteWhite.png",
+opponentArtwork: "2011-Cincinnati.png",
+        combination: "BlueWhiteWhite"
     },
 
       {
@@ -8197,7 +9520,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 21,
         opponentScore: 20,
-
+wvuArtwork: "2010-BlueBlueBlue.png",
+opponentArtwork: "2011-Pitt.png",
         combination: "BlueBlueBlue"
     },
 
@@ -8214,6 +9538,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 27,
+wvuArtwork: "2010-BlueWhiteBlue.png",
+opponentArtwork: "2011-USF.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -8226,11 +9552,12 @@ combination: "BlueWhiteGold"
     city: "Miami Gardens",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Orange Bowl",
         result: "w",
         wvuScore: 70,
         opponentScore: 33,
-
+wvuArtwork: "2012-Orange.png",
+opponentArtwork: "2011-Clemson.png",
         combination: "BlueWhiteWhite"
     },
      {
@@ -8246,7 +9573,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 69,
         opponentScore: 34,
-
+wvuArtwork: "2012-BlueBlueWhite.png",
+opponentArtwork: "2012-Marshall.png",
         combination: "BlueBlueWhite"
     },
              {
@@ -8262,7 +9590,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 14,
-
+wvuArtwork: "2012-BlueBlueBlue.png",
+opponentArtwork: "2012-JMU.png",
         combination: "BlueBlueBlue"
     },
          {
@@ -8278,7 +9607,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 21,
-
+wvuArtwork: "2012-GrayGrayGray.png",
+opponentArtwork: "2012-Maryland.png",
         combination: "GrayGrayGray"
     },
 
@@ -8295,7 +9625,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 70,
         opponentScore: 63,
-
+wvuArtwork: "2012-BlueBlueGold.png",
+opponentArtwork: "2012-Baylor.png",
         combination: "BlueBlueGold"
     },
 
@@ -8312,7 +9643,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 45,
-
+wvuArtwork: "2012-BlueWhiteWhite.png",
+opponentArtwork: "2012-Texas.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -8329,7 +9661,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 49,
-
+wvuArtwork: "2012-GrayWhiteWhite.png",
+opponentArtwork: "2012-TexasTech.png",
         combination: "GrayWhiteWhite"
     },
 
@@ -8346,7 +9679,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 55,
-
+wvuArtwork: "2012-BlueBlueBlue.png",
+opponentArtwork: "2012-KansasState.png",
         combination: "BlueBlueBlue"
     },
 
@@ -8363,7 +9697,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 38,
         opponentScore: 39,
-
+wvuArtwork: "2012-GrayGoldGray.png",
+opponentArtwork: "2012-TCU.png",
         combination: "GrayGoldGray"
     },
 
@@ -8380,7 +9715,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 34,
         opponentScore: 55,
-
+wvuArtwork: "2012-BlueWhiteBlue.png",
+opponentArtwork: "2012-OSU.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -8397,7 +9733,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 49,
         opponentScore: 50,
-
+wvuArtwork: "2012-BlueGoldGold.png",
+opponentArtwork: "2012-Oklahoma.png",
         combination: "BlueGoldGold"
     },
 
@@ -8414,7 +9751,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 24,
-
+wvuArtwork: "2012-BlueWhiteBlue.png",
+opponentArtwork: "2012-IowaState.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -8431,7 +9769,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 59,
         opponentScore: 10,
-
+wvuArtwork: "2012-BlueGoldBlue.png",
+opponentArtwork: "2012-Kansas.png",
         combination: "BlueGoldBlue"
     },
 
@@ -8444,11 +9783,12 @@ combination: "BlueWhiteGold"
     city: "Bronx",
     state: "New York",
         gameType: "Bowl",
-
+event: "Pinstripe Bowl",
         result: "l",
         wvuScore: 14,
         opponentScore: 38,
-
+wvuArtwork: "2012-Bowl.png",
+opponentArtwork: "2012-Syracuse.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -8465,14 +9805,15 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 17,
-
+wvuArtwork: "2013-BlueBlueBlue.png",
+opponentArtwork: "2013-W&M.png",
         combination: "BlueBlueBlue"
     },
 
        {
         season: 2013,
         opponent: "Oklahoma",
-        date: "2014-9-7",
+        date: "2013-9-7",
         location: "away",
         stadium: "Gaylord Family Oklahoma Memorial Stadium",
     city: "Norman",
@@ -8482,7 +9823,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 7,
         opponentScore: 16,
-
+wvuArtwork: "2013-WhiteWhiteWhite.png",
+opponentArtwork: "2013-Oklahoma.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -8499,7 +9841,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 7,
-
+wvuArtwork: "2013-GoldBlueGold.png",
+opponentArtwork: "2013-GA-State.png",
         combination: "GoldBlueGold"
     },
 
@@ -8516,7 +9859,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 0,
         opponentScore: 37,
-
+wvuArtwork: "2013-BlueWhiteBlue.png",
+opponentArtwork: "2013-Maryland.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -8533,14 +9877,15 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 21,
-
+wvuArtwork: "2013-GoldGoldGold.png",
+opponentArtwork: "2013-OSU.png",
         combination: "GoldGoldGold"
     },
 
       {
         season: 2013,
         opponent: "Baylor",
-        date: "2014-10-5",
+        date: "2013-10-5",
         location: "away",
         stadium: "Floyd Casey Stadium",
     city: "Waco",
@@ -8550,7 +9895,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 42,
         opponentScore: 73,
-
+wvuArtwork: "2013-BlueWhiteWhite.png",
+opponentArtwork: "2013-Baylor.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -8567,14 +9913,15 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 27,
         opponentScore: 37,
-
+wvuArtwork: "2013-BlueBlueGold.png",
+opponentArtwork: "2013-TexasTech.png",
         combination: "BlueBlueGold"
     },
 
      {
         season: 2013,
         opponent: "Kansas State",
-        date: "2014-10-26",
+        date: "2013-10-26",
         location: "away",
         stadium: "Bill Snyder Family Stadium",
     city: "Manhattan",
@@ -8584,7 +9931,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 12,
         opponentScore: 35,
-
+wvuArtwork: "2013-GoldWhiteWhite.png",
+opponentArtwork: "2013-KState.png",
         combination: "GoldWhiteWhite"
     },
 
@@ -8601,7 +9949,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 27,
-
+wvuArtwork: "2013-WhiteWhiteWhite.png",
+opponentArtwork: "2013-TCU.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -8618,7 +9967,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 40,
         opponentScore: 47,
-
+wvuArtwork: "2013-WhiteBlueBlue.png",
+opponentArtwork: "2013-Texas.png",
         combination: "WhiteBlueBlue"
     },
 
@@ -8635,7 +9985,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 19,
         opponentScore: 31,
-
+wvuArtwork: "2013-WhiteWhiteWhite2.png",
+opponentArtwork: "2013-Kansas.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -8652,7 +10003,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 44,
         opponentScore: 52,
-
+wvuArtwork: "2013-BlueBlueWhite.png",
+opponentArtwork: "2013-IowaState.png",
         combination: "BlueBlueWhite"
     },
 
@@ -8662,11 +10014,14 @@ combination: "BlueWhiteGold"
         date: "2014-8-30",
         location: "neutral",
         gameType: "Regular Season",
-
+        stadium: "Georgia Dome",
+    city: "Atlanta",
+    state: "Georgia ",
         result: "w",
         wvuScore: 23,
         opponentScore: 33,
-
+wvuArtwork: "2014-WhiteCFA.png",
+opponentArtwork: "2014-Bama.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -8683,7 +10038,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 54,
         opponentScore: 0,
-
+wvuArtwork: "2014-BlueGoldBlue.png",
+opponentArtwork: "2014-Townson.png",
         combination: "BlueGoldBlue"
     },
 
@@ -8700,7 +10056,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 40,
         opponentScore: 37,
-
+wvuArtwork: "2014-GoldBlueGold.png",
+opponentArtwork: "2014-Maryland.png",
         combination: "GoldBlueGold"
     },
           {
@@ -8716,7 +10073,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 33,
         opponentScore: 45,
-
+wvuArtwork: "2014-GoldBlueBlue.png",
+opponentArtwork: "2014-Oklahoma.png",
         combination: "GoldBlueBlue"
     },
           {
@@ -8732,7 +10090,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 33,
         opponentScore: 14,
-
+wvuArtwork: "2014-BlueGoldGold.png",
+opponentArtwork: "2014-Kansas.png",
         combination: "BlueGoldGold"
     },
       {
@@ -8748,7 +10107,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 34,
-
+wvuArtwork: "2014-BlueBlueBlue.png",
+opponentArtwork: "2014-TexasTech.png",
         combination: "BlueBlueBlue"
     },
       {
@@ -8764,7 +10124,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 27,
-
+wvuArtwork: "2014-BlueBlueWhite.png",
+opponentArtwork: "2014-Baylor.png",
         combination: "BlueBlueWhite"
     },
   {
@@ -8780,7 +10141,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 10,
-
+wvuArtwork: "2014-GoldWhiteGold.png",
+opponentArtwork: "2014-OSU.png",
         combination: "GoldWhiteGold"
     },
          {
@@ -8796,7 +10158,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 30,
         opponentScore: 31,
-
+wvuArtwork: "2014-BlueBlueBlue.png",
+opponentArtwork: "2014-TCU.png",
         combination: "BlueBlueBlue"
     },
       {
@@ -8812,7 +10175,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 16,
         opponentScore: 33,
-
+wvuArtwork: "2014-BlueWhiteWhite.png",
+opponentArtwork: "2014-Texas.png",
         combination: "BlueWhiteWhite"
     },
      {
@@ -8828,7 +10192,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 26,
-
+wvuArtwork: "2014-BlueThrowback.png",
+opponentArtwork: "2014-KState.png",
         combination: "WhiteBlueWhite"
     },
   {
@@ -8844,7 +10209,8 @@ combination: "BlueWhiteGold"
         result: "W",
         wvuScore: 37,
         opponentScore: 24,
-
+wvuArtwork: "2014-WhiteWhiteBlue.png",
+opponentArtwork: "2014-IowaState.png",
         combination: "WhiteWhiteBlue"
     },
    {
@@ -8856,11 +10222,12 @@ combination: "BlueWhiteGold"
     city: "Memphis",
     state: "Tennessee",
         gameType: "Bowl",
-
+event: "Liberty Bowl",
         result: "l",
         wvuScore: 37,
         opponentScore: 45,
-
+wvuArtwork: "2014-Liberty.png",
+opponentArtwork: "2014-TexasA&M.png",
         combination: "BlueGoldBlue"
     },
 
@@ -8877,7 +10244,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 44,
         opponentScore: 0,
-
+wvuArtwork: "2014-GoldBlueBlue.png",
+opponentArtwork: "2015-GASouthern.png",
         combination: "GoldBlueBlue"
     },
       {
@@ -8893,7 +10261,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 17,
-
+wvuArtwork: "2014-WhiteGoldWhite.png",
+opponentArtwork: "2015-Liberty.png",
         combination: "WhiteGoldWhite"
     },
 
@@ -8910,7 +10279,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 45,
         opponentScore: 6,
-
+wvuArtwork: "2014-BlueGoldGold.png",
+opponentArtwork: "2015-Maryland.png",
         combination: "BlueGoldGold"
     },
 
@@ -8927,7 +10297,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 24,
         opponentScore: 44,
-
+wvuArtwork: "2014-WhiteWhiteWhite.png",
+opponentArtwork: "2015-Oklahoma.png",
         combination: "WhiteWhiteWhite"
     },
         {
@@ -8943,7 +10314,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 26,
         opponentScore: 33,
-
+wvuArtwork: "2014-BlueGoldBlue.png",
+opponentArtwork: "2015-OSU.png",
         combination: "BlueGoldBlue"
     },
          {
@@ -8959,7 +10331,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 38,
         opponentScore: 62,
-
+wvuArtwork: "2014-BlueWhiteWhite.png",
+opponentArtwork: "2015-Baylor.png",
         combination: "BlueWhiteWhite"
     },
      {
@@ -8975,7 +10348,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 10,
         opponentScore: 40,
-
+wvuArtwork: "2015-WhiteWhiteBlue.png",
+opponentArtwork: "2015-TCU.png",
         combination: "WhiteWhiteBlue"
     },
 
@@ -8992,7 +10366,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 26,
-
+wvuArtwork: "2014-BlueBlueBlue.png",
+opponentArtwork: "2015-TexasTech.png",
         combination: "BlueBlueBlue"
     },
 
@@ -9009,7 +10384,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 20,
-
+wvuArtwork: "2015-BlueThrowback.png",
+opponentArtwork: "2015-Texas.png",
         combination: "WhiteBlueBlue"
     },
 
@@ -9026,7 +10402,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 49,
         opponentScore: 0,
-
+wvuArtwork: "2014-GoldWhiteGold.png",
+opponentArtwork: "2015-Kansas.png",
         combination: "GoldWhiteGold"
     },
 
@@ -9043,7 +10420,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 30,
         opponentScore: 6,
-
+wvuArtwork: "2014-BlueBlueWhite.png",
+opponentArtwork: "2015-IowaState.png",
         combination: "BlueBlueWhite"
     },
 
@@ -9060,7 +10438,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 23,
         opponentScore: 24,
-
+wvuArtwork: "2015-WhiteThrowback.png",
+opponentArtwork: "2015-KState.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -9073,11 +10452,12 @@ combination: "BlueWhiteGold"
     city: "Phoenix",
     state: "Arizona",
         gameType: "Bowl",
-
+event: "Cactus Bowl",
         result: "w",
         wvuScore: 43,
         opponentScore: 42,
-
+wvuArtwork: "2015-Cactus.png",
+opponentArtwork: "2015-ASU.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -9094,13 +10474,14 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 26,
         opponentScore: 11,
-
+wvuArtwork: "2016-WhiteGoldWhite.png",
+opponentArtwork: "2016-Mizzou.png",
         combination: "WhiteGoldWhite"
     },
 
  {
         season: 2016,
-        opponent: "Younstown State",
+        opponent: "Youngstown State",
         date: "2016-9-10",
         location: "home",
         stadium: "Milan Puskar Stadium",
@@ -9111,7 +10492,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 21,
-
+wvuArtwork: "2016-BlueBlueGold.png",
+opponentArtwork: "2016-YSU.png",
         combination: "BlueBlueGold"
     },
 
@@ -9128,7 +10510,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 32,
-
+wvuArtwork: "2016-BlueGoldBlue.png",
+opponentArtwork: "2016-BYU.png",
         combination: "BlueGoldBlue"
     },
 
@@ -9145,7 +10528,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 16,
-
+wvuArtwork: "2016-GoldGoldBlue.png",
+opponentArtwork: "2016-KState.png",
         combination: "GoldGoldBlue"
     },
 
@@ -9162,7 +10546,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 17,
-
+wvuArtwork: "2016-GoldWhiteGold.png",
+opponentArtwork: "2016-TexasTech.png",
         combination: "GoldWhiteGold"
     },
 
@@ -9179,7 +10564,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 10,
-
+wvuArtwork: "2016-BlueBlueWhite.png",
+opponentArtwork: "2016-TCU.png",
         combination: "BlueBlueWhite"
     },
 
@@ -9196,7 +10582,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 37,
-
+wvuArtwork: "2016-BlueWhiteGold.png",
+opponentArtwork: "2016-OSU.png",
         combination: "BlueWhiteGold"
     },
       {
@@ -9212,7 +10599,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 48,
         opponentScore: 21,
-
+wvuArtwork: "2016-WhiteBlueBlue.png",
+opponentArtwork: "2016-Kansas.png",
         combination: "WhiteBlueBlue"
     },
     {
@@ -9228,7 +10616,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 20,
-
+wvuArtwork: "2016-BlueWhiteWhite.png",
+opponentArtwork: "2016-Texas.png",
         combination: "BlueWhiteWhite"
     },
      {
@@ -9244,13 +10633,14 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 28,
         opponentScore: 56,
-
+wvuArtwork: "2016-BlueBlueBlue.png",
+opponentArtwork: "2016-Oklahoma.png",
         combination: "BlueBlueBlue"
     },
   {
         season: 2016,
         opponent: "Iowa State",
-        date: "2012-11-23",
+        date: "2016-11-23",
         location: "away",
         stadium: "Jack Trice Stadium",
     city: "Ames",
@@ -9260,7 +10650,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 49,
         opponentScore: 19,
-
+wvuArtwork: "2016-WhiteWhiteWhite.png",
+opponentArtwork: "2016-IowaState.png",
         combination: "WhiteWhiteWhite"
     },
       {
@@ -9276,7 +10667,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+wvuArtwork: "2016-BlueBlueWhite.png",
+opponentArtwork: "2016-Baylor.png",
         combination: "BlueBlueWhite"
     },
 
@@ -9289,11 +10681,12 @@ combination: "BlueWhiteGold"
     city: "Orlando",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Russell Athletic Bowl",
         result: "l",
         wvuScore: 14,
         opponentScore: 31,
-
+wvuArtwork: "2016-Bowl.png",
+opponentArtwork: "2016-Miami.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -9310,7 +10703,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 24,
         opponentScore: 31,
-
+wvuArtwork: "2016-WhiteWhiteWhite.png",
+opponentArtwork: "2017-VirginiaTech.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -9327,10 +10721,27 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 56,
         opponentScore: 20,
-
+wvuArtwork: "2016-BlueGoldGold.png",
+opponentArtwork: "2017-ECU.png",
         combination: "BlueGoldGold"
     },
+ {
+        season: 2017,
+        opponent: "Delware State",
+        date: "2017-9-16",
+        location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
+        gameType: "Regular Season",
 
+        result: "w",
+        wvuScore: 59,
+        opponentScore: 16,
+wvuArtwork: "2016-WhiteBlueBlue.png",
+opponentArtwork: "ComingSoon.png",
+        combination: "BlueGoldGold"
+    },
      {
         season: 2017,
         opponent: "Kansas",
@@ -9344,7 +10755,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 56,
         opponentScore: 34,
-
+wvuArtwork: "2016-BlueWhiteBlue.png",
+opponentArtwork: "2017-Kansas.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -9361,7 +10773,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 24,
         opponentScore: 31,
-
+wvuArtwork: "2016-GoldWhiteGold.png",
+opponentArtwork: "2017-TCU.png",
         combination: "GoldWhiteGold"
     },
 
@@ -9378,7 +10791,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 36,
-
+wvuArtwork: "2017-WhiteWhiteBlue.png",
+opponentArtwork: "2017-Baylor.png",
         combination: "WhiteWhiteBlue"
     },
 
@@ -9395,7 +10809,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 46,
         opponentScore: 35,
-
+wvuArtwork: "2016-BlueGoldBlue.png",
+opponentArtwork: "2017-TexasTech.png",
         combination: "BlueGoldBlue"
     },
  {
@@ -9411,21 +10826,22 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 39,
         opponentScore: 50,
-
+wvuArtwork: "2016-BlueBlueBlue.png",
+opponentArtwork: "2017-OSU.png",
         combination: "BlueBlueBlue"
     },
      {
         season: 2017,
         opponent: "Iowa State",
         date: "2017-11-4",
-        location: "away",
+        location: "home",
         gameType: "Regular Season",
-
-        result: "l",
+        result: "w",
         wvuScore: 20,
         opponentScore: 16,
-
-        combination: "WhiteWhiteWhite"
+wvuArtwork: "2016-WhiteBlueWhite.png",
+opponentArtwork: "2017-IowaState.png",
+        combination: "WhiteBlueWhite"
     },
 
  {
@@ -9441,7 +10857,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 28,
         opponentScore: 23,
-
+wvuArtwork: "2017-USA.png",
+opponentArtwork: "2017-KState.png",
         combination: "WhiteWhiteBlue"
     },
 
@@ -9458,7 +10875,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 28,
-
+wvuArtwork: "2017-BlueBlueWhite.png",
+opponentArtwork: "2017-Texas.png",
         combination: "BlueBlueWhite"
     },
 
@@ -9475,7 +10893,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 31,
         opponentScore: 59,
-
+wvuArtwork: "2017-BlueWhiteWhite.png",
+opponentArtwork: "2017-Oklahoma.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -9488,11 +10907,12 @@ combination: "BlueWhiteGold"
     city: "Dallas",
     state: "Texas",
         gameType: "Bowl",
-
+event: "Heart of Dallas Bowl",
         result: "l",
         wvuScore: 14,
         opponentScore: 30,
-
+wvuArtwork: "2017-Bowl.png",
+opponentArtwork: "2017-Utah.png",
         combination: "GoldBlueGold"
     },
 
@@ -9509,7 +10929,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 40,
         opponentScore: 14,
-
+wvuArtwork: "2018-BlueWhiteBlue.png",
+opponentArtwork: "2018-Tennessee.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -9526,7 +10947,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 52,
         opponentScore: 17,
-
+wvuArtwork: "2018-BlueBlueWhite.png",
+opponentArtwork: "ComingSoon.png",
         combination: "BlueBlueWhite"
     },
 
@@ -9543,7 +10965,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 35,
         opponentScore: 6,
-
+wvuArtwork: "2018-BlueGoldBlue.png",
+opponentArtwork: "2018-KState.png",
         combination: "BlueGoldBlue"
     },
 
@@ -9560,7 +10983,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 34,
-
+wvuArtwork: "2018-GoldWhiteGold.png",
+opponentArtwork: "2018-TexasTech.png",
         combination: "GoldWhiteGold"
     },
 
@@ -9577,7 +11001,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 22,
-
+wvuArtwork: "2018-GoldGoldGold.png",
+opponentArtwork: "2018-Kansas.png",
         combination: "GoldGoldGold"
     },
 
@@ -9594,7 +11019,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 30,
-
+wvuArtwork: "2018-WhiteWhiteWhite.png",
+opponentArtwork: "2018-IowaState.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -9611,7 +11037,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 58,
         opponentScore: 14,
-
+wvuArtwork: "2018-BlueBlueGold.png",
+opponentArtwork: "2018-Baylor.png",
         combination: "BlueBlueGold"
     },
 
@@ -9628,7 +11055,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 41,
-
+wvuArtwork: "2018-BlueWhiteBlue.png",
+opponentArtwork: "2018-Texas.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -9645,7 +11073,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 47,
         opponentScore: 10,
-
+wvuArtwork: "2018-BlueBlueBlue.png",
+opponentArtwork: "2018-TCU.png",
         combination: "BlueBlueBlue"
     },
 
@@ -9662,7 +11091,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 41,
         opponentScore: 45,
-
+wvuArtwork: "2018-WhiteWhiteGold.png",
+opponentArtwork: "2018-OSU.png",
         combination: "WhiteWhiteGold"
     },
 
@@ -9679,7 +11109,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 56,
         opponentScore: 59,
-
+wvuArtwork: "2018-BlueBlueGold.png",
+opponentArtwork: "2018-Oklahoma.png",
         combination: "BlueBlueGold"
     },
 
@@ -9692,14 +11123,15 @@ combination: "BlueWhiteGold"
     city: "Orlando",
     state: "Florida",
         gameType: "Bowl",
-
+event: "Camping World Bowl",
         result: "l",
         wvuScore: 18,
         opponentScore: 34,
-
+wvuArtwork: "2018-Bowl.png",
+opponentArtwork: "2018-Syracuse.png",
         combination: "WhiteWhiteBlue"
     },
-
+    
    {
         season: 2019,
         opponent: "James Madison",
@@ -9713,7 +11145,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 13,
-
+wvuArtwork: "2019-BlueBlueGold.png",
+opponentArtwork: "ComingSoon.png",
         combination: "BlueBlueGold"
     },
 
@@ -9730,7 +11163,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 7,
         opponentScore: 38,
-
+wvuArtwork: "2019-BlueWhiteGold.png",
+opponentArtwork: "2019-Mizzou.png",
         combination: "BlueWhiteGold"
     },
 
@@ -9747,7 +11181,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 44,
         opponentScore: 27,
-
+wvuArtwork: "2019-GoldGoldBlue.png",
+opponentArtwork: "2019-NCSU.png",
         combination: "GoldGoldBlue"
     },
 
@@ -9764,7 +11199,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 29,
         opponentScore: 24,
-
+wvuArtwork: "2019-GoldWhiteGold.png",
+opponentArtwork: "2019-Kansas.png",
         combination: "GoldWhiteGold"
     },
 
@@ -9781,7 +11217,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 31,
         opponentScore: 42,
-
+wvuArtwork: "2019-BlueGoldBlue.png",
+opponentArtwork: "2019-Texas.png",
         combination: "BlueGoldBlue"
     },
 
@@ -9798,7 +11235,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 38,
-
+wvuArtwork: "2019-BlueGrayGray.png",
+opponentArtwork: "2019-IowaState.png",
         combination: "BlueGrayGray"
     },
 
@@ -9815,7 +11253,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 52,
-
+wvuArtwork: "2019-WhiteWhiteGray.png",
+opponentArtwork: "2019-Oklahoma.png",
         combination: "WhiteWhiteGray"
     },
 
@@ -9832,7 +11271,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 17,
-
+wvuArtwork: "2019-BlueWhiteBlue.png",
+opponentArtwork: "2019-Baylor.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -9849,7 +11289,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 38,
         opponentScore: 17,
-
+wvuArtwork: "2019-USA.png",
+opponentArtwork: "2019-TexasTech.png",
         combination: "BlueBlueBlue"
     },
 
@@ -9866,7 +11307,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 20,
-
+wvuArtwork: "2019-BlueWhiteWhite.png",
+opponentArtwork: "2019-KState.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -9883,7 +11325,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 20,
-
+wvuArtwork: "2019-GoldBlueGold.png",
+opponentArtwork: "2019-OSU.png",
         combination: "GoldBlueGold"
     },
 
@@ -9900,7 +11343,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 17,
-
+wvuArtwork: "2019-WhiteWhiteWhite.png",
+opponentArtwork: "2019-TCU.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -9917,13 +11361,14 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 56,
         opponentScore: 10,
-
+wvuArtwork: "2020-WhiteBlueBlue.png",
+opponentArtwork: "ComingSoon.png",
         combination: "WhiteBlueBlue"
     },
 
      {
         season: 2020,
-        opponent: "Okahoma State",
+        opponent: "Oklahoma State",
         date: "2020-9-26",
         location: "away",
         stadium: "Boone Pickens Stadium",
@@ -9934,7 +11379,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 27,
-
+wvuArtwork: "2020-BlueGoldBlue.png",
+opponentArtwork: "2020-OSU.png",
         combination: "BlueGoldBlue"
     },
 
@@ -9951,7 +11397,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 27,
         opponentScore: 21,
-
+wvuArtwork: "2020-BlueBlueBlue.png",
+opponentArtwork: "2020-Baylor.png",
         combination: "BlueBlueBlue"
     },
 
@@ -9968,7 +11415,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 17,
-
+wvuArtwork: "2020-BlueBlueGold.png",
+opponentArtwork: "2020-Kansas.png",
         combination: "BlueBlueGold"
     },
 
@@ -9985,7 +11433,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 27,
         opponentScore: 34,
-
+wvuArtwork: "2020-GoldWhiteGold.png",
+opponentArtwork: "2020-TexasTech.png",
         combination: "GoldWhiteGold"
     },
 
@@ -9998,13 +11447,16 @@ combination: "BlueWhiteGold"
     city: "Morgantown",
     state: "West Virginia",
         gameType: "Regular Season",
-
+ wvuArtwork: "2020-GoldGoldBlue.png",
+opponentArtwork: "2020-KState.png",
         result: "w",
+    
         wvuScore: 37,
         opponentScore: 10,
 
         combination: "GoldBlueBlue"
     },
+
 
       {
         season: 2020,
@@ -10019,14 +11471,15 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 17,
-
+wvuArtwork: "2020-BlueWhiteWhite.png",
+opponentArtwork: "2020-Texas.png",
         combination: "BlueWhiteWhite"
     },
 
        {
         season: 2020,
         opponent: "TCU",
-        date: "2020-10-29",
+        date: "2020-11-14",
         location: "home",
         stadium: "Milan Puskar Stadium",
     city: "Morgantown",
@@ -10036,14 +11489,15 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 6,
-
+wvuArtwork: "2020-USA.png",
+opponentArtwork: "2020-TCU.png",
         combination: "BlueBlueWhite"
     },
 
       {
         season: 2020,
         opponent: "Iowa State",
-        date: "2021-12-5",
+        date: "2020-12-5",
         location: "away",
         stadium: "Jack Trice Stadium",
     city: "Ames",
@@ -10056,6 +11510,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 6,
         opponentScore: 42,
+         wvuArtwork: "2020-BlueWhiteBlue.png",
+opponentArtwork: "2020-IowaState.png",
 
         combination: "BlueWhiteBlue"
     },
@@ -10069,11 +11525,12 @@ combination: "BlueWhiteGold"
     city: "Memphis",
     state: "Tennessee",
         gameType: "Bowl",
-
+event: "Liberty Bowl",
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+ wvuArtwork: "2020-Liberty.png",
+opponentArtwork: "2020-Army.png",
         combination: "BlueBlueBlue"
     },
 
@@ -10090,7 +11547,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 24,
         opponentScore: 30,
-
+ wvuArtwork: "2020-BlueBlueWhite.png",
+opponentArtwork: "2021-Maryland.png",
         combination: "BlueBlueWhite"
     },
      {
@@ -10106,7 +11564,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 66,
         opponentScore: 0,
-
+ wvuArtwork: "2020-BlueGrayGray.png",
+opponentArtwork: "ComingSoon.png",
         combination: "BlueGrayGray"
     },
      {
@@ -10122,7 +11581,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 27,
         opponentScore: 21,
-
+ wvuArtwork: "2020-GoldGoldBlue.png",
+opponentArtwork: "2021-VirginiaTech.png",
         combination: "GoldGoldBlue"
     },
           {
@@ -10138,7 +11598,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 13,
         opponentScore: 16,
-
+ wvuArtwork: "2020-BlueWhiteBlue.png",
+opponentArtwork: "2021-Oklahoma.png",
         combination: "BlueWhiteBlue"
     },
           {
@@ -10154,7 +11615,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 23,
-
+ wvuArtwork: "2020-GoldBlueGold.png",
+opponentArtwork: "2021-TexasTech.png",
         combination: "GoldBlueGold"
     },
           {
@@ -10170,7 +11632,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 45,
-
+ wvuArtwork: "2020-BlueWhiteWhite.png",
+opponentArtwork: "2021-Baylor.png",
         combination: "BlueWhiteWhite"
     },
       {
@@ -10186,7 +11649,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 29,
         opponentScore: 17,
-
+ wvuArtwork: "2020-BlueWhiteGold.png",
+opponentArtwork: "2021-TCU.png",
         combination: "BlueWhiteGold"
     },
       {
@@ -10202,7 +11666,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 31,
-
+ wvuArtwork: "2020-BlueBlueGold.png",
+opponentArtwork: "2021-IowaState.png",
         combination: "BlueBlueGold"
     },
 
@@ -10219,7 +11684,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 3,
         opponentScore: 24,
-
+ wvuArtwork: "2021-USA.png",
+opponentArtwork: "2021-OSU.png",
         combination: "WhiteBlueWhite"
     },
 
@@ -10236,7 +11702,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 28,
-
+ wvuArtwork: "2020-GoldWhiteGold.png",
+opponentArtwork: "2021-Kansas.png",
         combination: "GoldWhiteGold"
     },
      {
@@ -10248,17 +11715,18 @@ combination: "BlueWhiteGold"
     city: "Phoenix",
     state: "Arizona",
         gameType: "Bowl",
-
+event: "Guaranteed Rate Bowl",
         result: "l",
         wvuScore: 6,
         opponentScore: 18,
-
+ wvuArtwork: "2021-RateBowl.png",
+opponentArtwork: "2021-Minnesota.png",
         combination: "BlueWhiteGold"
     },
       {
         season: 2022,
         opponent: "Pittsburgh",
-        date: "2022-9-22",
+        date: "2022-9-1",
         location: "away",
         stadium: "Acrisure Stadium",
     city: "Pittsburgh",
@@ -10268,7 +11736,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 31,
         opponentScore: 38,
-
+         wvuArtwork: "2022-WhiteWhiteWhite.png",
+opponentArtwork: "2022-Pitt.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -10285,7 +11754,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 42,
         opponentScore: 55,
-
+         wvuArtwork: "2020-GoldGoldBlue.png",
+opponentArtwork: "2022-Kansas.png",
         combination: "GoldGoldBlue"
     },
 
@@ -10302,7 +11772,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 65,
         opponentScore: 7,
-
+         wvuArtwork: "2020-BlueGrayBlue.png",
+opponentArtwork: "ComingSoon.png",
         combination: "BlueGrayBlue"
     },
 
@@ -10319,7 +11790,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 33,
         opponentScore: 10,
-
+ wvuArtwork: "2022-WhiteWhiteBlue.png",
+opponentArtwork: "2022-VirginiaTech.png",
         combination: "WhiteWhiteBlue"
     },
          {
@@ -10335,7 +11807,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 38,
-
+ wvuArtwork: "2020-BlueWhiteBlue.png",
+opponentArtwork: "2022-Texas.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -10352,7 +11825,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 43,
         opponentScore: 40,
-
+ wvuArtwork: "2020-BlueGoldBlue.png",
+opponentArtwork: "2022-Baylor.png",
         combination: "BlueGoldBlue"
     },
 
@@ -10369,7 +11843,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 10,
         opponentScore: 48,
-
+ wvuArtwork: "2022-WhiteWhiteGold.png",
+opponentArtwork: "2022-TexasTech.png",
         combination: "WhiteWhiteGold"
     },
         {
@@ -10385,7 +11860,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 31,
         opponentScore: 41,
-
+ wvuArtwork: "2020-BlueBlueGold.png",
+opponentArtwork: "2022-TCU.png",
         combination: "BlueBlueGold"
     },
 
@@ -10402,7 +11878,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 14,
         opponentScore: 31,
-
+ wvuArtwork: "2020-BlueWhiteGold.png",
+opponentArtwork: "2022-IowaState.png",
         combination: "BlueWhiteGold"
     },
 
@@ -10419,20 +11896,22 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 23,
         opponentScore: 20,
-
+ wvuArtwork: "2022-USA.png",
+opponentArtwork: "2022-Oklahoma.png",
         combination: "BlueBlueBlue"
     },
 
         {
         season: 2022,
         opponent: "Kansas State",
-        date: "2023-11-19",
+        date: "2022-11-19",
         location: "home",
         stadium: "Milan Puskar Stadium",
     city: "Morgantown",
     state: "West Virginia",
         gameType: "Regular Season",
-
+ wvuArtwork: "2020-GoldBlueBlue.png",
+opponentArtwork: "2022-KState.png",
         result: "l",
         wvuScore: 31,
         opponentScore: 48,
@@ -10446,11 +11925,14 @@ combination: "BlueWhiteGold"
         date: "2022-11-26",
         location: "away",
         gameType: "Regular Season",
-
+        stadium: "Boone Pickens Stadium",
+    city: "Stillwater",
+    state: "Oklahoma",
         result: "w",
         wvuScore: 24,
         opponentScore: 19,
-
+wvuArtwork: "2020-BlueWhiteWhite.png",
+opponentArtwork: "2022-OSU.png",
         combination: "BlueWhiteWhite"
     },
      {
@@ -10459,11 +11941,14 @@ combination: "BlueWhiteGold"
         date: "2023-9-2",
         location: "away",
         gameType: "Regular Season",
-
+        stadium: "Beaver Stadium",
+    city: "State College",
+    state: "Pennsylvania",
         result: "l",
         wvuScore: 15,
         opponentScore: 38,
-
+wvuArtwork: "2020-BlueWhiteGold.png",
+opponentArtwork: "2023-PennState.png",
         combination: "BlueWhiteGold"
     },
     {
@@ -10479,7 +11964,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 56,
         opponentScore: 17,
-
+wvuArtwork: "2023-GoldGrayGray.png",
+opponentArtwork: "ComingSoon.png",
         combination: "GoldGrayGray"
     },
     {
@@ -10495,7 +11981,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 17,
         opponentScore: 6,
-
+wvuArtwork: "2023-BlueGoldBlue.png",
+opponentArtwork: "2023-Pitt.png",
         combination: "BlueGoldBlue"
     },
 
@@ -10512,7 +11999,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 20,
         opponentScore: 13,
-
+wvuArtwork: "2023-GoldGoldGold.png",
+opponentArtwork: "2023-TexasTech.png",
         combination: "GoldGoldGold"
     },
 
@@ -10529,7 +12017,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 24,
         opponentScore: 21,
-
+wvuArtwork: "2023-WhiteWhiteBlue.png",
+opponentArtwork: "2023-TCU.png",
         combination: "WhiteWhiteBlue"
     },
      {
@@ -10545,7 +12034,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 39,
         opponentScore: 41,
-
+wvuArtwork: "2023-BlueWhiteWhite.png",
+opponentArtwork: "2023-Houston.png",
         combination: "BlueWhiteWhite"
     },
      {
@@ -10554,11 +12044,14 @@ combination: "BlueWhiteGold"
         date: "2023-10-21",
         location: "home",
         gameType: "Regular Season",
-
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
         result: "l",
-        wvuScore: 37,
-        opponentScore: 7,
-
+        wvuScore: 34,
+        opponentScore: 48,
+wvuArtwork: "2020-BlueBlueGold.png",
+opponentArtwork: "2023-OSU.png",
         combination: "BlueBlueGold"
     },
      {
@@ -10574,7 +12067,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 41,
         opponentScore: 28,
-
+wvuArtwork: "2020-BlueWhiteBlue.png",
+opponentArtwork: "2023-UCF.png",
         combination: "BlueWhiteBlue"
     },
      {
@@ -10590,7 +12084,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 37,
         opponentScore: 7,
-
+wvuArtwork: "2022-USA.png",
+opponentArtwork: "2023-BYU.png",
         combination: "BlueBlueBlue"
     },
 
@@ -10607,7 +12102,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 20,
         opponentScore: 59,
-
+wvuArtwork: "2023-WhiteWhiteWhite.png",
+opponentArtwork: "2023-Oklahoma.png",
         combination: "WhiteWhiteWhite"
     },
 
@@ -10624,7 +12120,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 42,
         opponentScore: 21,
-
+wvuArtwork: "2020-BlueBlueGold.png",
+opponentArtwork: "2023-Cincinnati.png",
         combination: "BlueBlueGold"
     },
         {
@@ -10640,7 +12137,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 34,
         opponentScore: 31,
-
+wvuArtwork: "2020-BlueGrayBlue.png",
+opponentArtwork: "2023-Baylor.png",
         combination: "BlueGrayBlue"
     },
  {
@@ -10652,11 +12150,12 @@ combination: "BlueWhiteGold"
     city: "Charlotte",
     state: "North Carolina",
         gameType: "Bowl",
-
+event: "Dukes Mayo Bowl",
         result: "w",
         wvuScore: 30,
         opponentScore: 10,
-
+wvuArtwork: "2023-MayoBowl.png",
+opponentArtwork: "2023-UNC.png",
         combination: "BlueGoldBlue"
     },
      {
@@ -10672,7 +12171,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 12,
         opponentScore: 34,
-
+        wvuArtwork: "2024-BlueGoldBlue.png",
+opponentArtwork: "2024-PennState.png",
         combination: "BlueGoldBlue"
     },
 
@@ -10689,7 +12189,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 49,
         opponentScore: 14,
-
+wvuArtwork: "2024-GoldGoldGold.png",
+opponentArtwork: "ComingSoon.png",
         combination: "GoldGoldGold"
     },
 
@@ -10706,7 +12207,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 34,
         opponentScore: 38,
-
+wvuArtwork: "2024-WhiteWhiteBlue.png",
+opponentArtwork: "2022-Pitt.png",
         combination: "WhiteWhiteBlue"
     },
 
@@ -10723,7 +12225,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 32,
         opponentScore: 28,
-
+wvuArtwork: "2024-WhiteBlueWhite.png",
+opponentArtwork: "2024-Kansas.png",
         combination: "WhiteBlueWhite"
     },
 
@@ -10741,7 +12244,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 38,
         opponentScore: 14,
-
+wvuArtwork: "2024-BlueWhiteBlue.png",
+opponentArtwork: "2024-OSU.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -10758,7 +12262,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 16,
         opponentScore: 28,
-
+wvuArtwork: "2024-BlackBlackBlack.png",
+opponentArtwork: "2024-IowaState.png",
         combination: "BlackBlackBlack"
     },
     {
@@ -10774,7 +12279,8 @@ combination: "BlueWhiteGold"
         result: "l",
         wvuScore: 18,
         opponentScore: 45,
-
+wvuArtwork: "2024-BlueBlueGold.png",
+opponentArtwork: "2024-KState.png",
         combination: "BlueBlueGold"
     },
 
@@ -10791,8 +12297,10 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 26,
-
+wvuArtwork: "2024-WhiteWhiteWhite.png",
+opponentArtwork: "2024-arizona.png",
         combination: "WhiteWhiteWhite"
+        
     },
  {
         season: 2024,
@@ -10807,7 +12315,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 24,
-
+wvuArtwork: "2024-BlueWhiteGold.png",
+opponentArtwork: "2024-Cincinnati.png",
         combination: "BlueWhiteGold"
     },
 
@@ -10820,7 +12329,8 @@ combination: "BlueWhiteGold"
     city: "Morgantown",
     state: "West Virginia",
         gameType: "Regular Season",
-
+wvuArtwork: "2024-USA.png",
+opponentArtwork: "2024-Baylor.png",
         result: "l",
         wvuScore: 35,
         opponentScore: 49,
@@ -10840,7 +12350,8 @@ combination: "BlueWhiteGold"
         result: "w",
         wvuScore: 31,
         opponentScore: 21,
-
+wvuArtwork: "2024-BlueBlueBlue.png",
+opponentArtwork: "2024-UCF.png",
         combination: "BlueBlueBlue"
     },
  {
@@ -10856,23 +12367,25 @@ combination: "BlueWhiteGold"
         result: "L",
         wvuScore: 15,
         opponentScore: 52,
-
+wvuArtwork: "2024-BlueWhiteWhite.png",
+opponentArtwork: "2024-TexasTech.png",
         combination: "BlueWhiteWhite"
     },
  {
         season: 2024,
         opponent: "Memphis",
-        date: "2024-12-24",
+        date: "2024-12-17",
         location: "neutral",
         stadium: "Toyota Stadium",
     city: "Frisco",
     state: "Texas",
         gameType: "Bowl",
-
+event: "Scooter's Coffee Frisco Bowl",
         result: "L",
         wvuScore: 37,
         opponentScore: 42,
-
+wvuArtwork: "2024-FriscoBowl.png",
+opponentArtwork: "2024-Memphis.png",
         combination: "GoldBlueBlue"
     },
     {
@@ -10888,7 +12401,8 @@ combination: "BlueWhiteGold"
         result: "W",
         wvuScore: 45,
         opponentScore: 3,
-
+wvuArtwork: "2025-BlueGoldGold.png",
+opponentArtwork: "ComingSoon.png",
         combination: "BlueGoldGold"
     },
 
@@ -10904,7 +12418,8 @@ combination: "BlueWhiteGold"
         result: "L",
         wvuScore: 10,
         opponentScore: 17,
-
+wvuArtwork: "2025-BlueWhiteBlue.png",
+opponentArtwork: "2025-Ohio.png",
         combination: "BlueWhiteBlue"
     },
 
@@ -10920,7 +12435,8 @@ combination: "BlueWhiteGold"
         result: "W",
         wvuScore: 31,
         opponentScore: 24,
-
+wvuArtwork: "2025-BlueBlueGold.png",
+opponentArtwork: "2025-Pitt.png",
         combination: "BlueBlueGold"
     },
 
@@ -10936,7 +12452,8 @@ combination: "BlueWhiteGold"
         result: "L",
         wvuScore: 10,
         opponentScore: 41,
-
+wvuArtwork: "2024-WhiteWhiteBlue.png",
+opponentArtwork: "2025-Ohio.png",
         combination: "WhiteWhiteBlue"
     },
 
@@ -10952,7 +12469,8 @@ combination: "BlueWhiteGold"
         result: "L",
         wvuScore: 14,
         opponentScore: 48,
-
+wvuArtwork: "2025-Throwback.png",
+opponentArtwork: "2025-Utah.png",
         combination: "GoldBlueGold"
     },
 
@@ -10965,7 +12483,8 @@ combination: "BlueWhiteGold"
     city: "Provo",
     state: "Utah",
         gameType: "Regular Season",
-
+wvuArtwork: "2025-BlueWhiteWhite.png",
+opponentArtwork: "2025-BYU.png",
         result: "L",
         wvuScore: 24,
         opponentScore: 38,
@@ -10986,7 +12505,8 @@ combination: "BlueWhiteGold"
         result: "L",
         wvuScore: 13,
         opponentScore: 45,
-
+wvuArtwork: "2025-BlueWhiteGold.png",
+opponentArtwork: "2025-UCF.png",
         combination: "BlueWhiteGold"
     },
 
@@ -11003,7 +12523,8 @@ combination: "BlueWhiteGold"
         result: "L",
         wvuScore: 17,
         opponentScore: 23,
-
+wvuArtwork: "2024-BlackBlackBlack.png",
+opponentArtwork: "2025-TCU.png",
         combination: "BlackBlackBlack"
     },
 
@@ -11020,7 +12541,8 @@ combination: "BlueWhiteGold"
         result: "W",
         wvuScore: 45,
         opponentScore: 35,
-
+wvuArtwork: "2025-BlueWhiteWhite.png",
+opponentArtwork: "2025-Houston.png",
         combination: "BlueWhiteWhite"
     },
 
@@ -11036,7 +12558,8 @@ combination: "BlueWhiteGold"
         result: "W",
         wvuScore: 29,
         opponentScore: 22,
-
+wvuArtwork: "2025-USA.png",
+opponentArtwork: "2025-Colorado.png",
         combination: "BlueBlueGold"
     },
        {
@@ -11048,7 +12571,8 @@ combination: "BlueWhiteGold"
     city: "Tempe",
     state: "Arizona",
         gameType: "Regular Season",
-
+wvuArtwork: "2025-BlueWhiteBlue.png",
+opponentArtwork: "2025-ASU.png",
         result: "L",
         wvuScore: 23,
         opponentScore: 25,
@@ -11068,7 +12592,8 @@ gameType: "Regular Season",
         result: "L",
         wvuScore: 0,
         opponentScore: 49,
-
+wvuArtwork: "2025-BlueBlueBlue.png",
+opponentArtwork: "2025-TexasTech.png",
         combination: "BlueBlueBlue"
     },
 

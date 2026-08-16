@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coliseum Floor Designs</title>
+
+    <link rel="stylesheet" href="../site.css">
+    <link rel="stylesheet" href="playing-surfaces.css">
+    <link rel="icon" type="image/png" href="Images/Favicon.png">
+</head>
+
+<body class="field-designs-page">
+
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="database-page">
+
+        <section class="field-search-wrap">
+            <label
+                for="coliseumFloorSelect"
+                class="field-select-label"
+            >
+                Select a Coliseum floor
+            </label>
+
+            <select id="coliseumFloorSelect">
+                <option value="">Choose a season...</option>
+            </select>
+        </section>
+
+        <div id="coliseumFloorOverview"></div>
+
+    </main>
+
+    <script src="../Data/coliseum-floor-designs.js"></script>
+    <script src="coliseum-floor-designs-renderer.js"></script>
+    <script src="coliseum-floor-selector.js"></script>
+    <script src="../header.js"></script>
+
+</body>
+
+</html>

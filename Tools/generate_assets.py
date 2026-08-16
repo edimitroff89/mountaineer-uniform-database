@@ -4,7 +4,7 @@ import re
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 IMAGES_DIR = PROJECT_ROOT / "Images"
-OUTPUT_FILE = PROJECT_ROOT / "Scripts" / "asset-manifest.js"
+OUTPUT_FILE = PROJECT_ROOT / "Builder" / "Scripts" / "asset-manifest.js"
 
 CATEGORIES = [
     "Helmet",
@@ -118,8 +118,7 @@ def build_manifest():
             stat_color = get_stat_color(png.name)
 
             lines.append(
-                f'        {{ label: "{label}", file: "{png.name}", statColor: "{stat_color}" }},'
-            )
+f'        {{ label: "{label}", file: "../Images/{category}/{png.name}", statColor: "{stat_color}" }},'            )
 
         lines.append("    ],")
 

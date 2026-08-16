@@ -1,0 +1,310 @@
+/* ==========================================
+   Baseball Season Selector
+========================================== */
+
+.season-search-wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 32px auto 40px;
+    padding: 0 20px;
+}
+
+.season-select-label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #002855;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#baseballSeasonSelect {
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #002855;
+
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ==========================================
+   Baseball Season Overview
+========================================== */
+
+#baseballSeasonOverview {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.season-card {
+    width: 100%;
+    margin-bottom: 64px;
+    scroll-margin-top: 145px;
+}
+
+/* ==========================================
+   Season Artwork Card
+========================================== */
+
+.season-frame {
+    position: relative;
+    width: 100%;
+
+    padding: 14px 24px 22px;
+
+    overflow: hidden;
+
+    background: #fff;
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.season-watermark {
+    position: absolute;
+
+    top: 20px;
+    right: 13%;
+    bottom: 20px;
+    left: 13%;
+
+    background-image: url("../Images/watermark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+/* ==========================================
+   Uniform Layout
+========================================== */
+
+.season-grid {
+    position: relative;
+    z-index: 2;
+}
+
+.custom-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.season-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 100%;
+    gap: 14px;
+}
+
+.season-row + .season-row {
+    margin-top: -24px;
+}
+
+.baseball-uniform-item {
+    flex: 0 0 240px;
+
+    width: 240px;
+    height: 390px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.baseball-uniform-image {
+    display: block;
+
+    width: auto !important;
+    max-width: 240px !important;
+
+    height: auto !important;
+    max-height: 390px !important;
+
+    object-fit: contain;
+
+    transition: transform 0.2s ease;
+}
+
+.baseball-uniform-image:hover {
+    transform: scale(1.025);
+}
+
+/* ==========================================
+   Missing Artwork
+========================================== */
+
+.season-empty {
+    position: relative;
+    z-index: 2;
+
+    min-height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #666;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* ==========================================
+   Season Information
+========================================== */
+
+.season-info {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.season-info h2 {
+    margin: 0 0 8px;
+
+    color: #555;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.season-info h3 {
+    margin: 0 0 7px;
+
+    color: #555;
+    font-size: 1.65rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.season-info p {
+    margin: 0;
+
+    color: #555;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media (max-width: 1100px) {
+    .baseball-uniform-item {
+        flex-basis: 205px;
+        width: 205px;
+        height: 345px;
+    }
+
+    .baseball-uniform-image {
+        max-width: 205px !important;
+        max-height: 345px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .season-frame {
+        padding: 12px 16px 20px;
+    }
+
+    .season-row {
+        gap: 8px;
+    }
+
+    .season-row + .season-row {
+        margin-top: -18px;
+    }
+
+    .baseball-uniform-item {
+        flex-basis: 170px;
+        width: 170px;
+        height: 295px;
+    }
+
+    .baseball-uniform-image {
+        max-width: 170px !important;
+        max-height: 295px !important;
+    }
+
+    .season-info h2 {
+        font-size: 2rem;
+    }
+
+    .season-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .season-info p {
+        font-size: 1.15rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .season-search-wrap {
+        padding: 0 12px;
+    }
+
+    #baseballSeasonOverview {
+        padding: 0 12px 40px;
+    }
+
+    .season-frame {
+        padding: 14px 10px 18px;
+    }
+
+    .season-row {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .season-row + .season-row {
+        margin-top: 4px;
+    }
+
+    .baseball-uniform-item {
+        flex: 0 0 44%;
+
+        width: 44%;
+        max-width: 150px;
+        height: 255px;
+    }
+
+    .baseball-uniform-image {
+        max-width: 150px !important;
+        max-height: 255px !important;
+    }
+
+    .season-info {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .season-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .season-info h3 {
+        font-size: 1.15rem;
+    }
+
+    .season-info p {
+        font-size: 1rem;
+    }
+}

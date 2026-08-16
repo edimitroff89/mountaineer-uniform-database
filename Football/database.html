@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Uniform Database</title>
+<link rel="stylesheet" href="../site.css">
+<link rel="stylesheet" href="football.css">
+<link rel="icon" type="image/png" href="Images/Favicon.png">
+</head>
+
+<header class="site-header" id="siteHeader"></header>
+
+<main class="database-page">
+
+<body>
+
+
+<main class="database-page">
+    <h1>Football Uniform Database</h1>
+
+    <section class="database-filters">
+        <input id="textSearch" type="search" placeholder="Search opponent, bowl, stadium, date...">
+
+        <select id="seasonFilter"><option value="">All seasons</option></select>
+        <select id="opponentFilter"><option value="">All opponents</option></select>
+        <select id="gameTypeFilter"><option value="">All game types</option></select>
+        <select id="locationFilter"><option value="">All locations</option></select>
+        <select id="resultFilter">
+            <option value="">All results</option>
+            <option value="W">Wins</option>
+            <option value="L">Losses</option>
+        </select>
+
+        <select id="helmetFilter"><option value="">All helmets</option></select>
+        <select id="jerseyFilter"><option value="">All jerseys</option></select>
+        <select id="pantsFilter"><option value="">All pants</option></select>
+     <button id="resetFilters" type="button">Reset Filters</button>
+    </section>
+
+    <p id="resultCount" class="result-count"></p>
+
+    <div id="databaseResults"></div>
+</main>
+
+<script src="../Data/games.js"></script>
+<script src="game-renderer.js"></script>
+<script src="database.js"></script>
+<script src="../header.js"></script>
+
+
+</body>
+</html>

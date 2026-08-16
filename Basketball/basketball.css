@@ -1,0 +1,492 @@
+/* ==========================================
+   Basketball Season Selector
+========================================== */
+
+.season-search-wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 32px auto 40px;
+    padding: 0 20px;
+}
+
+.season-select-label {
+    display: block;
+    margin-bottom: 8px;
+
+    color: #002855;
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+#basketballSeasonSelect {
+    width: 100%;
+    min-height: 44px;
+
+    padding: 8px 12px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #002855;
+
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ==========================================
+   Basketball Season Overview
+========================================== */
+
+#basketballSeasonOverview {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.season-card {
+    width: 100%;
+    margin-bottom: 64px;
+    scroll-margin-top: 145px;
+}
+
+/* ==========================================
+   Season Artwork Card
+========================================== */
+
+.season-frame {
+    position: relative;
+    width: 100%;
+
+    /*
+     * Small top padding lets the uniforms occupy
+     * more of the card.
+     */
+    padding: 14px 24px 22px;
+
+    overflow: hidden;
+
+    background: #fff;
+    border-radius: 12px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/*
+ * The watermark gets its own inset area.
+ * This keeps the complete circular logo inside the card.
+ */
+.season-watermark {
+    position: absolute;
+
+    top: 20px;
+    right: 13%;
+    bottom: 20px;
+    left: 13%;
+
+    background-image: url("../Images/watermark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+/* ==========================================
+   Uniform Layout
+========================================== */
+
+.season-grid {
+    position: relative;
+    z-index: 2;
+}
+
+.custom-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*
+     * Controls vertical distance between rows.
+     */
+    gap: 0;
+}
+
+.season-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    width: 100%;
+
+    /*
+     * Horizontal space between uniforms.
+     */
+    gap: 16px;
+}
+
+/*
+ * Pull later rows slightly upward.
+ * Keep this moderate so the artwork does not overlap.
+ */
+.season-row + .season-row {
+    margin-top: -22px;
+}
+
+/*
+ * Four uniforms comfortably fit across a 1200px card.
+ */
+.basketball-uniform-item {
+    flex: 0 0 225px;
+
+    width: 225px;
+    height: 315px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.basketball-uniform-image {
+    display: block;
+
+    width: auto !important;
+    max-width: 225px !important;
+
+    height: auto !important;
+    max-height: 315px !important;
+
+    object-fit: contain;
+
+    transition: transform 0.2s ease;
+}
+
+.basketball-uniform-image:hover {
+    transform: scale(1.025);
+}
+/* ==========================================
+   Missing Artwork
+========================================== */
+
+.season-empty {
+    position: relative;
+    z-index: 2;
+
+    min-height: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #666;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* ==========================================
+   Season Information
+========================================== */
+
+.season-info {
+    margin-top: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.season-info h2 {
+    margin: 0 0 8px;
+
+    color: #555;
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.season-info h3 {
+    margin: 0 0 7px;
+
+    color: #555;
+    font-size: 1.65rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.season-info p {
+    margin: 0;
+
+    color: #555;
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.25;
+}
+/* ==========================================
+   Large Tablet
+========================================== */
+
+@media (max-width: 1100px) {
+    .basketball-uniform-item {
+        flex-basis: 175px;
+
+        width: 175px;
+        height: 290px;
+    }
+
+    .basketball-uniform-image {
+        max-width: 175px !important;
+        max-height: 290px !important;
+    }
+
+    .season-row {
+        gap: 8px;
+    }
+
+    .season-watermark {
+        top: 8%;
+        right: 10%;
+        bottom: 8%;
+        left: 10%;
+    }
+}
+
+/* ==========================================
+   Tablet
+========================================== */
+
+@media (max-width: 900px) {
+    .season-frame {
+        padding: 24px 18px;
+    }
+
+    .custom-layout {
+        gap: 4px;
+    }
+
+    .season-row {
+        gap: 6px;
+    }
+
+    .basketball-uniform-item {
+        flex-basis: 145px;
+
+        width: 145px;
+        height: 250px;
+    }
+
+    .basketball-uniform-image {
+        max-width: 145px !important;
+        max-height: 250px !important;
+    }
+
+    .season-info h2 {
+        font-size: 2rem;
+    }
+
+    .season-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .season-info p {
+        font-size: 1.15rem;
+    }
+}
+
+/* ==========================================
+   Mobile
+========================================== */
+
+@media (max-width: 650px) {
+    .season-search-wrap {
+        padding: 0 12px;
+    }
+
+    #basketballSeasonOverview {
+        padding: 0 12px 40px;
+    }
+
+    .season-card {
+        margin-bottom: 48px;
+    }
+
+    .season-frame {
+        padding: 22px 12px;
+    }
+
+    .custom-layout {
+        gap: 14px;
+    }
+
+    .season-row {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .basketball-uniform-item {
+        flex: 0 0 42%;
+
+        width: 42%;
+        max-width: 140px;
+        height: 225px;
+    }
+
+    .basketball-uniform-image {
+        max-width: 140px !important;
+        max-height: 225px !important;
+    }
+
+    .season-watermark {
+        top: 10%;
+        right: 4%;
+        bottom: 10%;
+        left: 4%;
+    }
+
+    .season-info {
+        margin-top: 22px;
+        margin-bottom: 30px;
+    }
+
+    .season-info h2 {
+        font-size: 1.8rem;
+    }
+
+    .season-info h3 {
+        font-size: 1.15rem;
+    }
+
+    .season-info p {
+        font-size: 1rem;
+    }
+}
+/* ==========================================
+   Women's Basketball Adjustments
+========================================== */
+
+#womensBasketballSeasonSelect {
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #002855;
+
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#womensBasketballSeasonOverview {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+.womens-basketball-page .season-frame {
+    padding: 14px 24px 22px;
+}
+
+.womens-basketball-page .custom-layout {
+    gap: 0;
+}
+
+.womens-basketball-page .season-row {
+    gap: 14px;
+}
+
+.womens-basketball-page .season-row + .season-row {
+    margin-top: -22px;
+}
+
+.womens-basketball-page .basketball-uniform-item {
+    flex: 0 0 235px;
+
+    width: 235px;
+    height: 305px;
+}
+
+.womens-basketball-page .basketball-uniform-image {
+    max-width: 235px !important;
+    max-height: 305px !important;
+}
+
+.womens-basketball-page .season-watermark {
+    top: 20px;
+    right: 13%;
+    bottom: 20px;
+    left: 13%;
+
+    background-size: contain;
+    opacity: 0.08;
+}
+
+@media (max-width: 900px) {
+    .womens-basketball-page .basketball-uniform-item {
+        flex-basis: 165px;
+        width: 165px;
+        height: 235px;
+    }
+
+    .womens-basketball-page .basketball-uniform-image {
+        max-width: 165px !important;
+        max-height: 235px !important;
+    }
+}
+
+@media (max-width: 650px) {
+    .womens-basketball-page .season-row + .season-row {
+        margin-top: 4px;
+    }
+
+    .womens-basketball-page .basketball-uniform-item {
+        flex: 0 0 44%;
+
+        width: 44%;
+        max-width: 145px;
+        height: 210px;
+    }
+
+    .womens-basketball-page .basketball-uniform-image {
+        max-width: 145px !important;
+        max-height: 210px !important;
+    }
+}
+#womensBasketballSeasonSelect {
+    width: 100%;
+    min-height: 44px;
+    padding: 8px 12px;
+
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+
+    background: #fff;
+    color: #002855;
+
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+#basketballSeasonOverview,
+#womensBasketballSeasonOverview {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+.womens-basketball-page .custom-layout {
+    gap: 0;
+}
+
+.womens-basketball-page .season-row + .season-row {
+    margin-top: -30px;
+}
+.womens-basketball-page .season-frame {
+    padding: 14px 24px 22px;
+}

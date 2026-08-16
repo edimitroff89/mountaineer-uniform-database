@@ -1,87 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mountaineer Uniform Builder</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+
+    <title>Mountaineer Uniform Database</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="icon" type="image/png" href="Images/Favicon.png">
 </head>
 
+<header class="site-header" id="siteHeader"></header>
+
+<script src="header.js"></script>
 <body>
 
-    <div id="app">
 
-        <section class="preview-panel">
-            <div id="player">
-                <img id="watermarkLayer" class="watermark-layer" src="Images/logo-background.png" alt="">
-                <img id="leggingsLayer" class="layer" alt="Leggings">
-                <img id="pantsLayer" class="layer" alt="Pants">
-                <img id="cleatsLayer" class="layer" alt="Cleats">
-                <img id="jerseyLayer" class="layer" alt="Jersey">
-                <img id="sleevesLayer" class="layer" alt="Sleeves">
-                <img id="glovesLayer" class="layer" alt="Gloves">
-                <img id="helmetLayer" class="layer" alt="Helmet">
-            </div>
-        </section>
+<section class="home-content">
 
-        <aside class="controls-panel">
+    <!-- LEFT COLUMN: ARTICLES -->
+    <section class="home-articles">
+        <div class="home-section-heading">
+            <p class="home-section-label">Observations of a Maniac</p>
+            <h2>Latest Articles</h2>
+        </div>
 
-<div class="builder-title">
-    <img src="Images/MUD-Website-Graphic-Small.png" alt="Mountaineer Uniform Database logo">
-    <h1>Mountaineer<br>Uniform Builder</h1>
-</div>
+        <div class="article-grid">
 
-<div class="panel-section-title">Equipment</div>
-<div id="selectors"></div>
+            <article class="article-card">
+                <img
+                    src="Images/Articles/black-baseball-unis.jpeg"
+                    alt="West Virginia black baseball uniform"
+                >
 
-<div class="panel-section-title">Uniform Preset</div>
-<div class="preset-panel">
-                <select id="presetSelect">
-                    <option value="">Custom</option>
-                </select>
-            </div>
+                <div class="article-card-content">
+                    <time datetime="2026-05-08">March 12, 2026</time>
 
-<div class="toolbar">
+                    <h3>
+                        Paint it Black (Again, Again): The New Black Baseball Uniforms
+                    </h3>
 
-    <button id="randomizeBtn">
-        <i class="fa-solid fa-dice"></i>
-        <span>Randomize</span>
-    </button>
+<a href="Articles/black-baseball-uniforms.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
 
-    <button id="resetBtn">
-        <i class="fa-solid fa-rotate-left"></i>
-        <span>Reset</span>
-    </button>
+            <article class="article-card">
+                <img
+                    src="Images/Articles/black-basketball-uniforms.jpeg"
+                    alt="West Virginia black football uniform"
+                >
 
-    <button id="exportBtn">
-        <i class="fa-solid fa-camera"></i>
-        <span>Export Image</span>
-    </button>
+                <div class="article-card-content">
+                    <time datetime="2026-05-08">February 5, 2026</time>
 
-</div>
-            <div class="uniform-info">
-                <h2 id="infoTitle">Custom Uniform</h2>
-                <p id="infoDescription">Build your own Mountaineer uniform combination.</p>
-            </div>
+                    <h3>
+                        Paint it Black (Again): The New Black Basketball Uniforms
+                    </h3>
 
-        </aside>
+<a href="Articles/black-basketball-uniforms.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img
+                    src="Images/Articles/baseball-throwback.jpeg"
+                    alt="West Virginia baseball throwback uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2026-05-08">January 26, 2026</time>
+
+                    <h3>
+                        The Year of the Throwback Continues: Throwback Baseball Uniforms
+                    </h3>
+
+<a href="Articles/baseball-throwback-uniforms.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+            
+            <article class="article-card">
+                <img
+                    src="Images/Articles/wvu-throwbacks-2.jpeg"
+                    alt="West Virginia baseball throwback uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2026-01-18">January 18, 2026</time>
+
+                    <h3>
+                        The Year of the Throwback: Throwback Basketball Uniforms
+                    </h3>
+
+<a href="Articles/2026-Basketball-Throwback-Uniforms.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+
+                        <article class="article-card">
+                <img
+                    src="Images/Articles/glossy-blue.jpeg"
+                    alt="West Virginia baseball throwback uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2026-01-18">July 9, 2025</time>
+
+                    <h3>
+                        Make it Glossy: The Return of Glossy Blue Helmets!
+                    </h3>
+
+<a href="Articles/return-of-glossy-blue-helmets.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+
+                        <article class="article-card">
+                <img
+                    src="Images/Articles/Football-Throwback.jpeg"
+                    alt="West Virginia baseball throwback uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2026-01-18">May 6, 2025</time>
+
+                    <h3>
+                        Party like it's 1965?: Football Throwback Uniforms
+                    </h3>
+
+<a href="Articles/Football-Throwback-Uniforms.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+
+                        <article class="article-card">
+                <img
+                    src="Images/Articles/JW-Throwbacks.jpeg"
+                    alt="West Virginia baseball throwback uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2026-01-18">May 6, 2025</time>
+
+                    <h3>
+                        Throwback fit for the GOAT: Basketball Throwback Uniforms
+                    </h3>
+
+<a href="Articles/jerry-west-throwback-uniforms.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+         
+            <article class="article-card">
+                <img
+                    src="Images/Articles/paint-it-black-cover.jpg"
+                    alt="West Virginia black football uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2024-05-08">May 8, 2024</time>
+
+                    <h3>
+                        Paint it Black: The New Black Football Uniforms
+                    </h3>
+
+                    
+<a href="Articles/paint-it-black.html">
+                            Continue Reading
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img
+                    src="Images/Articles/return-of-the-stripes-cover.png"
+                    alt="West Virginia 2024 football uniforms"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2024-04-29">April 29, 2024</time>
+
+                    <h3>
+                        The Return of the Stripes: 2024 Football Uniforms
+                    </h3>
+
+                    <a href="Articles/return-of-the-stripes.html">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img
+                    src="Images/Articles/pro-combat.jpg.webp"
+                    alt="West Virginia combat football uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2021-06-07">June 7, 2021</time>
+
+                    <h3>Mountaineers in Combat: The Nike Pro Combat Uniforms Revisted</h3>
+
+                    <a href="articles/mountaineers-in-combat.html">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+
+            <article class="article-card">
+                <img
+                    src="Images/Articles/Gold-Rush3.jpg"
+                    alt="West Virginia gold football uniform"
+                >
+
+                <div class="article-card-content">
+                    <time datetime="2021-05-30">May 30, 2021</time>
+
+                    <h3>A Gold Rush! The Original Gold Rush Uniform Revisted</h3>
+
+                    <a href="articles/gold-rush-uniform.html">
+                        Continue Reading
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- RIGHT COLUMN: DATABASE LINKS -->
+    <aside class="home-database-links">
+        <div class="home-section-heading">
+            <p class="home-section-label">Explore the archive</p>
+            <h2>Databases</h2>
+        </div>
+
+        <div class="database-link-grid">
+
+            <a class="database-link-card" href="Football/database.html">
+                <h3>Football Database</h3>
+                <p>
+                    Search by season, opponent, result, location,
+                    bowl game, and uniform element.
+                </p>
+            </a>
+
+            <a
+                class="database-link-card"
+                href="Football/season-overview.html"
+            >
+                <h3>Football Seasons</h3>
+                <p>
+                    View season-by-season uniform archives.
+                </p>
+            </a>
+
+            <a class="database-link-card" href="Builder/index.html">
+                <h3>Uniform Builder</h3>
+                <p>
+                    Create custom WVU football combinations.
+                </p>
+            </a>
+
+            <a
+                class="database-link-card"
+                href="Basketball/seasons.html"
+            >
+                <h3>Basketball</h3>
+                <p>
+                    Men’s and Women’s Basketball season archives.
+                </p>
+            </a>
+
+            <a class="database-link-card" href="Baseball/seasons.html">
+                <h3>Baseball</h3>
+                <p>
+                    View season-by-season baseball uniform archives.
+                </p>
+            </a>
+
+            <a
+                class="database-link-card"
+                href="Playing Surfaces/mountaineer-field-designs.html"
+            >
+                <h3>Playing Surfaces</h3>
+                <p>
+                    Mountaineer Field Designs, Bowl Game Field Designs, and Coliseum Floor Designs.
+                </p>
+            </a>
+
+        </div>
+    </aside>
+
+</section>
+<section class="friends-section">
+
+    <div class="home-section-heading friends-heading">
+        <p class="home-section-label">Related uniform archives</p>
+        <h2>Friends of the Mountaineer Uniform Database</h2>
+    </div>
+
+    <div class="friends-grid">
+
+        <a
+            class="friend-link"
+            href="https://uni-watch.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/Uni-Watch-Logo.png"
+                alt="Uni Watch"
+            >
+            <span>Uni Watch</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://gatorsuniforms.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/Gators-Uniforms.png"
+                alt="Gators Uniforms"
+            >
+            <span>Gators Uniforms</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="http://volsunihistory.blogspot.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/Vols-Uni.png"
+                alt="Vols Uniform History"
+            >
+            <span>Vols Uniform History</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://x.com/BoilerUniforms"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/Boiler-Uni.png"
+                alt="Boiler Uniforms"
+            >
+            <span>Boiler Uniforms</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://www.hailstateunisdatabase.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/HailState.png"
+                alt="Hail State Uniforms"
+            >
+            <span>Hail State Uniforms</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://auburnuniforms.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/AUD.png"
+                alt="Auburn Uniform Database"
+            >
+            <span>Auburn Uniform Database</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://x.com/SoonerTracker"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/sooner-tracker.png"
+                alt="Sooner Tracker"
+            >
+            <span>Sooner Tracker</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://ohiostateuniforms.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/ohio-state-database.png"
+                alt="Ohio State Uniform Database"
+            >
+            <span>Ohio State Uniform Database</span>
+        </a>
+        
+        <a
+            class="friend-link"
+            href="http://www.cruhland.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/vpi.png"
+                alt="Virginia Tech Uniform Database"
+            >
+            <span>Virginia Tech Uniform Database</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://x.com/OleMissUnis"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/ole-miss.png"
+                alt="Ole Miss Uniform Archives"
+            >
+            <span>Ole Miss Uniform Archives</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://x.com/OleMissUnis"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/byu.png"
+                alt="BYU Uniform Tracker"
+            >
+            <span>BYU Uniform Tracker</span>
+        </a>
+
+        <a
+            class="friend-link"
+            href="https://x.com/apthirteen"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <img
+                src="Images/Friends/clemson.png"
+                alt="Clemson Uniform Tracker"
+            >
+            <span>Clemson Uniform Tracker</span>
+        </a>
 
     </div>
 
-    <footer class="site-footer">
-        <p>Version 1.0 &nbsp; • &nbsp; Updated July 2026</p>
-    </footer>
-
-    <script src="Scripts/settings.js"></script>
-    <script src="Scripts/asset-manifest.js"></script>
-    <script src="Scripts/config.js"></script>
-
-    <script src="Data/combinations.js"></script>
-    <script src="Data/games.js"></script>
-    <script src="Data/uniforms.js"></script>
-
-    <script src="Scripts/builder.js"></script>
-
-</body>
-</html>
+</section>
