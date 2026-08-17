@@ -17,7 +17,10 @@ if (header) {
         </a>
 
         <nav class="main-nav">
-            <a href="${SITE_ROOT}index.html">Home</a>
+
+            <a href="${SITE_ROOT}index.html">
+                Home
+            </a>
 
             <div class="nav-item">
                 <a href="${SITE_ROOT}Football/database.html">
@@ -80,7 +83,7 @@ if (header) {
             </div>
 
             <div class="nav-item">
-                <a href="#">
+                <a href="${SITE_ROOT}Playing%20Surfaces/mountaineer-field-designs.html">
                     Playing Surfaces
                 </a>
 
@@ -106,6 +109,7 @@ if (header) {
             <a href="${SITE_ROOT}about.html">
                 About
             </a>
+
         </nav>
     `;
 }
