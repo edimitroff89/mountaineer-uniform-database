@@ -4105,7 +4105,7 @@ opponentArtwork: "1986-Pitt.png",
     state: "Virginia",
         gameType: "Regular Season",
 
-        result: "1",
+        result: "l",
         wvuScore: 7,
         opponentScore: 13,
         wvuArtwork: "1986-BlueWhiteGold.png",
@@ -5034,7 +5034,7 @@ combination: "BlueWhiteGold"
     state: "West Virginia",
         gameType: "Regular Season",
 
-        result: "1",
+        result: "l",
         wvuScore: 3,
         opponentScore: 34,
 wvuArtwork: "1991-BlueBlueGold.png",
