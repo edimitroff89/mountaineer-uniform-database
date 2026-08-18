@@ -11954,7 +11954,7 @@ opponentArtwork: "2023-PennState.png",
     {
         season: 2023,
         opponent: "Duquesne",
-        date: "2023-9-16",
+        date: "2023-9-9",
         location: "home",
         stadium: "Milan Puskar Stadium",
     city: "Morgantown",
