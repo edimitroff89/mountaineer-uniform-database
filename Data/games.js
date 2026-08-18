@@ -124,7 +124,7 @@ opponentArtwork: "1964-Kentucky.png",
         combination: "GoldBlueGold"
     },
      {
-        season: 1966,
+        season: 1964,
     opponent: "George Washington",
         date: "1964-11-7",
         location: "away",
