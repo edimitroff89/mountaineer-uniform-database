@@ -1105,3 +1105,28 @@ body{
         padding: 22px 24px;
     }
 }
+@media (max-width: 850px) {
+
+    /* Mega menus are controlled by taps on mobile */
+    .nav-item .mega-menu {
+        display: none;
+    }
+
+    .nav-item.open .mega-menu {
+        display: block;
+    }
+
+    .nav-item.open > a {
+        color: #eaaa00;
+    }
+
+    .mega-menu {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        min-width: 220px;
+        z-index: 1000;
+    }
+}
