@@ -1105,28 +1105,67 @@ body{
         padding: 22px 24px;
     }
 }
+/* ==========================================
+   Mobile Tap Dropdowns
+========================================== */
+
 @media (max-width: 850px) {
 
-    /* Mega menus are controlled by taps on mobile */
+    .nav-item {
+        position: relative;
+    }
+
     .nav-item .mega-menu {
         display: none;
+        opacity: 0;
+        visibility: hidden;
+        transform: none;
     }
 
     .nav-item.open .mega-menu {
         display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
     }
 
     .nav-item.open > a {
-        color: #eaaa00;
+        background: #EAAA00;
+        color: #002855;
     }
 
     .mega-menu {
         position: absolute;
         top: 100%;
         left: 50%;
+
+        width: 260px;
+        min-width: 0;
+        padding: 18px;
+
         transform: translateX(-50%);
-        width: max-content;
-        min-width: 220px;
-        z-index: 1000;
+        z-index: 2000;
+    }
+
+    .nav-item.open .mega-menu {
+        transform: translateX(-50%);
+    }
+
+    .mega-menu div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+        width: 100%;
+    }
+
+    .mega-menu h4 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .mega-menu a {
+        display: block;
+        padding: 12px 4px;
+        font-size: 14px;
     }
 }

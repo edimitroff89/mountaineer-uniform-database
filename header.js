@@ -125,3 +125,38 @@ if (siteHeader) {
         }
     });
 }
+// Mobile navigation dropdowns
+document.querySelectorAll(".nav-item > a").forEach(link => {
+    link.addEventListener("click", function (event) {
+
+        // Only use tap-to-open behavior on mobile
+        if (window.innerWidth <= 850) {
+            const navItem = this.parentElement;
+            const isOpen = navItem.classList.contains("open");
+
+            // If menu is closed, first tap opens it
+            if (!isOpen) {
+                event.preventDefault();
+
+                // Close any other open dropdown
+                document.querySelectorAll(".nav-item.open").forEach(item => {
+                    item.classList.remove("open");
+                });
+
+                navItem.classList.add("open");
+            }
+        }
+    });
+});
+
+// Close mobile dropdown when tapping elsewhere
+document.addEventListener("click", function (event) {
+    if (
+        window.innerWidth <= 850 &&
+        !event.target.closest(".nav-item")
+    ) {
+        document.querySelectorAll(".nav-item.open").forEach(item => {
+            item.classList.remove("open");
+        });
+    }
+});
