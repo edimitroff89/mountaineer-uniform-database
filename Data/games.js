@@ -10727,7 +10727,7 @@ opponentArtwork: "2017-ECU.png",
     },
  {
         season: 2017,
-        opponent: "Delware State",
+        opponent: "Delaware State",
         date: "2017-9-16",
         location: "home",
         stadium: "Milan Puskar Stadium",
