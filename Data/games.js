@@ -12596,5 +12596,21 @@ wvuArtwork: "2025-BlueBlueBlue.png",
 opponentArtwork: "2025-TexasTech.png",
         combination: "BlueBlueBlue"
     },
+{
+        season: 2026,
+        opponent: "Coastal Carolina",
+        date: "2026-9-5",
+        location: "home",
+        stadium: "Milan Puskar Stadium",
+    city: "Morgantown",
+    state: "West Virginia",
+gameType: "Regular Season",
 
+        result: "",
+        wvuScore: 0,
+        opponentScore: 0,
+wvuArtwork: "2026-WhiteWhiteWhite.png",
+opponentArtwork: "2026-CoastalCarolina.png",
+        combination: "WhiteWhiteWhite"
+    },
 ];
