@@ -9103,7 +9103,7 @@ opponentArtwork: "2010-FSU.png",
         wvuScore: 31,
         opponentScore: 0,
 wvuArtwork: "2010-BlueBlueGold.png",
-opponentArtwork: "2010-Coastal.png",
+opponentArtwork: "2010-CoastalCarolina.png",
         combination: "BlueBlueGold"
     },
    {
